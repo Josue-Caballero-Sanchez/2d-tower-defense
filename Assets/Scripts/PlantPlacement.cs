@@ -9,6 +9,7 @@ public class PlantPlacement : MonoBehaviour
     private GameObject plantPrefab;
     private GameObject ghostPlant;
     private PlacementArea currentPlacementArea;
+    private int towerCost = 0;
 
     private void Awake()
     {
@@ -78,8 +79,7 @@ public class PlantPlacement : MonoBehaviour
             }
             currentPlacementArea.UpdateHasTowerPlaced(true);
 
-            int plantCost = 50;
-            ScoreManager.Instance.UpdateScore(-plantCost);
+            ScoreManager.Instance.UpdateScore(-towerCost);
         }
     }
 
@@ -91,6 +91,7 @@ public class PlantPlacement : MonoBehaviour
         }
 
         plantPrefab = towerSO.towerPrefab;
+        towerCost = towerSO.towerCost;
 
         ghostPlant = new GameObject("GhostPlant");
         SpriteRenderer ghostRenderer = ghostPlant.AddComponent<SpriteRenderer>();

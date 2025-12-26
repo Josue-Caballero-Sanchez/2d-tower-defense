@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1887220156672979846}
   - component: {fileID: 292754391405750231}
-  - component: {fileID: 9116910937326499172}
+  - component: {fileID: 3045588533803370712}
   m_Layer: 0
   m_Name: Repeater
   m_TagString: Untagged
@@ -30,7 +30,8 @@ Transform:
   m_LocalPosition: {x: -13.84, y: -1.75, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8432191045951177529}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &292754391405750231
@@ -91,7 +92,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9116910937326499172
+--- !u!114 &3045588533803370712
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,11 +101,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 1174310224474011499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6387b0e47f6f4d40a60e06b7d9021c4, type: 3}
+  m_Script: {fileID: 11500000, guid: ce2fd68de0e23d24fb7f995e5fe84e9e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Tower
-  projectilePrefab: {fileID: 0}
-  shootPoint: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::Repeater
+  projectilePrefab: {fileID: 885288571885257470, guid: e178b0ecc73dadd4f82f2cfe4d5fd8da, type: 3}
+  shootPoint: {fileID: 8432191045951177529}
   zombieLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
+--- !u!1 &8368145203848071391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8432191045951177529}
+  m_Layer: 0
+  m_Name: Shoot Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8432191045951177529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8368145203848071391}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.88, y: 0.36, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1887220156672979846}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

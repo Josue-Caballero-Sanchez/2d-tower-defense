@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    [SerializeField] private GameObject projectilePrefab;
-    [SerializeField] private Transform shootPoint;
+    [SerializeField] protected GameObject projectilePrefab;
+    [SerializeField] protected Transform shootPoint;
     [SerializeField] private LayerMask zombieLayer;
     private float health = 100f;
     private float shootInterval = 1f;
@@ -27,7 +27,7 @@ public class Tower : MonoBehaviour
         return hit.collider != null;
     }
 
-    private void Shoot()
+    protected virtual void Shoot()
     {
         Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
     }

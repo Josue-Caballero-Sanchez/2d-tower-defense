@@ -1,20 +1,18 @@
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler
+public class InventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler
 {
     [SerializeField] private TowerSO towerSO;
-    private Image image;
+    [SerializeField] private Image iconImage;
+    [SerializeField] private TextMeshProUGUI costText;
 
-    private void Awake()
+    public void Awake()
     {
-        image = GetComponent<Image>();
-    }
-
-    public void Start()
-    {
-        image.sprite = towerSO.towerIcon;
+        iconImage.sprite = towerSO.towerIcon;
+        costText.text = towerSO.towerCost.ToString();
     }
 
     public void OnPointerClick(PointerEventData eventData)

@@ -5,4 +5,5 @@ public class TowerSO : ScriptableObject
 {
     public GameObject towerPrefab;
     public Sprite towerIcon;
+    public int towerCost;
 }
