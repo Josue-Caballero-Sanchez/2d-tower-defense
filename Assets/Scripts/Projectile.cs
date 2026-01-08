@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public float speed = 5f;
+    private float speed = 9f;
     private float damage = 25f;
     private Rigidbody2D rb;
 
@@ -23,5 +23,10 @@ public class Projectile : MonoBehaviour
             zombie.TakeDamage(damage);
             Destroy(gameObject);
         }
+    }
+
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
     }
 }

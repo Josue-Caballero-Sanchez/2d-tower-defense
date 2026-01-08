@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class InventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler
+public class InventorySlot : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private TowerSO towerSO;
     [SerializeField] private Image iconImage;
@@ -17,24 +17,9 @@ public class InventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (PlantPlacement.Instance != null)
+        if (TowerPlacement.Instance != null)
         {
-            PlantPlacement.Instance.SetCurrentTower(towerSO);
+            TowerPlacement.Instance.SetCurrentTower(towerSO);
         }
-    }
-
-    public void OnBeginDrag(PointerEventData eventData)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public void OnDrag(PointerEventData eventData)
-    {
-        transform.position = Input.mousePosition;
-    }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        throw new System.NotImplementedException();
     }
 }

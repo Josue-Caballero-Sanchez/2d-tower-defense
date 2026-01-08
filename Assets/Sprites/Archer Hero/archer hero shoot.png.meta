@@ -1,0 +1,1055 @@
+fileFormatVersion: 2
+guid: 83ea5451732843849b16d17d0fae8981
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6782900703336200276
+    second: archer hero shoot_0
+  - first:
+      213: -8268153997143281597
+    second: archer hero shoot_1
+  - first:
+      213: -5678903904034106144
+    second: archer hero shoot_2
+  - first:
+      213: -297324175108751736
+    second: archer hero shoot_3
+  - first:
+      213: 5692894192207822426
+    second: archer hero shoot_4
+  - first:
+      213: -5403618530204181132
+    second: archer hero shoot_5
+  - first:
+      213: -5025954850020684072
+    second: archer hero shoot_6
+  - first:
+      213: 3772285144213640652
+    second: archer hero shoot_7
+  - first:
+      213: -1919839704074896625
+    second: archer hero shoot_8
+  - first:
+      213: 6149581032268440411
+    second: archer hero shoot_9
+  - first:
+      213: 5602073491560237513
+    second: archer hero shoot_10
+  - first:
+      213: 2869731503190444286
+    second: archer hero shoot_11
+  - first:
+      213: 2854620838285213885
+    second: archer hero shoot_12
+  - first:
+      213: 3751351504649910281
+    second: archer hero shoot_13
+  - first:
+      213: -7954743576651029463
+    second: archer hero shoot_14
+  - first:
+      213: -5193899793581945471
+    second: archer hero shoot_15
+  - first:
+      213: 9142941646630365206
+    second: archer hero shoot_16
+  - first:
+      213: -6303976481149284044
+    second: archer hero shoot_17
+  - first:
+      213: -7630998434375982237
+    second: archer hero shoot_18
+  - first:
+      213: 2678736335560889520
+    second: archer hero shoot_19
+  - first:
+      213: 8803552346791428928
+    second: archer hero shoot_20
+  - first:
+      213: -8877905253978732327
+    second: archer hero shoot_21
+  - first:
+      213: -6597362661191169767
+    second: archer hero shoot_22
+  - first:
+      213: -1426293042574476995
+    second: archer hero shoot_23
+  - first:
+      213: -2228005813606508366
+    second: archer hero shoot_24
+  - first:
+      213: -740854713361735722
+    second: archer hero shoot_25
+  - first:
+      213: -2906328254378626005
+    second: archer hero shoot_26
+  - first:
+      213: -6127456277984128324
+    second: archer hero shoot_27
+  - first:
+      213: -6019165622319917778
+    second: archer hero shoot_28
+  - first:
+      213: 148105420331672033
+    second: archer hero shoot_29
+  - first:
+      213: 3013257601601614539
+    second: archer hero shoot_30
+  - first:
+      213: -7850876195528175084
+    second: archer hero shoot_31
+  - first:
+      213: 1549272023341988394
+    second: archer hero shoot_32
+  - first:
+      213: 3566402405943570895
+    second: archer hero shoot_33
+  - first:
+      213: -2518660061865110019
+    second: archer hero shoot_34
+  - first:
+      213: -9088751296528105255
+    second: archer hero shoot_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: archer hero shoot_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1344
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458f9199044b12e50800000000000000
+      internalID: 6782900703336200276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1344
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3407c040fbd914d80800000000000000
+      internalID: -8268153997143281597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1344
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4d776ccfa7031b0800000000000000
+      internalID: -5678903904034106144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_3
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1344
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88eb18fec31bfdbf0800000000000000
+      internalID: -297324175108751736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1344
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e7e660b19310f40800000000000000
+      internalID: 5692894192207822426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_5
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1344
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d167d839d7205b0800000000000000
+      internalID: -5403618530204181132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de8d5b41b8304ab0800000000000000
+      internalID: -5025954850020684072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5565c2a59d95430800000000000000
+      internalID: 3772285144213640652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1088
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bbcecf5fb5b55e0800000000000000
+      internalID: -1919839704074896625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_9
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1088
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5327d1fd53b75550800000000000000
+      internalID: 6149581032268440411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_10
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1088
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c98416d8209ebd40800000000000000
+      internalID: 5602073491560237513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_11
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1088
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef80a60099553d720800000000000000
+      internalID: 2869731503190444286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db00b6a2786ad9720800000000000000
+      internalID: 2854620838285213885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908f846615a7f0430800000000000000
+      internalID: 3751351504649910281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9242562fcd21b9190800000000000000
+      internalID: -7954743576651029463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_15
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18dc29cf7af8be7b0800000000000000
+      internalID: -5193899793581945471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_16
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61827897cf042ee70800000000000000
+      internalID: 9142941646630365206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4311ea05ac6c388a0800000000000000
+      internalID: -6303976481149284044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363257dca5f391690800000000000000
+      internalID: -7630998434375982237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4d9003188cc2520800000000000000
+      internalID: 2678736335560889520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0434f0857308c2a70800000000000000
+      internalID: 8803552346791428928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_21
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8060b65385bc480800000000000000
+      internalID: -8877905253978732327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_22
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919464d2d957174a0800000000000000
+      internalID: -6597362661191169767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_23
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39bcbbd80ac43ce0800000000000000
+      internalID: -1426293042574476995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b89a7a54888411e0800000000000000
+      internalID: -2228005813606508366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df56eb3094f7b5f0800000000000000
+      internalID: -740854713361735722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24b41dd9d5aaa7d0800000000000000
+      internalID: -2906328254378626005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_27
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2d406daf6e6faa0800000000000000
+      internalID: -6127456277984128324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_28
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25d065e1c0a77ca0800000000000000
+      internalID: -6019165622319917778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_29
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1ed28581d2e0200800000000000000
+      internalID: 148105420331672033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2b530e2dd31d920800000000000000
+      internalID: 3013257601601614539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41219f522b51c0390800000000000000
+      internalID: -7850876195528175084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_32
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2affb362be108510800000000000000
+      internalID: 1549272023341988394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_33
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc17d54b7186e7130800000000000000
+      internalID: 3566402405943570895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_34
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df51196a40ceb0dd0800000000000000
+      internalID: -2518660061865110019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero shoot_35
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0429e99d44ed180800000000000000
+      internalID: -9088751296528105255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 89fa8d264e79bda4fa02f89b871403af
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":64.0,"y":64.0},"gridSpritePadding":{"x":128.0,"y":128.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      archer hero shoot_0: 6782900703336200276
+      archer hero shoot_1: -8268153997143281597
+      archer hero shoot_10: 5602073491560237513
+      archer hero shoot_11: 2869731503190444286
+      archer hero shoot_12: 2854620838285213885
+      archer hero shoot_13: 3751351504649910281
+      archer hero shoot_14: -7954743576651029463
+      archer hero shoot_15: -5193899793581945471
+      archer hero shoot_16: 9142941646630365206
+      archer hero shoot_17: -6303976481149284044
+      archer hero shoot_18: -7630998434375982237
+      archer hero shoot_19: 2678736335560889520
+      archer hero shoot_2: -5678903904034106144
+      archer hero shoot_20: 8803552346791428928
+      archer hero shoot_21: -8877905253978732327
+      archer hero shoot_22: -6597362661191169767
+      archer hero shoot_23: -1426293042574476995
+      archer hero shoot_24: -2228005813606508366
+      archer hero shoot_25: -740854713361735722
+      archer hero shoot_26: -2906328254378626005
+      archer hero shoot_27: -6127456277984128324
+      archer hero shoot_28: -6019165622319917778
+      archer hero shoot_29: 148105420331672033
+      archer hero shoot_3: -297324175108751736
+      archer hero shoot_30: 3013257601601614539
+      archer hero shoot_31: -7850876195528175084
+      archer hero shoot_32: 1549272023341988394
+      archer hero shoot_33: 3566402405943570895
+      archer hero shoot_34: -2518660061865110019
+      archer hero shoot_35: -9088751296528105255
+      archer hero shoot_4: 5692894192207822426
+      archer hero shoot_5: -5403618530204181132
+      archer hero shoot_6: -5025954850020684072
+      archer hero shoot_7: 3772285144213640652
+      archer hero shoot_8: -1919839704074896625
+      archer hero shoot_9: 6149581032268440411
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

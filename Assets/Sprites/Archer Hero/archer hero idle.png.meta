@@ -1,0 +1,1055 @@
+fileFormatVersion: 2
+guid: 7c3e6ec06c8637c47aa2160f53ff8afa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1123270710784394308
+    second: archer hero idle_0
+  - first:
+      213: -2065500791329214227
+    second: archer hero idle_1
+  - first:
+      213: 2605263293710919855
+    second: archer hero idle_2
+  - first:
+      213: 188403237757891497
+    second: archer hero idle_3
+  - first:
+      213: -6924272605687236400
+    second: archer hero idle_4
+  - first:
+      213: -3302354212478678183
+    second: archer hero idle_5
+  - first:
+      213: -2292176570116564653
+    second: archer hero idle_6
+  - first:
+      213: -2468955331790875098
+    second: archer hero idle_7
+  - first:
+      213: 832816495142903171
+    second: archer hero idle_8
+  - first:
+      213: 1231281950556361793
+    second: archer hero idle_9
+  - first:
+      213: -1270204965014411869
+    second: archer hero idle_10
+  - first:
+      213: 4803043927001692910
+    second: archer hero idle_11
+  - first:
+      213: -2922575042400696010
+    second: archer hero idle_12
+  - first:
+      213: -1103519336209524754
+    second: archer hero idle_13
+  - first:
+      213: 5341637625457533218
+    second: archer hero idle_14
+  - first:
+      213: 6389095039027178669
+    second: archer hero idle_15
+  - first:
+      213: -6706279602576070798
+    second: archer hero idle_16
+  - first:
+      213: -413743626784206283
+    second: archer hero idle_17
+  - first:
+      213: 3709691078315831625
+    second: archer hero idle_18
+  - first:
+      213: -8682737131102385625
+    second: archer hero idle_19
+  - first:
+      213: -8868096881427473427
+    second: archer hero idle_20
+  - first:
+      213: -3720766844992048480
+    second: archer hero idle_21
+  - first:
+      213: -1402492641547195174
+    second: archer hero idle_22
+  - first:
+      213: -7701154286966043608
+    second: archer hero idle_23
+  - first:
+      213: 8993454446999993253
+    second: archer hero idle_24
+  - first:
+      213: -8837004744117628607
+    second: archer hero idle_25
+  - first:
+      213: 5945121423042365650
+    second: archer hero idle_26
+  - first:
+      213: 2158682652903018147
+    second: archer hero idle_27
+  - first:
+      213: 9031767731627862627
+    second: archer hero idle_28
+  - first:
+      213: 8063241717632631173
+    second: archer hero idle_29
+  - first:
+      213: 6507304147251628841
+    second: archer hero idle_30
+  - first:
+      213: 3059570112414135558
+    second: archer hero idle_31
+  - first:
+      213: 2902494010404789556
+    second: archer hero idle_32
+  - first:
+      213: -6464806013123161351
+    second: archer hero idle_33
+  - first:
+      213: 6897202368674988096
+    second: archer hero idle_34
+  - first:
+      213: -8328815099626339417
+    second: archer hero idle_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 80
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: archer hero idle_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1344
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44487e692c8a69f00800000000000000
+      internalID: 1123270710784394308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1344
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0b88949fdd553e0800000000000000
+      internalID: -2065500791329214227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1344
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8e0009921c72420800000000000000
+      internalID: 2605263293710919855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_3
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1344
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3b71d1fb75d9200800000000000000
+      internalID: 188403237757891497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1344
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d83b0260ca08ef90800000000000000
+      internalID: -6924272605687236400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_5
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1344
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b81b2275eab22d0800000000000000
+      internalID: -3302354212478678183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3599abfcd8d8030e0800000000000000
+      internalID: -2292176570116564653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6265c42f4328cbdd0800000000000000
+      internalID: -2468955331790875098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1088
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d141c9032ce8b00800000000000000
+      internalID: 832816495142903171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_9
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1088
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14413411964661110800000000000000
+      internalID: 1231281950556361793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_10
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1088
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5e06c60535f5ee0800000000000000
+      internalID: -1270204965014411869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_11
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1088
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea78850107d7a240800000000000000
+      internalID: 4803043927001692910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639c840cb7de077d0800000000000000
+      internalID: -2922575042400696010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7d47aa2038fa0f0800000000000000
+      internalID: -1103519336209524754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221e1408e1f412a40800000000000000
+      internalID: 5341637625457533218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_15
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacec6d4610aaa850800000000000000
+      internalID: 6389095039027178669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_16
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277610c9b328ee2a0800000000000000
+      internalID: -6706279602576070798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53212711d56124af0800000000000000
+      internalID: -413743626784206283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941737581687b7330800000000000000
+      internalID: 3709691078315831625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a4c861598b08780800000000000000
+      internalID: -8682737131102385625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb14cc1fd03ee480800000000000000
+      internalID: -8868096881427473427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_21
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2b238944e2d5cc0800000000000000
+      internalID: -3720766844992048480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_22
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcea7c8f58598ce0800000000000000
+      internalID: -1402492641547195174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_23
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c89ec7af0002590800000000000000
+      internalID: -7701154286966043608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab77119b2b2fcc70800000000000000
+      internalID: 8993454446999993253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1415d647107ac5580800000000000000
+      internalID: -8837004744117628607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d841078f60518250800000000000000
+      internalID: 5945121423042365650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_27
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae05158f6e25fd10800000000000000
+      internalID: 2158682652903018147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_28
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aa38946e8475d70800000000000000
+      internalID: 9031767731627862627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_29
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5818a9d0f9366ef60800000000000000
+      internalID: 8063241717632631173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b0c5e05a69e4a50800000000000000
+      internalID: 6507304147251628841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605b8d39ec6c57a20800000000000000
+      internalID: 3059570112414135558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_32
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d50e4aceab74820800000000000000
+      internalID: 2902494010404789556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_33
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f21cfdde256846a0800000000000000
+      internalID: -6464806013123161351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_34
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0400bd8e209c7bf50800000000000000
+      internalID: 6897202368674988096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer hero idle_35
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3ccda7bca1a6c80800000000000000
+      internalID: -8328815099626339417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dd3fb1727f9aa554f961f6f563292f30
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":64.0,"y":64.0},"gridSpritePadding":{"x":128.0,"y":128.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      archer hero idle_0: 1123270710784394308
+      archer hero idle_1: -2065500791329214227
+      archer hero idle_10: -1270204965014411869
+      archer hero idle_11: 4803043927001692910
+      archer hero idle_12: -2922575042400696010
+      archer hero idle_13: -1103519336209524754
+      archer hero idle_14: 5341637625457533218
+      archer hero idle_15: 6389095039027178669
+      archer hero idle_16: -6706279602576070798
+      archer hero idle_17: -413743626784206283
+      archer hero idle_18: 3709691078315831625
+      archer hero idle_19: -8682737131102385625
+      archer hero idle_2: 2605263293710919855
+      archer hero idle_20: -8868096881427473427
+      archer hero idle_21: -3720766844992048480
+      archer hero idle_22: -1402492641547195174
+      archer hero idle_23: -7701154286966043608
+      archer hero idle_24: 8993454446999993253
+      archer hero idle_25: -8837004744117628607
+      archer hero idle_26: 5945121423042365650
+      archer hero idle_27: 2158682652903018147
+      archer hero idle_28: 9031767731627862627
+      archer hero idle_29: 8063241717632631173
+      archer hero idle_3: 188403237757891497
+      archer hero idle_30: 6507304147251628841
+      archer hero idle_31: 3059570112414135558
+      archer hero idle_32: 2902494010404789556
+      archer hero idle_33: -6464806013123161351
+      archer hero idle_34: 6897202368674988096
+      archer hero idle_35: -8328815099626339417
+      archer hero idle_4: -6924272605687236400
+      archer hero idle_5: -3302354212478678183
+      archer hero idle_6: -2292176570116564653
+      archer hero idle_7: -2468955331790875098
+      archer hero idle_8: 832816495142903171
+      archer hero idle_9: 1231281950556361793
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
