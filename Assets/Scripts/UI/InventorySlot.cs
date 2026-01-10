@@ -9,7 +9,7 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
     [SerializeField] private Image iconImage;
     [SerializeField] private TextMeshProUGUI costText;
 
-    public void Awake()
+    private void Awake()
     {
         iconImage.sprite = towerSO.towerIcon;
         costText.text = towerSO.towerCost.ToString();

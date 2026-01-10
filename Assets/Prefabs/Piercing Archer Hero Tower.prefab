@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6699182089797215104}
   - component: {fileID: 7761974214507460146}
-  - component: {fileID: 3484898024408653827}
+  - component: {fileID: 4576701098683860114}
   m_Layer: 7
-  m_Name: Archer Hero Tower
+  m_Name: Piercing Archer Hero Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,7 +81,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.61617315, y: 0.9560796}
   m_EdgeRadius: 0
---- !u!114 &3484898024408653827
+--- !u!114 &4576701098683860114
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,13 +93,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c309fb4e1b2f5a74ab9dda6e50df2ccc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArcherHeroTower
-  projectilePrefab: {fileID: 3323058781435401417, guid: e178b0ecc73dadd4f82f2cfe4d5fd8da, type: 3}
+  projectilePrefab: {fileID: 885288571885257470, guid: 240397a94de69564b8e4ea536dc24ca1, type: 3}
   shootPoint: {fileID: 6097321426732485160}
   zombieLayer:
     serializedVersion: 2
     m_Bits: 64
-  upgrades:
-  - {fileID: 11400000, guid: 46a38a3a003f325428e4d079fa1800f5, type: 2}
+  upgrades: []
 --- !u!1 &2124662156144684625
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,7 +236,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1123270710784394308, guid: 7c3e6ec06c8637c47aa2160f53ff8afa, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4764151, g: 0.5004316, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

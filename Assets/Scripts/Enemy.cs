@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Zombie : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     [SerializeField] private LayerMask towerLayer;
     private float speed = 1f;

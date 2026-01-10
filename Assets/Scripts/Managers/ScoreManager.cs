@@ -15,7 +15,6 @@ public class ScoreManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -31,7 +30,7 @@ public class ScoreManager : MonoBehaviour
     public void UpdateScore(int amount)
     {
         score += amount;
-        scoreText.text = $"Points: {score}";
+        scoreText.text = score.ToString();
     }
 
     public int GetScore()

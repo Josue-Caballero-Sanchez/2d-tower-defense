@@ -3,10 +3,12 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     private float speed = 9f;
-    private float damage = 25f;
+    private int damage = 0;
     private Rigidbody2D rb;
+    protected int pierce = 0;
+    protected bool infinitePierce = false;
 
-    private void Awake()
+    protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
@@ -18,15 +20,26 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.TryGetComponent(out Zombie zombie))
+        if (collision.TryGetComponent(out Enemy zombie))
         {
             zombie.TakeDamage(damage);
-            Destroy(gameObject);
+            if (pierce > 0 || infinitePierce)
+            {
+                pierce--;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
     private void OnBecameInvisible()
     {
         Destroy(gameObject);
+    }
+    public void SetDamage(int newDamage)
+    {
+        damage = newDamage;
     }
 }

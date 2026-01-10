@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
     public void UpdateLives(int amount)
     {
         playerLives += amount;
-        livesText.text = $"Lives: {playerLives}";
+        livesText.text = playerLives.ToString();
         if (playerLives <= 0)
         {
             Debug.Log("Game Over!");
