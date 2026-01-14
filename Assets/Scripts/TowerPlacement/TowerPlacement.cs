@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.XR;
 
 public class TowerPlacement : MonoBehaviour
 {
@@ -84,6 +83,15 @@ public class TowerPlacement : MonoBehaviour
             currentPlacementArea.UpdateHasTowerPlaced(true);
 
             ScoreManager.Instance.UpdateScore(-towerCost);
+        }
+    }
+
+    public void CancelPlacement()
+    {
+        if (ghostTower != null)
+        {
+            Destroy(ghostTower);
+            currentPlacementArea = null;
         }
     }
 

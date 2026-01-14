@@ -93,7 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c309fb4e1b2f5a74ab9dda6e50df2ccc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArcherHeroTower
-  projectilePrefab: {fileID: 885288571885257470, guid: 240397a94de69564b8e4ea536dc24ca1, type: 3}
+  projectilePrefab: {fileID: 5818240484150727502, guid: 240397a94de69564b8e4ea536dc24ca1, type: 3}
   shootPoint: {fileID: 6097321426732485160}
   zombieLayer:
     serializedVersion: 2

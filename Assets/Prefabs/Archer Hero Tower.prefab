@@ -100,6 +100,8 @@ MonoBehaviour:
     m_Bits: 64
   upgrades:
   - {fileID: 11400000, guid: 46a38a3a003f325428e4d079fa1800f5, type: 2}
+  - {fileID: 11400000, guid: 15888f937dd8e4a47b99751a2aa66e4e, type: 2}
+  towerIcon: {fileID: 1123270710784394308, guid: 7c3e6ec06c8637c47aa2160f53ff8afa, type: 3}
 --- !u!1 &2124662156144684625
 GameObject:
   m_ObjectHideFlags: 0
