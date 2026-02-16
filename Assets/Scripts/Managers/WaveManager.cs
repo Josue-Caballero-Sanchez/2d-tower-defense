@@ -1,72 +1,147 @@
 using System.Collections.Generic;
-using System.Collections;
 using UnityEngine;
+using System.Linq;
+using System.Collections;
 
 public class WaveManager : MonoBehaviour
 {
+    public static WaveManager Instance { get; private set; }
     [SerializeField] private List<Transform> spawnPoints = new List<Transform>();
-    [SerializeField] private GameObject zombiePrefab;
-    private float timeBetweenWaves = 5f;
-    private int initialZombiesPerWave = 5;
-    private float initialSpawnInterval = 5f;
-    private float spawnIntervalReduction = 1.5f;
-    private float minimumSpawnInterval = 0.2f;
-    private float currentSpawnInterval;
-    private float difficultyMultiplier = 1.2f;
-    private int currentWave = 0;
-    private bool spawningWave = false;
+    private List<Transform> activeSpawnPoints = new List<Transform>();
+    private List<int> validSpawnPointIndices = new List<int>();
+    [SerializeField] private List<GameObject> enemyPrefabs = new List<GameObject>();
+    [SerializeField] private List<GameObject> activeEnemyPrefabs = new List<GameObject>();
+    private GameObject enemyPrefab;
+    private int enemyIndex = 0;
+    private float timeBetweenWaves = 4f;
+    private int enemiesPerWave = 3;
+    private int enemiesLeftToSpawn = 3;
+    private float spawnInterval = 2f;
+    private float spawnIntervalReduction = 0.4f;
+    private float minimumSpawnInterval = 0.1f;
+    private float difficultyMultiplier = 1.3f;
+    private float timeSinceLastSpawn = 0f;
+    private int currentWave = 1;
+    private int enemiesAlive = 0;
+    private bool isSpawningWave = false;
+
+    private void Awake()
+    {
+        // Ensure a single instance
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Start()
     {
-        currentSpawnInterval = initialSpawnInterval;
-        StartCoroutine(ManageWaves());
+        validSpawnPointIndices = Enumerable.Range(0, spawnPoints.Count).ToList();
+        StartCoroutine(StartFirstWave());
     }
-    private IEnumerator ManageWaves()
+
+    private void Update()
     {
-        while (true)
+        ManageWaves();
+    }
+
+    private IEnumerator StartFirstWave()
+    {
+        yield return new WaitForSeconds(timeBetweenWaves);
+
+        enemyPrefab = enemyPrefabs[enemyIndex];
+        isSpawningWave = true;
+        UpdateActiveSpawnPoints();
+    }
+
+    private IEnumerator StartNewWave()
+    {
+        yield return new WaitForSeconds(timeBetweenWaves);
+
+        enemyIndex = 0;
+        enemyPrefab = enemyPrefabs[enemyIndex];
+        currentWave++;
+        isSpawningWave = true;
+        enemiesPerWave = Mathf.CeilToInt(enemiesPerWave * Mathf.Pow(difficultyMultiplier, currentWave - 1));
+        spawnInterval = Mathf.Max(minimumSpawnInterval, spawnInterval - spawnIntervalReduction);
+        enemiesLeftToSpawn = enemiesPerWave;
+        UpdateActiveSpawnPoints();
+    }
+
+    private void EndWave()
+    {
+        isSpawningWave = false;
+        timeSinceLastSpawn = 0f;
+        StartCoroutine(StartNewWave());
+    }
+
+    private void ManageWaves()
+    {
+        if (isSpawningWave)
         {
-            if (currentWave == 0)
+            timeSinceLastSpawn += Time.deltaTime;
+
+            if (timeSinceLastSpawn >= spawnInterval && enemiesLeftToSpawn > 0)
             {
-                yield return new WaitForSeconds(timeBetweenWaves);
+                timeSinceLastSpawn = 0f;
+                SpawnEnemy();
             }
-
-            // Start a new wave
-            currentWave++;
-            spawningWave = true;
-
-            int zombiesToSpawn = Mathf.CeilToInt(initialZombiesPerWave * Mathf.Pow(difficultyMultiplier, currentWave - 1));
-            yield return StartCoroutine(SpawnWave(zombiesToSpawn));
-
-            spawningWave = false;
-            currentSpawnInterval = Mathf.Max(currentSpawnInterval - spawnIntervalReduction, minimumSpawnInterval);
-
-            // Wait for the next wave
-            yield return new WaitForSeconds(timeBetweenWaves);
         }
-    }
-
-    private IEnumerator SpawnWave(int numberOfZombies)
-    {
-        for (int i = 0; i < numberOfZombies; i++)
+        if (enemiesAlive <= 0 && enemiesLeftToSpawn <= 0 && isSpawningWave)
         {
-            SpawnZombie();
-            yield return new WaitForSeconds(currentSpawnInterval);
+            EndWave();
         }
     }
 
-    private void SpawnZombie()
+    private void SpawnEnemy()
     {
-        Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Count)];
-        Instantiate(zombiePrefab, spawnPoint.position, Quaternion.identity);
+        if (activeEnemyPrefabs.Count > 1)
+        {
+
+        }
+
+        Transform spawnPoint = activeSpawnPoints[Random.Range(0, activeSpawnPoints.Count)];
+        Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
+        enemiesAlive++;
+        enemiesLeftToSpawn--;
     }
 
-    public int GetCurrentWave()
+    private void UpdateActiveSpawnPoints()
     {
-        return currentWave;
+        if (currentWave > spawnPoints.Count)
+        {
+            return;
+        }
+
+        if (currentWave == 1 || currentWave == 2 || currentWave == 4 || currentWave == 7)
+        {
+            AddRandomSpawnPoint();
+        }
     }
 
-    public bool IsSpawningWave()
+    private void ChooseEnemyToSpawn()
     {
-        return spawningWave;
+
+    }
+
+    private void AddNewEnemy()
+    {
+
+    }
+
+    private void AddRandomSpawnPoint()
+    {
+        int indexAdded = validSpawnPointIndices[Random.Range(0, validSpawnPointIndices.Count)];
+        activeSpawnPoints.Add(spawnPoints[indexAdded]);
+        validSpawnPointIndices.Remove(indexAdded);
+    }
+
+    public void OnEnemyDefeated()
+    {
+        enemiesAlive--;
     }
 }

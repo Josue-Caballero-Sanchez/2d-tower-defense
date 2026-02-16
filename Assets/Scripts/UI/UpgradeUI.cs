@@ -1,7 +1,6 @@
 using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class UpgradeUI : MonoBehaviour
 {
@@ -20,7 +19,7 @@ public class UpgradeUI : MonoBehaviour
     private TowerUpgradeSO currentUpgrade;
     private void Awake()
     {
-        // Ensure a single instance of the ScoreManager
+        // Ensure a single instance
         if (Instance == null)
         {
             Instance = this;

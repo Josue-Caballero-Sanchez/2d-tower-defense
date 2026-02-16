@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        // Ensure a single instance of the GameManager
+        // Ensure a single instance
         if (Instance == null)
         {
             Instance = this;

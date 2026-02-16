@@ -4,11 +4,11 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private LayerMask towerLayer;
     private float speed = 1f;
-    private float health = 125f;
+    protected float health = 125f;
     private Rigidbody2D rb;
     private int hitScore = 10;
 
-    private void Awake()
+    protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
@@ -23,7 +23,13 @@ public class Enemy : MonoBehaviour
         ScoreManager.Instance.UpdateScore(hitScore);
         if (health <= 0)
         {
-            Destroy(this.gameObject);
+            OnDefeated();
         }
+    }
+
+    private void OnDefeated()
+    {
+        WaveManager.Instance.OnEnemyDefeated();
+        Destroy(this.gameObject);
     }
 }
