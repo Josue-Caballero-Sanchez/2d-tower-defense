@@ -9,8 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7470765447888290463}
-  - component: {fileID: 3790704840524729312}
-  - component: {fileID: 3147009496175335420}
+  - component: {fileID: 1744896975997016710}
+  - component: {fileID: 7395150424941765724}
+  - component: {fileID: 7512424599649959904}
   m_Layer: 6
   m_Name: Animations
   m_TagString: Untagged
@@ -33,7 +34,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 280389960463101818}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3790704840524729312
+--- !u!95 &1744896975997016710
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729640893557064447}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 984beb97bd198f044809c6bd3dc2b2df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &7395150424941765724
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
@@ -92,28 +115,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!95 &3147009496175335420
-Animator:
-  serializedVersion: 7
+--- !u!114 &7512424599649959904
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729640893557064447}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 984beb97bd198f044809c6bd3dc2b2df, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c9525936d00c74c976ec494e73e7a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimationEvents
 --- !u!1 &3607462946263009686
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +247,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6afdf7d70d5fc4c83425c8a5105df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Zombie
-  towerLayer:
-    serializedVersion: 2
-    m_Bits: 0

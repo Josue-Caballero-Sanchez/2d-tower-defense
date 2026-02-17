@@ -2,28 +2,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using System.Collections;
+using TMPro;
 
 public class WaveManager : MonoBehaviour
 {
     public static WaveManager Instance { get; private set; }
     [SerializeField] private List<Transform> spawnPoints = new List<Transform>();
+    [SerializeField] private TextMeshProUGUI waveText;
     private List<Transform> activeSpawnPoints = new List<Transform>();
     private List<int> validSpawnPointIndices = new List<int>();
     [SerializeField] private List<GameObject> enemyPrefabs = new List<GameObject>();
     [SerializeField] private List<GameObject> activeEnemyPrefabs = new List<GameObject>();
-    private GameObject enemyPrefab;
-    private int enemyIndex = 0;
     private float timeBetweenWaves = 4f;
-    private int enemiesPerWave = 3;
-    private int enemiesLeftToSpawn = 3;
+    private int enemiesPerWave = 2;
+    private int enemiesLeftToSpawn = 2;
     private float spawnInterval = 2f;
-    private float spawnIntervalReduction = 0.4f;
-    private float minimumSpawnInterval = 0.1f;
-    private float difficultyMultiplier = 1.3f;
+    private float spawnIntervalReduction = 0.2f;
+    private float minimumSpawnInterval = 0.25f;
     private float timeSinceLastSpawn = 0f;
-    private int currentWave = 1;
+    private int currentWave = 0;
     private int enemiesAlive = 0;
     private bool isSpawningWave = false;
+    private int layerOrder = 0;
 
     private void Awake()
     {
@@ -53,23 +53,27 @@ public class WaveManager : MonoBehaviour
     {
         yield return new WaitForSeconds(timeBetweenWaves);
 
-        enemyPrefab = enemyPrefabs[enemyIndex];
+        currentWave++;
+        AddNewEnemy();
         isSpawningWave = true;
         UpdateActiveSpawnPoints();
+        waveText.text = currentWave.ToString();
     }
 
     private IEnumerator StartNewWave()
     {
         yield return new WaitForSeconds(timeBetweenWaves);
+        int enemiesIncresePerWave = 3;
 
-        enemyIndex = 0;
-        enemyPrefab = enemyPrefabs[enemyIndex];
         currentWave++;
+        AddNewEnemy();
+        layerOrder = 0;
         isSpawningWave = true;
-        enemiesPerWave = Mathf.CeilToInt(enemiesPerWave * Mathf.Pow(difficultyMultiplier, currentWave - 1));
+        enemiesPerWave = enemiesPerWave + (currentWave - 1) * enemiesIncresePerWave;
         spawnInterval = Mathf.Max(minimumSpawnInterval, spawnInterval - spawnIntervalReduction);
         enemiesLeftToSpawn = enemiesPerWave;
         UpdateActiveSpawnPoints();
+        waveText.text = currentWave.ToString();
     }
 
     private void EndWave()
@@ -99,15 +103,21 @@ public class WaveManager : MonoBehaviour
 
     private void SpawnEnemy()
     {
-        if (activeEnemyPrefabs.Count > 1)
+        if (activeEnemyPrefabs.Count != 0)
         {
+            int spawnedSoFar = enemiesPerWave - enemiesLeftToSpawn;
+            int segmentSize = Mathf.CeilToInt((float)enemiesPerWave / activeEnemyPrefabs.Count);
+            int index = Mathf.Min(spawnedSoFar / segmentSize, activeEnemyPrefabs.Count - 1);
 
+            GameObject enemyPrefab = activeEnemyPrefabs[index];
+            Transform spawnPoint = activeSpawnPoints[Random.Range(0, activeSpawnPoints.Count)];
+            GameObject enemyInstance = Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
+            SpriteRenderer spriteRenderer = enemyInstance.GetComponentInChildren<SpriteRenderer>();
+            spriteRenderer.sortingOrder = layerOrder;
+            layerOrder++;
+            enemiesAlive++;
+            enemiesLeftToSpawn--;
         }
-
-        Transform spawnPoint = activeSpawnPoints[Random.Range(0, activeSpawnPoints.Count)];
-        Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
-        enemiesAlive++;
-        enemiesLeftToSpawn--;
     }
 
     private void UpdateActiveSpawnPoints()
@@ -123,14 +133,12 @@ public class WaveManager : MonoBehaviour
         }
     }
 
-    private void ChooseEnemyToSpawn()
-    {
-
-    }
-
     private void AddNewEnemy()
     {
-
+        if ((currentWave % 3 == 0 || currentWave == 1) && activeEnemyPrefabs.Count < enemyPrefabs.Count)
+        {
+            activeEnemyPrefabs.Add(enemyPrefabs[activeEnemyPrefabs.Count]);
+        }
     }
 
     private void AddRandomSpawnPoint()

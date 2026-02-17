@@ -2,27 +2,32 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private LayerMask towerLayer;
-    private float speed = 1f;
-    protected float health = 125f;
+    protected float speed = 1f;
+    protected int health = 100;
     private Rigidbody2D rb;
     private int hitScore = 10;
+    private Animator animator;
+    private bool defeated = false;
+    private BoxCollider2D boxCollider;
 
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponentInChildren<Animator>();
+        boxCollider = GetComponent<BoxCollider2D>();
     }
     private void Start()
     {
         rb.linearVelocity = Vector2.left * speed;
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(int damage)
     {
         health = health - damage;
         ScoreManager.Instance.UpdateScore(hitScore);
-        if (health <= 0)
+        if (health <= 0 && !defeated)
         {
+            defeated = true;
             OnDefeated();
         }
     }
@@ -30,6 +35,8 @@ public class Enemy : MonoBehaviour
     private void OnDefeated()
     {
         WaveManager.Instance.OnEnemyDefeated();
-        Destroy(this.gameObject);
+        animator.SetTrigger("Defeated");
+        rb.linearVelocity = Vector2.zero;
+        boxCollider.enabled = false;
     }
 }

@@ -1,115 +1,121 @@
 fileFormatVersion: 2
-guid: 249421c5698c8874cbc0e2ce64d8b4a3
+guid: 04d14bf66daad424cbcc320a827e3c4e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1070756702508967149
-    second: slime enemy walk_0
+      213: -4045826603214347652
+    second: slime-enemy-death_0
   - first:
-      213: 7382107356181058790
-    second: slime enemy walk_1
+      213: 2633164703320328261
+    second: slime-enemy-death_1
   - first:
-      213: 9164587305335349068
-    second: slime enemy walk_2
+      213: -920500375423949516
+    second: slime-enemy-death_2
   - first:
-      213: -8133089709770272168
-    second: slime enemy walk_3
+      213: 947483248402790820
+    second: slime-enemy-death_3
   - first:
-      213: 669890475222206037
-    second: slime enemy walk_4
+      213: -6775071215399002123
+    second: slime-enemy-death_4
   - first:
-      213: -8868001603943072369
-    second: slime enemy walk_5
+      213: 6404816594611911102
+    second: slime-enemy-death_5
   - first:
-      213: 6806284097232492093
-    second: slime enemy walk_6
+      213: 3504298593404691641
+    second: slime-enemy-death_6
   - first:
-      213: -1095724131924946166
-    second: slime enemy walk_7
+      213: -5112535124782647716
+    second: slime-enemy-death_7
   - first:
-      213: -4386439944990341957
-    second: slime enemy walk_8
+      213: 538360151226759908
+    second: slime-enemy-death_8
   - first:
-      213: 7113493578592532176
-    second: slime enemy walk_9
+      213: -6162254943023946509
+    second: slime-enemy-death_9
   - first:
-      213: -3786418849468348127
-    second: slime enemy walk_10
+      213: -3188106833813284341
+    second: slime-enemy-death_10
   - first:
-      213: 3786710560873434360
-    second: slime enemy walk_11
+      213: 1102342111310510795
+    second: slime-enemy-death_11
   - first:
-      213: -732408497135704672
-    second: slime enemy walk_12
+      213: 1405989181693840342
+    second: slime-enemy-death_12
   - first:
-      213: -6521542748996461047
-    second: slime enemy walk_13
+      213: 106833845904723126
+    second: slime-enemy-death_13
   - first:
-      213: 2172074779078034431
-    second: slime enemy walk_14
+      213: 287022975946738325
+    second: slime-enemy-death_14
   - first:
-      213: -4027014099088188221
-    second: slime enemy walk_15
+      213: 8982947121488775199
+    second: slime-enemy-death_15
   - first:
-      213: -1381230150152167374
-    second: slime enemy walk_16
+      213: -1852154897377223961
+    second: slime-enemy-death_16
   - first:
-      213: 7707284995482680062
-    second: slime enemy walk_17
+      213: 3185584905571933724
+    second: slime-enemy-death_17
   - first:
-      213: -9091684226529632673
-    second: slime enemy walk_18
+      213: 5890669086307576150
+    second: slime-enemy-death_18
   - first:
-      213: -7131919813596061344
-    second: slime enemy walk_19
+      213: -8851994524420395708
+    second: slime-enemy-death_19
   - first:
-      213: 4063628835994805778
-    second: slime enemy walk_20
+      213: 7687544630061377579
+    second: slime-enemy-death_20
   - first:
-      213: 815737911201649721
-    second: slime enemy walk_21
+      213: 8530741131230974629
+    second: slime-enemy-death_21
   - first:
-      213: 1088594330471225914
-    second: slime enemy walk_22
+      213: -9170416104479440913
+    second: slime-enemy-death_22
   - first:
-      213: -7532314455496734120
-    second: slime enemy walk_23
+      213: -2382796623287439443
+    second: slime-enemy-death_23
   - first:
-      213: -4628469920682504214
-    second: slime enemy walk_24
+      213: -4112851327884154961
+    second: slime-enemy-death_24
   - first:
-      213: -7085771100101188877
-    second: slime enemy walk_25
+      213: -1532375659018456129
+    second: slime-enemy-death_25
   - first:
-      213: 6782625716571883466
-    second: slime enemy walk_26
+      213: 7647956481030117223
+    second: slime-enemy-death_26
   - first:
-      213: 9220718774628858224
-    second: slime enemy walk_27
+      213: -2917271709520020422
+    second: slime-enemy-death_27
   - first:
-      213: 2508489342565395416
-    second: slime enemy walk_28
+      213: -2909235227509101900
+    second: slime-enemy-death_28
   - first:
-      213: 8343377077105134593
-    second: slime enemy walk_29
+      213: 8006268618434665046
+    second: slime-enemy-death_29
   - first:
-      213: 7142957873956595831
-    second: slime enemy walk_30
+      213: -6335264768964820723
+    second: slime-enemy-death_30
   - first:
-      213: -5992511668095211405
-    second: slime enemy walk_31
+      213: 703720299932080278
+    second: slime-enemy-death_31
   - first:
-      213: 5716932541752863995
-    second: slime enemy walk_32
+      213: 6103453558854902610
+    second: slime-enemy-death_32
   - first:
-      213: -8604252572132219274
-    second: slime enemy walk_33
+      213: 2658364741893971223
+    second: slime-enemy-death_33
   - first:
-      213: -2736884545086158586
-    second: slime enemy walk_34
+      213: -7688335492487950941
+    second: slime-enemy-death_34
   - first:
-      213: 5766559533440935747
-    second: slime enemy walk_35
+      213: -1121020904942404619
+    second: slime-enemy-death_35
+  - first:
+      213: -1154545735177990850
+    second: slime-enemy-death_36
+  - first:
+      213: -4384403386177328545
+    second: slime-enemy-death_37
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -156,7 +162,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -205,793 +211,837 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime enemy walk_0
+      name: slime-enemy-death_0
       rect:
         serializedVersion: 2
-        x: 61
-        y: 1346
-        width: 133
-        height: 124
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31b9512c378e321f0800000000000000
-      internalID: -1070756702508967149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_1
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 1346
-        width: 128
-        height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e458f24783827660800000000000000
-      internalID: 7382107356181058790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_2
-      rect:
-        serializedVersion: 2
-        x: 574
-        y: 1346
-        width: 132
-        height: 132
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4f519f19972f2f70800000000000000
-      internalID: 9164587305335349068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_3
-      rect:
-        serializedVersion: 2
-        x: 830
-        y: 1346
-        width: 133
-        height: 132
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85212cafff5712f80800000000000000
-      internalID: -8133089709770272168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_4
-      rect:
-        serializedVersion: 2
-        x: 1087
-        y: 1346
-        width: 131
-        height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 556890686ddeb4900800000000000000
-      internalID: 669890475222206037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_5
-      rect:
-        serializedVersion: 2
-        x: 1346
-        y: 1346
-        width: 128
+        x: 60
+        y: 1345
+        width: 135
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8df061a6878ee480800000000000000
-      internalID: -8868001603943072369
+      spriteID: c72659cd3265ad7c0800000000000000
+      internalID: -4045826603214347652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_6
+      name: slime-enemy-death_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1345
+        width: 136
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5484188b851ea8420800000000000000
+      internalID: 2633164703320328261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_2
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1345
+        width: 136
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435ed3b19c9b933f0800000000000000
+      internalID: -920500375423949516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_3
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1343
+        width: 139
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a97ea39ef2262d00800000000000000
+      internalID: 947483248402790820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_4
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1343
+        width: 137
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff1b2e10ac1af1a0800000000000000
+      internalID: -6775071215399002123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_5
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1344
+        width: 133
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9be5532ca72e850800000000000000
+      internalID: 6404816594611911102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_6
       rect:
         serializedVersion: 2
         x: 66
         y: 1090
-        width: 129
-        height: 124
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d36deef3357c47e50800000000000000
-      internalID: 6806284097232492093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_7
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 1090
-        width: 131
-        height: 120
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a035ac815b43bc0f0800000000000000
-      internalID: -1095724131924946166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_8
-      rect:
-        serializedVersion: 2
-        x: 574
-        y: 1090
-        width: 133
-        height: 117
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb444424c1c3023c0800000000000000
-      internalID: -4386439944990341957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_9
-      rect:
-        serializedVersion: 2
-        x: 830
-        y: 1090
-        width: 128
-        height: 124
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d6b70888b438b260800000000000000
-      internalID: 7113493578592532176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_10
-      rect:
-        serializedVersion: 2
-        x: 1086
-        y: 1090
-        width: 129
-        height: 127
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12988922e10f37bc0800000000000000
-      internalID: -3786418849468348127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_11
-      rect:
-        serializedVersion: 2
-        x: 1342
-        y: 1090
         width: 127
-        height: 129
+        height: 139
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8fcc41831391d8430800000000000000
-      internalID: 3786710560873434360
+      spriteID: 9b4a9ce0105c1a030800000000000000
+      internalID: 3504298593404691641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_12
+      name: slime-enemy-death_7
       rect:
         serializedVersion: 2
-        x: 58
-        y: 838
-        width: 131
-        height: 128
+        x: 326
+        y: 1091
+        width: 120
+        height: 144
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a5afb13a56f5d5f0800000000000000
-      internalID: -732408497135704672
+      spriteID: c567f913460ac09b0800000000000000
+      internalID: -5112535124782647716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_13
+      name: slime-enemy-death_8
       rect:
         serializedVersion: 2
-        x: 311
-        y: 834
-        width: 134
-        height: 132
+        x: 588
+        y: 1096
+        width: 128
+        height: 145
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90e9a822c63de75a0800000000000000
-      internalID: -6521542748996461047
+      spriteID: 4eab81784b3a87700800000000000000
+      internalID: 538360151226759908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_14
+      name: slime-enemy-death_9
       rect:
         serializedVersion: 2
-        x: 567
-        y: 838
-        width: 135
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ff30880e082c42e10800000000000000
-      internalID: 2172074779078034431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_15
-      rect:
-        serializedVersion: 2
-        x: 826
-        y: 834
-        width: 132
-        height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ccdb5e430c2d18c0800000000000000
-      internalID: -4027014099088188221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_16
-      rect:
-        serializedVersion: 2
-        x: 1082
-        y: 838
-        width: 132
-        height: 123
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 230ee1b1f72e4dce0800000000000000
-      internalID: -1381230150152167374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_17
-      rect:
-        serializedVersion: 2
-        x: 1343
-        y: 834
+        x: 843
+        y: 1089
         width: 130
-        height: 124
+        height: 151
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efa71725ed6c5fa60800000000000000
-      internalID: 7707284995482680062
+      spriteID: 3f4a9a147c54b7aa0800000000000000
+      internalID: -6162254943023946509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_18
+      name: slime-enemy-death_10
       rect:
         serializedVersion: 2
-        x: 63
-        y: 578
-        width: 131
-        height: 124
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5edda3ad59d3d180800000000000000
-      internalID: -9091684226529632673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_19
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 578
-        width: 129
-        height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 061690057b4560d90800000000000000
-      internalID: -7131919813596061344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_20
-      rect:
-        serializedVersion: 2
-        x: 575
-        y: 578
-        width: 131
-        height: 132
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 216218475e8e46830800000000000000
-      internalID: 4063628835994805778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_21
-      rect:
-        serializedVersion: 2
-        x: 830
-        y: 578
+        x: 1095
+        y: 1089
         width: 132
-        height: 128
+        height: 148
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9345efaee45125b00800000000000000
-      internalID: 815737911201649721
+      spriteID: b0a5098d9b191c3d0800000000000000
+      internalID: -3188106833813284341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_22
+      name: slime-enemy-death_11
       rect:
         serializedVersion: 2
-        x: 1090
-        y: 578
-        width: 128
-        height: 124
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a3add34a6c67b1f00800000000000000
-      internalID: 1088594330471225914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_23
-      rect:
-        serializedVersion: 2
-        x: 1342
-        y: 578
-        width: 132
-        height: 119
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85ac39f19e7d77790800000000000000
-      internalID: -7532314455496734120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_24
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 322
-        width: 129
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aef832c312f54cfb0800000000000000
-      internalID: -4628469920682504214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_25
-      rect:
-        serializedVersion: 2
-        x: 318
-        y: 322
-        width: 127
-        height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f26dbaf9b84aad90800000000000000
-      internalID: -7085771100101188877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_26
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 326
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac742b0472ab02e50800000000000000
-      internalID: 6782625716571883466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_27
-      rect:
-        serializedVersion: 2
-        x: 826
-        y: 326
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 079378f3fd296ff70800000000000000
-      internalID: 9220718774628858224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime enemy walk_28
-      rect:
-        serializedVersion: 2
-        x: 1078
-        y: 322
+        x: 1349
+        y: 1099
         width: 135
-        height: 132
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8dba67a34c1ffc220800000000000000
-      internalID: 2508489342565395416
+      spriteID: bcafd9d4f4e4c4f00800000000000000
+      internalID: 1102342111310510795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_29
+      name: slime-enemy-death_12
       rect:
         serializedVersion: 2
-        x: 1335
-        y: 326
-        width: 136
-        height: 124
+        x: 643
+        y: 1089
+        width: 8
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10c0dfb1f31a9c370800000000000000
-      internalID: 8343377077105134593
+      spriteID: 6db47e426b3138310800000000000000
+      internalID: 1405989181693840342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_30
+      name: slime-enemy-death_13
       rect:
         serializedVersion: 2
-        x: 58
-        y: 69
-        width: 132
-        height: 124
+        x: 64
+        y: 833
+        width: 142
+        height: 143
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77823c26752e02360800000000000000
-      internalID: 7142957873956595831
+      spriteID: 6bcc32b11dc8b7100800000000000000
+      internalID: 106833845904723126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_31
+      name: slime-enemy-death_14
       rect:
         serializedVersion: 2
-        x: 318
-        y: 66
-        width: 132
-        height: 120
+        x: 313
+        y: 836
+        width: 150
+        height: 116
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3782dc6336256dca0800000000000000
-      internalID: -5992511668095211405
+      spriteID: 59a4eab30e5bbf300800000000000000
+      internalID: 287022975946738325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_32
+      name: slime-enemy-death_15
       rect:
         serializedVersion: 2
-        x: 575
-        y: 66
-        width: 131
-        height: 124
+        x: 546
+        y: 827
+        width: 189
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bfcec0c6bdf965f40800000000000000
-      internalID: 5716932541752863995
+      spriteID: f18c47430d6d9ac70800000000000000
+      internalID: 8982947121488775199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_33
+      name: slime-enemy-death_16
       rect:
         serializedVersion: 2
-        x: 830
-        y: 66
-        width: 132
-        height: 132
+        x: 800
+        y: 827
+        width: 193
+        height: 67
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67661587fdd879880800000000000000
-      internalID: -8604252572132219274
+      spriteID: 7ea94d81fe2db46e0800000000000000
+      internalID: -1852154897377223961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_34
+      name: slime-enemy-death_17
       rect:
         serializedVersion: 2
-        x: 1087
-        y: 66
-        width: 131
-        height: 131
+        x: 1056
+        y: 827
+        width: 192
+        height: 74
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60902e2c102a40ad0800000000000000
-      internalID: -2736884545086158586
+      spriteID: c1e167af798753c20800000000000000
+      internalID: 3185584905571933724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime enemy walk_35
+      name: slime-enemy-death_18
       rect:
         serializedVersion: 2
-        x: 1346
-        y: 66
-        width: 128
-        height: 127
+        x: 1315
+        y: 827
+        width: 187
+        height: 118
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 347a3e6d75fe60050800000000000000
-      internalID: 5766559533440935747
+      spriteID: 659ecbae25cdfb150800000000000000
+      internalID: 5890669086307576150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 570
+        width: 185
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d283241e5672580800000000000000
+      internalID: -8851994524420395708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_20
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 570
+        width: 183
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2825c55c15afaa60800000000000000
+      internalID: 7687544630061377579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_21
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 570
+        width: 183
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a216dd6cd7436670800000000000000
+      internalID: 8530741131230974629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_22
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 570
+        width: 183
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef3bf1d3232cb080800000000000000
+      internalID: -9170416104479440913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_23
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 569
+        width: 182
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafa3f0881b9eeed0800000000000000
+      internalID: -2382796623287439443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_24
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 570
+        width: 182
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7a87312873ce6c0800000000000000
+      internalID: -4112851327884154961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 314
+        width: 183
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3ffbdf478ebbae0800000000000000
+      internalID: -1532375659018456129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_26
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 314
+        width: 184
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767527d16eff22a60800000000000000
+      internalID: 7647956481030117223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_27
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 314
+        width: 184
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c33c826d4c387d0800000000000000
+      internalID: -2917271709520020422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_28
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 314
+        width: 184
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba644079f150a7d0800000000000000
+      internalID: -2909235227509101900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_29
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 387
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ad722b3eafb1f60800000000000000
+      internalID: 8006268618434665046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_30
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 314
+        width: 184
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d010ecf124e9418a0800000000000000
+      internalID: -6335264768964820723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_31
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 314
+        width: 184
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698dea262ed14c900800000000000000
+      internalID: 703720299932080278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_32
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 58
+        width: 184
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253e3ae9ca2d3b450800000000000000
+      internalID: 6103453558854902610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_33
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 58
+        width: 184
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d530ce5a864e420800000000000000
+      internalID: 2658364741893971223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_34
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 58
+        width: 184
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad4a38aa9b8d4590800000000000000
+      internalID: -7688335492487950941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_35
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 58
+        width: 184
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbfe172d655170f0800000000000000
+      internalID: -1121020904942404619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_36
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 58
+        width: 184
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d06c955ca3affe0800000000000000
+      internalID: -1154545735177990850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime-enemy-death_37
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 58
+        width: 184
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a61ee89587723c0800000000000000
+      internalID: -4384403386177328545
       vertices: []
       indices: 
       edges: []
@@ -1000,7 +1050,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5fe5841cffe2bd449b41c124b2ca2e23
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -1008,46 +1058,46 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      slime enemy walk_0: -1070756702508967149
-      slime enemy walk_1: 7382107356181058790
-      slime enemy walk_10: -3786418849468348127
-      slime enemy walk_11: 3786710560873434360
-      slime enemy walk_12: -732408497135704672
-      slime enemy walk_13: -6521542748996461047
-      slime enemy walk_14: 2172074779078034431
-      slime enemy walk_15: -4027014099088188221
-      slime enemy walk_16: -1381230150152167374
-      slime enemy walk_17: 7707284995482680062
-      slime enemy walk_18: -9091684226529632673
-      slime enemy walk_19: -7131919813596061344
-      slime enemy walk_2: 9164587305335349068
-      slime enemy walk_20: 4063628835994805778
-      slime enemy walk_21: 815737911201649721
-      slime enemy walk_22: 1088594330471225914
-      slime enemy walk_23: -7532314455496734120
-      slime enemy walk_24: -4628469920682504214
-      slime enemy walk_25: -7085771100101188877
-      slime enemy walk_26: 6782625716571883466
-      slime enemy walk_27: 9220718774628858224
-      slime enemy walk_28: 2508489342565395416
-      slime enemy walk_29: 8343377077105134593
-      slime enemy walk_3: -8133089709770272168
-      slime enemy walk_30: 7142957873956595831
-      slime enemy walk_31: -5992511668095211405
-      slime enemy walk_32: 5716932541752863995
-      slime enemy walk_33: -8604252572132219274
-      slime enemy walk_34: -2736884545086158586
-      slime enemy walk_35: 5766559533440935747
-      slime enemy walk_4: 669890475222206037
-      slime enemy walk_5: -8868001603943072369
-      slime enemy walk_6: 6806284097232492093
-      slime enemy walk_7: -1095724131924946166
-      slime enemy walk_8: -4386439944990341957
-      slime enemy walk_9: 7113493578592532176
+      slime-enemy-death_0: -4045826603214347652
+      slime-enemy-death_1: 2633164703320328261
+      slime-enemy-death_10: -3188106833813284341
+      slime-enemy-death_11: 1102342111310510795
+      slime-enemy-death_12: 1405989181693840342
+      slime-enemy-death_13: 106833845904723126
+      slime-enemy-death_14: 287022975946738325
+      slime-enemy-death_15: 8982947121488775199
+      slime-enemy-death_16: -1852154897377223961
+      slime-enemy-death_17: 3185584905571933724
+      slime-enemy-death_18: 5890669086307576150
+      slime-enemy-death_19: -8851994524420395708
+      slime-enemy-death_2: -920500375423949516
+      slime-enemy-death_20: 7687544630061377579
+      slime-enemy-death_21: 8530741131230974629
+      slime-enemy-death_22: -9170416104479440913
+      slime-enemy-death_23: -2382796623287439443
+      slime-enemy-death_24: -4112851327884154961
+      slime-enemy-death_25: -1532375659018456129
+      slime-enemy-death_26: 7647956481030117223
+      slime-enemy-death_27: -2917271709520020422
+      slime-enemy-death_28: -2909235227509101900
+      slime-enemy-death_29: 8006268618434665046
+      slime-enemy-death_3: 947483248402790820
+      slime-enemy-death_30: -6335264768964820723
+      slime-enemy-death_31: 703720299932080278
+      slime-enemy-death_32: 6103453558854902610
+      slime-enemy-death_33: 2658364741893971223
+      slime-enemy-death_34: -7688335492487950941
+      slime-enemy-death_35: -1121020904942404619
+      slime-enemy-death_36: -1154545735177990850
+      slime-enemy-death_37: -4384403386177328545
+      slime-enemy-death_4: -6775071215399002123
+      slime-enemy-death_5: 6404816594611911102
+      slime-enemy-death_6: 3504298593404691641
+      slime-enemy-death_7: -5112535124782647716
+      slime-enemy-death_8: 538360151226759908
+      slime-enemy-death_9: -6162254943023946509
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

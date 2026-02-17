@@ -1,10 +1,11 @@
 using UnityEngine;
 
-public class TierTwoSlime : Enemy
+public class FastSlime : Enemy
 {
     protected override void Awake()
     {
         base.Awake();
-        health = 250f;
+        health = 150;
+        speed = 2f;
     }
 }
