@@ -214,12 +214,12 @@ TextureImporter:
       name: slime-enemy-death_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1345
-        width: 135
-        height: 128
+        x: 61
+        y: 1346
+        width: 133
+        height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: slime-enemy-death_1
       rect:
         serializedVersion: 2
-        x: 316
-        y: 1345
-        width: 136
-        height: 126
+        x: 317
+        y: 1346
+        width: 134
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: slime-enemy-death_2
       rect:
         serializedVersion: 2
-        x: 572
-        y: 1345
-        width: 136
-        height: 125
+        x: 575
+        y: 1346
+        width: 131
+        height: 123
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,12 +280,12 @@ TextureImporter:
       name: slime-enemy-death_3
       rect:
         serializedVersion: 2
-        x: 826
-        y: 1343
-        width: 139
-        height: 121
+        x: 827
+        y: 1346
+        width: 135
+        height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: slime-enemy-death_4
       rect:
         serializedVersion: 2
-        x: 1083
-        y: 1343
-        width: 137
-        height: 126
+        x: 1086
+        y: 1345
+        width: 131
+        height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,12 +324,12 @@ TextureImporter:
       name: slime-enemy-death_5
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 1344
-        width: 133
-        height: 132
+        x: 1343
+        y: 1346
+        width: 131
+        height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,12 +346,12 @@ TextureImporter:
       name: slime-enemy-death_6
       rect:
         serializedVersion: 2
-        x: 66
-        y: 1090
-        width: 127
-        height: 139
+        x: 67
+        y: 1091
+        width: 122
+        height: 135
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: slime-enemy-death_7
       rect:
         serializedVersion: 2
-        x: 326
-        y: 1091
-        width: 120
-        height: 144
+        x: 327
+        y: 1094
+        width: 118
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,12 +390,12 @@ TextureImporter:
       name: slime-enemy-death_8
       rect:
         serializedVersion: 2
-        x: 588
-        y: 1096
-        width: 128
-        height: 145
+        x: 590
+        y: 1090
+        width: 125
+        height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,12 +412,12 @@ TextureImporter:
       name: slime-enemy-death_9
       rect:
         serializedVersion: 2
-        x: 843
-        y: 1089
-        width: 130
-        height: 151
+        x: 846
+        y: 1090
+        width: 124
+        height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,12 +434,12 @@ TextureImporter:
       name: slime-enemy-death_10
       rect:
         serializedVersion: 2
-        x: 1095
-        y: 1089
-        width: 132
-        height: 148
+        x: 1097
+        y: 1090
+        width: 129
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -456,12 +456,12 @@ TextureImporter:
       name: slime-enemy-death_11
       rect:
         serializedVersion: 2
-        x: 1349
-        y: 1099
-        width: 135
-        height: 136
+        x: 1350
+        y: 1101
+        width: 133
+        height: 133
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -478,12 +478,12 @@ TextureImporter:
       name: slime-enemy-death_12
       rect:
         serializedVersion: 2
-        x: 643
-        y: 1089
-        width: 8
-        height: 6
+        x: 66
+        y: 834
+        width: 139
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -500,12 +500,12 @@ TextureImporter:
       name: slime-enemy-death_13
       rect:
         serializedVersion: 2
-        x: 64
-        y: 833
-        width: 142
-        height: 143
+        x: 314
+        y: 838
+        width: 148
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -522,12 +522,12 @@ TextureImporter:
       name: slime-enemy-death_14
       rect:
         serializedVersion: 2
-        x: 313
-        y: 836
-        width: 150
-        height: 116
+        x: 547
+        y: 830
+        width: 187
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -544,12 +544,12 @@ TextureImporter:
       name: slime-enemy-death_15
       rect:
         serializedVersion: 2
-        x: 546
-        y: 827
-        width: 189
-        height: 64
+        x: 802
+        y: 830
+        width: 187
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -566,12 +566,12 @@ TextureImporter:
       name: slime-enemy-death_16
       rect:
         serializedVersion: 2
-        x: 800
-        y: 827
-        width: 193
-        height: 67
+        x: 1058
+        y: 829
+        width: 188
+        height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -588,12 +588,12 @@ TextureImporter:
       name: slime-enemy-death_17
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 827
-        width: 192
-        height: 74
+        x: 1318
+        y: 830
+        width: 183
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -610,12 +610,12 @@ TextureImporter:
       name: slime-enemy-death_18
       rect:
         serializedVersion: 2
-        x: 1315
-        y: 827
-        width: 187
-        height: 118
+        x: 38
+        y: 571
+        width: 180
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -632,12 +632,12 @@ TextureImporter:
       name: slime-enemy-death_19
       rect:
         serializedVersion: 2
-        x: 36
-        y: 570
-        width: 185
-        height: 133
+        x: 294
+        y: 571
+        width: 181
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -654,12 +654,12 @@ TextureImporter:
       name: slime-enemy-death_20
       rect:
         serializedVersion: 2
-        x: 293
-        y: 570
-        width: 183
-        height: 143
+        x: 550
+        y: 571
+        width: 180
+        height: 147
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -676,12 +676,12 @@ TextureImporter:
       name: slime-enemy-death_21
       rect:
         serializedVersion: 2
-        x: 549
-        y: 570
-        width: 183
-        height: 149
+        x: 806
+        y: 571
+        width: 180
+        height: 151
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -698,12 +698,12 @@ TextureImporter:
       name: slime-enemy-death_22
       rect:
         serializedVersion: 2
-        x: 805
+        x: 1062
         y: 570
-        width: 183
-        height: 154
+        width: 180
+        height: 156
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -720,12 +720,12 @@ TextureImporter:
       name: slime-enemy-death_23
       rect:
         serializedVersion: 2
-        x: 1061
-        y: 569
-        width: 182
-        height: 158
+        x: 1318
+        y: 571
+        width: 180
+        height: 151
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -742,12 +742,12 @@ TextureImporter:
       name: slime-enemy-death_24
       rect:
         serializedVersion: 2
-        x: 1317
-        y: 570
-        width: 182
-        height: 155
+        x: 38
+        y: 315
+        width: 180
+        height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -764,12 +764,12 @@ TextureImporter:
       name: slime-enemy-death_25
       rect:
         serializedVersion: 2
-        x: 37
-        y: 314
-        width: 183
-        height: 150
+        x: 294
+        y: 315
+        width: 180
+        height: 132
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -786,12 +786,12 @@ TextureImporter:
       name: slime-enemy-death_26
       rect:
         serializedVersion: 2
-        x: 292
-        y: 314
-        width: 184
-        height: 134
+        x: 550
+        y: 315
+        width: 180
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -808,12 +808,12 @@ TextureImporter:
       name: slime-enemy-death_27
       rect:
         serializedVersion: 2
-        x: 548
-        y: 314
-        width: 184
-        height: 133
+        x: 890
+        y: 388
+        width: 11
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -830,12 +830,12 @@ TextureImporter:
       name: slime-enemy-death_28
       rect:
         serializedVersion: 2
-        x: 804
-        y: 314
-        width: 184
-        height: 74
+        x: 891
+        y: 379
+        width: 10
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -852,12 +852,12 @@ TextureImporter:
       name: slime-enemy-death_29
       rect:
         serializedVersion: 2
-        x: 889
-        y: 387
-        width: 15
-        height: 21
+        x: 806
+        y: 315
+        width: 180
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -874,12 +874,12 @@ TextureImporter:
       name: slime-enemy-death_30
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 314
-        width: 184
-        height: 63
+        x: 1062
+        y: 315
+        width: 180
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -896,12 +896,12 @@ TextureImporter:
       name: slime-enemy-death_31
       rect:
         serializedVersion: 2
-        x: 1316
-        y: 314
-        width: 184
-        height: 63
+        x: 1318
+        y: 315
+        width: 180
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -918,12 +918,12 @@ TextureImporter:
       name: slime-enemy-death_32
       rect:
         serializedVersion: 2
-        x: 36
-        y: 58
-        width: 184
-        height: 63
+        x: 38
+        y: 59
+        width: 180
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -940,12 +940,12 @@ TextureImporter:
       name: slime-enemy-death_33
       rect:
         serializedVersion: 2
-        x: 292
-        y: 58
-        width: 184
-        height: 63
+        x: 294
+        y: 59
+        width: 180
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -962,12 +962,12 @@ TextureImporter:
       name: slime-enemy-death_34
       rect:
         serializedVersion: 2
-        x: 548
-        y: 58
-        width: 184
-        height: 63
+        x: 550
+        y: 59
+        width: 180
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -984,12 +984,12 @@ TextureImporter:
       name: slime-enemy-death_35
       rect:
         serializedVersion: 2
-        x: 804
-        y: 58
-        width: 184
-        height: 63
+        x: 806
+        y: 59
+        width: 180
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1006,20 +1006,20 @@ TextureImporter:
       name: slime-enemy-death_36
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 58
-        width: 184
-        height: 63
+        x: 1062
+        y: 59
+        width: 180
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e3d06c955ca3affe0800000000000000
-      internalID: -1154545735177990850
+      spriteID: b48fee49be56b3c4b93cdff130f81228
+      internalID: 2004196864
       vertices: []
       indices: 
       edges: []
@@ -1028,20 +1028,20 @@ TextureImporter:
       name: slime-enemy-death_37
       rect:
         serializedVersion: 2
-        x: 1316
-        y: 58
-        width: 184
-        height: 63
+        x: 1318
+        y: 59
+        width: 180
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f5a61ee89587723c0800000000000000
-      internalID: -4384403386177328545
+      spriteID: 21b57828b8133e34096399b6b0e9edb4
+      internalID: -1575689902
       vertices: []
       indices: 
       edges: []
@@ -1050,7 +1050,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e65edb68436e1974e87de5a54973266f
     internalID: 0
     vertices: []
     indices: 
@@ -1058,7 +1058,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":212.0,"y":201.0},"gridSpriteOffset":{"x":10.0,"y":30.0},"gridSpritePadding":{"x":50.0,"y":60.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       slime-enemy-death_0: -4045826603214347652
       slime-enemy-death_1: 2633164703320328261
@@ -1090,8 +1092,8 @@ TextureImporter:
       slime-enemy-death_33: 2658364741893971223
       slime-enemy-death_34: -7688335492487950941
       slime-enemy-death_35: -1121020904942404619
-      slime-enemy-death_36: -1154545735177990850
-      slime-enemy-death_37: -4384403386177328545
+      slime-enemy-death_36: 2004196864
+      slime-enemy-death_37: -1575689902
       slime-enemy-death_4: -6775071215399002123
       slime-enemy-death_5: 6404816594611911102
       slime-enemy-death_6: 3504298593404691641

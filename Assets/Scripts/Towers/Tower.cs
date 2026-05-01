@@ -8,6 +8,7 @@ public abstract class Tower : MonoBehaviour
     [SerializeField] private LayerMask zombieLayer;
     [SerializeField] private List<TowerUpgradeSO> upgrades;
     [SerializeField] private Sprite towerIcon;
+    private Camera mainCamera;
     protected string towerName;
     protected int currentDamage = 25;
     private int currentTier = 0;
@@ -40,12 +41,6 @@ public abstract class Tower : MonoBehaviour
     {
         this.placementArea = placementArea;
     }
-
-    private void OnMouseUp()
-    {
-        UpgradeUI.Instance.Show(GetNextUpgrade(), this);
-    }
-
     public TowerUpgradeSO GetNextUpgrade()
     {
         foreach (var upgrade in upgrades)
@@ -74,6 +69,10 @@ public abstract class Tower : MonoBehaviour
         }
 
         currentTier++;
+    }
+    public void setCamera(Camera camera)
+    {
+        this.mainCamera = camera;
     }
     public Sprite GetTowerIcon()
     {

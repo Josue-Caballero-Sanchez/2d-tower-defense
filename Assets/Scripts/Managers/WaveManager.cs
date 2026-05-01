@@ -21,6 +21,7 @@ public class WaveManager : MonoBehaviour
     private float minimumSpawnInterval = 0.25f;
     private float timeSinceLastSpawn = 0f;
     private int currentWave = 0;
+    private int maxWaves = 10;
     private int enemiesAlive = 0;
     private bool isSpawningWave = false;
     private int layerOrder = 0;
@@ -51,13 +52,13 @@ public class WaveManager : MonoBehaviour
 
     private IEnumerator StartFirstWave()
     {
+        currentWave++;
+        waveText.text = currentWave.ToString() + " / " + maxWaves.ToString();
         yield return new WaitForSeconds(timeBetweenWaves);
 
-        currentWave++;
         AddNewEnemy();
         isSpawningWave = true;
         UpdateActiveSpawnPoints();
-        waveText.text = currentWave.ToString();
     }
 
     private IEnumerator StartNewWave()
@@ -103,21 +104,23 @@ public class WaveManager : MonoBehaviour
 
     private void SpawnEnemy()
     {
-        if (activeEnemyPrefabs.Count != 0)
+        if (activeEnemyPrefabs.Count == 0)
         {
-            int spawnedSoFar = enemiesPerWave - enemiesLeftToSpawn;
-            int segmentSize = Mathf.CeilToInt((float)enemiesPerWave / activeEnemyPrefabs.Count);
-            int index = Mathf.Min(spawnedSoFar / segmentSize, activeEnemyPrefabs.Count - 1);
-
-            GameObject enemyPrefab = activeEnemyPrefabs[index];
-            Transform spawnPoint = activeSpawnPoints[Random.Range(0, activeSpawnPoints.Count)];
-            GameObject enemyInstance = Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
-            SpriteRenderer spriteRenderer = enemyInstance.GetComponentInChildren<SpriteRenderer>();
-            spriteRenderer.sortingOrder = layerOrder;
-            layerOrder++;
-            enemiesAlive++;
-            enemiesLeftToSpawn--;
+            return;
         }
+
+        int spawnedSoFar = enemiesPerWave - enemiesLeftToSpawn;
+        int segmentSize = Mathf.CeilToInt((float)enemiesPerWave / activeEnemyPrefabs.Count);
+        int index = Mathf.Min(spawnedSoFar / segmentSize, activeEnemyPrefabs.Count - 1);
+
+        GameObject enemyPrefab = activeEnemyPrefabs[index];
+        Transform spawnPoint = activeSpawnPoints[Random.Range(0, activeSpawnPoints.Count)];
+        GameObject enemyInstance = Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
+        SpriteRenderer spriteRenderer = enemyInstance.GetComponentInChildren<SpriteRenderer>();
+        spriteRenderer.sortingOrder = layerOrder;
+        layerOrder++;
+        enemiesAlive++;
+        enemiesLeftToSpawn--;
     }
 
     private void UpdateActiveSpawnPoints()
