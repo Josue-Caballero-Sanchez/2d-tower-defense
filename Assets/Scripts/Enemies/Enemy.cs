@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
@@ -9,12 +10,15 @@ public class Enemy : MonoBehaviour
     private Animator animator;
     private bool defeated = false;
     private BoxCollider2D boxCollider;
+    private Material enemyMaterial;
+    private Coroutine hitCoroutine;
 
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponentInChildren<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        enemyMaterial = GetComponentInChildren<SpriteRenderer>().material;
     }
     private void Start()
     {
@@ -25,11 +29,31 @@ public class Enemy : MonoBehaviour
     {
         health = health - damage;
         ScoreManager.Instance.UpdateScore(hitScore);
+
+        if (hitCoroutine != null)
+        {
+            StopCoroutine(hitCoroutine);
+        }
+
+        hitCoroutine = StartCoroutine(HitEffect());
+
         if (health <= 0 && !defeated)
         {
             defeated = true;
             OnDefeated();
         }
+    }
+
+    private IEnumerator HitEffect()
+    {
+        enemyMaterial.SetColor("_HitEffectColor", Color.red);
+        enemyMaterial.SetFloat("_HitEffectGlow", 10f);
+        enemyMaterial.SetFloat("_HitEffectBlend", 0.2f);
+        yield return new WaitForSeconds(0.1f);
+
+        enemyMaterial.SetColor("_HitEffectColor", Color.clear);
+        enemyMaterial.SetFloat("_HitEffectBlend", 0f);
+        enemyMaterial.SetFloat("_HitEffectGlow", 0f);
     }
 
     private void OnDefeated()

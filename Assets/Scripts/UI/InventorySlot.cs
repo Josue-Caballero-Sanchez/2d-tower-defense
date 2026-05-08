@@ -17,7 +17,7 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (TowerPlacement.Instance != null)
+        if (eventData.button == PointerEventData.InputButton.Left && TowerPlacement.Instance != null)
         {
             TowerPlacement.Instance.SetCurrentTower(towerSO);
         }

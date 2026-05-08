@@ -11,7 +11,7 @@ public abstract class Tower : MonoBehaviour
     private Camera mainCamera;
     protected string towerName;
     protected int currentDamage = 25;
-    private int currentTier = 0;
+    protected int currentLevel = 0;
     private PlacementArea placementArea;
     protected Animator animator;
 
@@ -45,7 +45,7 @@ public abstract class Tower : MonoBehaviour
     {
         foreach (var upgrade in upgrades)
         {
-            if (upgrade.tier == currentTier + 1)
+            if (upgrade.level == currentLevel + 1)
             {
                 return upgrade;
             }
@@ -54,9 +54,9 @@ public abstract class Tower : MonoBehaviour
         return null;
     }
 
-    public void ApplyUpgrade(int tier)
+    public void ApplyUpgrade(int level)
     {
-        switch (tier)
+        switch (level)
         {
             case 1:
                 Upgrade1();
@@ -68,7 +68,7 @@ public abstract class Tower : MonoBehaviour
                 break;
         }
 
-        currentTier++;
+        currentLevel++;
     }
     public void setCamera(Camera camera)
     {
@@ -84,9 +84,13 @@ public abstract class Tower : MonoBehaviour
         return towerName;
     }
 
-    public int GetCurrentTier()
+    public int GetCurrentLevel()
     {
-        return currentTier;
+        return currentLevel;
+    }
+    public int GetUpgradesCount()
+    {
+        return upgrades.Count;
     }
     protected abstract void Upgrade1();
     protected abstract void Upgrade2();

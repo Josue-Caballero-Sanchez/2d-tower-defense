@@ -3,6 +3,17 @@ using UnityEngine;
 public class PlacementArea : MonoBehaviour
 {
     private bool hasTowerPlaced = false;
+    private SpriteRenderer spriteRenderer;
+
+    private void Start()
+    {
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+    }
+
+    private void Update()
+    {
+        DrawOutline();
+    }
 
     public bool CheckIfHasTowerPlaced()
     {
@@ -13,4 +24,29 @@ public class PlacementArea : MonoBehaviour
     {
         hasTowerPlaced = newValue;
     }
+
+    void OnMouseOver()
+    {
+        if (TowerPlacement.Instance.IsPlacing())
+        {
+            spriteRenderer.color = Color.green;
+        }
+    }
+    void OnMouseExit()
+    {
+        spriteRenderer.color = Color.white;
+    }
+
+    private void DrawOutline()
+    {
+        if (TowerPlacement.Instance.IsPlacing() && !hasTowerPlaced)
+        {
+            spriteRenderer.enabled = true;
+        }
+        else
+        {
+            spriteRenderer.enabled = false;
+        }
+    }
+
 }

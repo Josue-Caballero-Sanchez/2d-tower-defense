@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1744896975997016710}
   - component: {fileID: 7395150424941765724}
   - component: {fileID: 7512424599649959904}
+  - component: {fileID: 2852379682491144551}
   m_Layer: 6
   m_Name: Animations
   m_TagString: Untagged
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 5dd588ad80b25544d9d34685cb6f3eed, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -127,6 +128,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42c9525936d00c74c976ec494e73e7a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimationEvents
+--- !u!114 &2852379682491144551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729640893557064447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee158225ee1e59f4791627785501d950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AllIn1SpriteShaderAssembly::AllIn1SpriteShader.AllIn1Shader
+  currentShaderType: 0
+  normalStrength: 5
+  normalSmoothing: 1
+  computingNormal: 0
 --- !u!1 &3607462946263009686
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,3 +264,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6afdf7d70d5fc4c83425c8a5105df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Zombie
+  enemyMaterial: {fileID: 2100000, guid: 5dd588ad80b25544d9d34685cb6f3eed, type: 2}

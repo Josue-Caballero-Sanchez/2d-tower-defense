@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System.Collections.Generic;
+using System.Linq;
 
 public class TowerPlacement : MonoBehaviour
 {
@@ -130,13 +132,43 @@ public class TowerPlacement : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0))
         {
+
             if (EventSystem.current.IsPointerOverGameObject())
             {
+                bool clickedUpgradeUI = false;
+                bool clickedInventoryItem = false;
+                PointerEventData pointerData = new PointerEventData(EventSystem.current)
+                {
+                    position = Input.mousePosition
+                };
+
+                List<RaycastResult> results = new List<RaycastResult>();
+                EventSystem.current.RaycastAll(pointerData, results);
+
+                if (results.Any(r => r.gameObject.TryGetComponent(out UpgradeUI _)))
+                {
+                    clickedUpgradeUI = true;
+                }
+                else if (results.Any(r => r.gameObject.TryGetComponent(out InventorySlot _)))
+                {
+                    clickedInventoryItem = true;
+                }
+
+                if (!clickedInventoryItem && !clickedUpgradeUI)
+                {
+                    CancelPlacement();
+                    UpgradeUI.Instance.Hide();
+
+                }
+                else if (!clickedUpgradeUI)
+                {
+                    UpgradeUI.Instance.Hide();
+                }
+
                 return;
             }
 
             Vector2 mouseWorld = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-
             RaycastHit2D towerHit = Physics2D.Raycast(mouseWorld, Vector2.zero, float.MaxValue, towerLayerMask);
             if (towerHit.collider != null && towerHit.collider.TryGetComponent(out Tower tower))
             {
