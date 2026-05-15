@@ -8,6 +8,9 @@ public abstract class Tower : MonoBehaviour
     [SerializeField] private LayerMask zombieLayer;
     [SerializeField] private List<TowerUpgradeSO> upgrades;
     [SerializeField] private Sprite towerIcon;
+    private SpriteRenderer spriteRenderer;
+    [SerializeField] private Material LevelOneMaterial;
+    [SerializeField] private Material LevelTwoMaterial;
     private Camera mainCamera;
     protected string towerName;
     protected int currentDamage = 25;
@@ -18,6 +21,7 @@ public abstract class Tower : MonoBehaviour
     protected virtual void Awake()
     {
         animator = GetComponentInChildren<Animator>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     private void Update()
@@ -60,9 +64,11 @@ public abstract class Tower : MonoBehaviour
         {
             case 1:
                 Upgrade1();
+                spriteRenderer.material = LevelOneMaterial;
                 break;
             case 2:
                 Upgrade2();
+                spriteRenderer.material = LevelTwoMaterial;
                 break;
             default:
                 break;

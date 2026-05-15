@@ -29,14 +29,12 @@ public class Enemy : MonoBehaviour
     {
         health = health - damage;
         ScoreManager.Instance.UpdateScore(hitScore);
-
         if (hitCoroutine != null)
         {
             StopCoroutine(hitCoroutine);
         }
 
         hitCoroutine = StartCoroutine(HitEffect());
-
         if (health <= 0 && !defeated)
         {
             defeated = true;
@@ -46,14 +44,12 @@ public class Enemy : MonoBehaviour
 
     private IEnumerator HitEffect()
     {
-        enemyMaterial.SetColor("_HitEffectColor", Color.red);
-        enemyMaterial.SetFloat("_HitEffectGlow", 10f);
+        enemyMaterial.SetFloat("_HitEffectGlow", 1f);
         enemyMaterial.SetFloat("_HitEffectBlend", 0.2f);
         yield return new WaitForSeconds(0.1f);
 
-        enemyMaterial.SetColor("_HitEffectColor", Color.clear);
         enemyMaterial.SetFloat("_HitEffectBlend", 0f);
-        enemyMaterial.SetFloat("_HitEffectGlow", 0f);
+        enemyMaterial.SetFloat("_HitEffectGlow", 1f);
     }
 
     private void OnDefeated()
