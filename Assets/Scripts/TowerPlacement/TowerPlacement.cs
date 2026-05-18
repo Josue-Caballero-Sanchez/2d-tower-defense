@@ -121,6 +121,8 @@ public class TowerPlacement : MonoBehaviour
         {
             towerScript.SetPlacementArea(currentPlacementArea);
             towerScript.setCamera(mainCamera);
+            towerScript.SetPlacementArea(currentPlacementArea);
+            towerScript.UpdateTotalCost(towerCost);
         }
         currentPlacementArea.UpdateHasTowerPlaced(true);
         ScoreManager.Instance.UpdateScore(-towerCost);
@@ -220,11 +222,19 @@ public class TowerPlacement : MonoBehaviour
         ghostTower = new GameObject("GhostTower");
         ghostTower.transform.SetParent(canvas.transform, false);
 
+        // Calculate correct size for the ghost tower
+        float worldUnitsInScreen = mainCamera.orthographicSize * 2f;
+        float pixelsPerUnit = Screen.height / worldUnitsInScreen;
+        float canvasScale = canvasRect.rect.height / Screen.height;
+        float scaledPixelsPerUnit = pixelsPerUnit * canvasScale;
+
+        float towerPrefabScale = 1.25f;
+
         RectTransform rt = ghostTower.AddComponent<RectTransform>();
         SpriteRenderer originalRenderer = towerPrefab.GetComponentInChildren<SpriteRenderer>();
         rt.sizeDelta = new Vector2(
-            originalRenderer.sprite.bounds.size.x * 125f,
-            originalRenderer.sprite.bounds.size.y * 125f
+            originalRenderer.sprite.bounds.size.x * scaledPixelsPerUnit * towerPrefabScale,
+            originalRenderer.sprite.bounds.size.y * scaledPixelsPerUnit * towerPrefabScale
         );
 
         Image ghostImage = ghostTower.AddComponent<Image>();

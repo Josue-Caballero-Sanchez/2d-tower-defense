@@ -15,6 +15,7 @@ public abstract class Tower : MonoBehaviour
     protected string towerName;
     protected int currentDamage = 25;
     protected int currentLevel = 0;
+    private int totalCost = 0;
     private PlacementArea placementArea;
     protected Animator animator;
 
@@ -45,6 +46,7 @@ public abstract class Tower : MonoBehaviour
     {
         this.placementArea = placementArea;
     }
+
     public TowerUpgradeSO GetNextUpgrade()
     {
         foreach (var upgrade in upgrades)
@@ -75,6 +77,24 @@ public abstract class Tower : MonoBehaviour
         }
 
         currentLevel++;
+    }
+
+    public void UpdateTotalCost(int amount)
+    {
+        totalCost += amount;
+    }
+
+    public int GetSellValue()
+    {
+        return Mathf.RoundToInt(totalCost * 0.7f);
+    }
+
+    public void Sell()
+    {
+        Destroy(gameObject);
+        UpgradeUI.Instance.Hide();
+        placementArea.UpdateHasTowerPlaced(false);
+        ScoreManager.Instance.UpdateScore(Mathf.RoundToInt(totalCost * 0.7f));
     }
     public void setCamera(Camera camera)
     {

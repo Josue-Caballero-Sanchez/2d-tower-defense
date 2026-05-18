@@ -74,7 +74,7 @@ public class WaveManager : MonoBehaviour
         spawnInterval = Mathf.Max(minimumSpawnInterval, spawnInterval - spawnIntervalReduction);
         enemiesLeftToSpawn = enemiesPerWave;
         UpdateActiveSpawnPoints();
-        waveText.text = currentWave.ToString();
+        waveText.text = currentWave.ToString() + " / " + maxWaves.ToString();
     }
 
     private void EndWave()
