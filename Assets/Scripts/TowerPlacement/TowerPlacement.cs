@@ -40,7 +40,7 @@ public class TowerPlacement : MonoBehaviour
 
         if (placementCooldown > 0)
         {
-            placementCooldown -= Time.deltaTime;
+            placementCooldown -= Time.unscaledDeltaTime;
         }
     }
 
@@ -120,7 +120,6 @@ public class TowerPlacement : MonoBehaviour
         if (towerScript != null)
         {
             towerScript.SetPlacementArea(currentPlacementArea);
-            towerScript.setCamera(mainCamera);
             towerScript.SetPlacementArea(currentPlacementArea);
             towerScript.UpdateTotalCost(towerCost);
         }

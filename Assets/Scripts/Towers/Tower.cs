@@ -11,11 +11,11 @@ public abstract class Tower : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     [SerializeField] private Material LevelOneMaterial;
     [SerializeField] private Material LevelTwoMaterial;
-    private Camera mainCamera;
     protected string towerName;
     protected int currentDamage = 25;
     protected int currentLevel = 0;
     private int totalCost = 0;
+    private float shootSpeed = 1f;
     private PlacementArea placementArea;
     protected Animator animator;
 
@@ -23,6 +23,11 @@ public abstract class Tower : MonoBehaviour
     {
         animator = GetComponentInChildren<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+    }
+
+    private void Start()
+    {
+        UpdateShootSpeed(shootSpeed);
     }
 
     private void Update()
@@ -89,16 +94,18 @@ public abstract class Tower : MonoBehaviour
         return Mathf.RoundToInt(totalCost * 0.7f);
     }
 
+    protected void UpdateShootSpeed(float newShootSpeed)
+    {
+        shootSpeed = newShootSpeed;
+        animator.SetFloat("shootSpeed", newShootSpeed);
+    }
+
     public void Sell()
     {
         Destroy(gameObject);
         UpgradeUI.Instance.Hide();
         placementArea.UpdateHasTowerPlaced(false);
         ScoreManager.Instance.UpdateScore(Mathf.RoundToInt(totalCost * 0.7f));
-    }
-    public void setCamera(Camera camera)
-    {
-        this.mainCamera = camera;
     }
     public Sprite GetTowerIcon()
     {

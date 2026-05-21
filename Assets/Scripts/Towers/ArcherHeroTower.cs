@@ -17,6 +17,6 @@ public class ArcherHeroTower : Tower
     protected override void Upgrade2()
     {
         float newShootSpeed = 1.4f;
-        animator.SetFloat("shootSpeed", newShootSpeed);
+        UpdateShootSpeed(newShootSpeed);
     }
 }
