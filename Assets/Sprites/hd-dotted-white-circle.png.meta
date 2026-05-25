@@ -1,0 +1,2743 @@
+fileFormatVersion: 2
+guid: c92eaba14324f1a48b1bcb199d45e7c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -849762116708938396
+    second: hd-dotted-white-circle-Photoroom_0
+  - first:
+      213: 1174683259547542495
+    second: hd-dotted-white-circle-Photoroom_1
+  - first:
+      213: 7192758781726870821
+    second: hd-dotted-white-circle-Photoroom_2
+  - first:
+      213: -4341398390885263530
+    second: hd-dotted-white-circle-Photoroom_3
+  - first:
+      213: -6794863247655640465
+    second: hd-dotted-white-circle-Photoroom_4
+  - first:
+      213: -8771498492915638189
+    second: hd-dotted-white-circle-Photoroom_5
+  - first:
+      213: -7992312670226502904
+    second: hd-dotted-white-circle-Photoroom_6
+  - first:
+      213: 1771157455174579605
+    second: hd-dotted-white-circle-Photoroom_7
+  - first:
+      213: -981375432353595589
+    second: hd-dotted-white-circle-Photoroom_8
+  - first:
+      213: -1509386552291009642
+    second: hd-dotted-white-circle-Photoroom_9
+  - first:
+      213: -6716624736932203065
+    second: hd-dotted-white-circle-Photoroom_10
+  - first:
+      213: -889387159813932137
+    second: hd-dotted-white-circle-Photoroom_11
+  - first:
+      213: -8744641788310167316
+    second: hd-dotted-white-circle-Photoroom_12
+  - first:
+      213: -2396769511985209237
+    second: hd-dotted-white-circle-Photoroom_13
+  - first:
+      213: 277649660638159602
+    second: hd-dotted-white-circle-Photoroom_14
+  - first:
+      213: 3284483624249659783
+    second: hd-dotted-white-circle-Photoroom_15
+  - first:
+      213: 7039716979662178967
+    second: hd-dotted-white-circle-Photoroom_16
+  - first:
+      213: 9090068520721544490
+    second: hd-dotted-white-circle-Photoroom_17
+  - first:
+      213: 5022693184329850071
+    second: hd-dotted-white-circle-Photoroom_18
+  - first:
+      213: -1142580848023455146
+    second: hd-dotted-white-circle-Photoroom_19
+  - first:
+      213: -8066092963471976338
+    second: hd-dotted-white-circle-Photoroom_20
+  - first:
+      213: -7599020304813642172
+    second: hd-dotted-white-circle-Photoroom_21
+  - first:
+      213: 526058114328075474
+    second: hd-dotted-white-circle-Photoroom_22
+  - first:
+      213: -8028777055845385287
+    second: hd-dotted-white-circle-Photoroom_23
+  - first:
+      213: -2813297420312811107
+    second: hd-dotted-white-circle-Photoroom_24
+  - first:
+      213: -8078514490854843525
+    second: hd-dotted-white-circle-Photoroom_25
+  - first:
+      213: 8567674989240649260
+    second: hd-dotted-white-circle-Photoroom_26
+  - first:
+      213: -8747310088007545190
+    second: hd-dotted-white-circle-Photoroom_27
+  - first:
+      213: -5566937111163486546
+    second: hd-dotted-white-circle-Photoroom_28
+  - first:
+      213: 1026215037086242946
+    second: hd-dotted-white-circle-Photoroom_29
+  - first:
+      213: -7070649968558921749
+    second: hd-dotted-white-circle-Photoroom_30
+  - first:
+      213: -1848262455244460422
+    second: hd-dotted-white-circle-Photoroom_31
+  - first:
+      213: 1038284256703508000
+    second: hd-dotted-white-circle-Photoroom_32
+  - first:
+      213: 5625879995311794593
+    second: hd-dotted-white-circle-Photoroom_33
+  - first:
+      213: 4458930325124411050
+    second: hd-dotted-white-circle-Photoroom_34
+  - first:
+      213: -6099097270918168563
+    second: hd-dotted-white-circle-Photoroom_35
+  - first:
+      213: -1473650224614762266
+    second: hd-dotted-white-circle-Photoroom_36
+  - first:
+      213: -1805130867064243831
+    second: hd-dotted-white-circle-Photoroom_37
+  - first:
+      213: -3839515575962134390
+    second: hd-dotted-white-circle-Photoroom_38
+  - first:
+      213: 769538031723196710
+    second: hd-dotted-white-circle-Photoroom_39
+  - first:
+      213: -7818688065753903501
+    second: hd-dotted-white-circle-Photoroom_40
+  - first:
+      213: -2437154752549286541
+    second: hd-dotted-white-circle-Photoroom_41
+  - first:
+      213: -6380773102685258398
+    second: hd-dotted-white-circle-Photoroom_42
+  - first:
+      213: 7481582040736169927
+    second: hd-dotted-white-circle-Photoroom_43
+  - first:
+      213: 2233178008248798635
+    second: hd-dotted-white-circle-Photoroom_44
+  - first:
+      213: -4775962331218951279
+    second: hd-dotted-white-circle-Photoroom_45
+  - first:
+      213: 3975765614021569356
+    second: hd-dotted-white-circle-Photoroom_46
+  - first:
+      213: 255398156463834945
+    second: hd-dotted-white-circle-Photoroom_47
+  - first:
+      213: -6824088568912018589
+    second: hd-dotted-white-circle-Photoroom_48
+  - first:
+      213: -204064949876046893
+    second: hd-dotted-white-circle-Photoroom_49
+  - first:
+      213: -5907062284009300377
+    second: hd-dotted-white-circle-Photoroom_50
+  - first:
+      213: -2643891805979959141
+    second: hd-dotted-white-circle-Photoroom_51
+  - first:
+      213: 1308524448719907648
+    second: hd-dotted-white-circle-Photoroom_52
+  - first:
+      213: -5087609357484936732
+    second: hd-dotted-white-circle-Photoroom_53
+  - first:
+      213: 7576221329746164900
+    second: hd-dotted-white-circle-Photoroom_54
+  - first:
+      213: 6556676871161573303
+    second: hd-dotted-white-circle-Photoroom_55
+  - first:
+      213: -4695215566837036395
+    second: hd-dotted-white-circle-Photoroom_56
+  - first:
+      213: -189486938277537350
+    second: hd-dotted-white-circle-Photoroom_57
+  - first:
+      213: 955226553086377241
+    second: hd-dotted-white-circle-Photoroom_58
+  - first:
+      213: 7541587757820735888
+    second: hd-dotted-white-circle-Photoroom_59
+  - first:
+      213: -8222338588460919562
+    second: hd-dotted-white-circle-Photoroom_60
+  - first:
+      213: -7084763015778981829
+    second: hd-dotted-white-circle-Photoroom_61
+  - first:
+      213: 748243708687843030
+    second: hd-dotted-white-circle-Photoroom_62
+  - first:
+      213: 5867689075358653730
+    second: hd-dotted-white-circle-Photoroom_63
+  - first:
+      213: -1748865066672893904
+    second: hd-dotted-white-circle-Photoroom_64
+  - first:
+      213: -2216415501378374189
+    second: hd-dotted-white-circle-Photoroom_65
+  - first:
+      213: 3361306990370270060
+    second: hd-dotted-white-circle-Photoroom_66
+  - first:
+      213: 1124093470534556084
+    second: hd-dotted-white-circle-Photoroom_67
+  - first:
+      213: -213617784894841931
+    second: hd-dotted-white-circle-Photoroom_68
+  - first:
+      213: -6139126972174309366
+    second: hd-dotted-white-circle-Photoroom_69
+  - first:
+      213: 3269846012232796406
+    second: hd-dotted-white-circle-Photoroom_70
+  - first:
+      213: 7575210109893431562
+    second: hd-dotted-white-circle-Photoroom_71
+  - first:
+      213: -4059345433970653530
+    second: hd-dotted-white-circle-Photoroom_72
+  - first:
+      213: 2085711657583942053
+    second: hd-dotted-white-circle-Photoroom_73
+  - first:
+      213: -6759112431480873762
+    second: hd-dotted-white-circle-Photoroom_74
+  - first:
+      213: -7026130689204487668
+    second: hd-dotted-white-circle-Photoroom_75
+  - first:
+      213: 5906001886604614598
+    second: hd-dotted-white-circle-Photoroom_76
+  - first:
+      213: 937665983309055537
+    second: hd-dotted-white-circle-Photoroom_77
+  - first:
+      213: -2431646974986530891
+    second: hd-dotted-white-circle-Photoroom_78
+  - first:
+      213: -6346451924074492145
+    second: hd-dotted-white-circle-Photoroom_79
+  - first:
+      213: -2682324781380285954
+    second: hd-dotted-white-circle-Photoroom_80
+  - first:
+      213: 4052580129121346888
+    second: hd-dotted-white-circle-Photoroom_81
+  - first:
+      213: 5228739731219994207
+    second: hd-dotted-white-circle-Photoroom_82
+  - first:
+      213: 3945981627037828691
+    second: hd-dotted-white-circle-Photoroom_83
+  - first:
+      213: 613025650823614614
+    second: hd-dotted-white-circle-Photoroom_84
+  - first:
+      213: 9166141607890970489
+    second: hd-dotted-white-circle-Photoroom_85
+  - first:
+      213: 1040087906069591390
+    second: hd-dotted-white-circle-Photoroom_86
+  - first:
+      213: -3072704791490608011
+    second: hd-dotted-white-circle-Photoroom_87
+  - first:
+      213: -6521315283550488633
+    second: hd-dotted-white-circle-Photoroom_88
+  - first:
+      213: -905988417203808574
+    second: hd-dotted-white-circle-Photoroom_89
+  - first:
+      213: 7711233325761153668
+    second: hd-dotted-white-circle-Photoroom_90
+  - first:
+      213: -3363556485055703135
+    second: hd-dotted-white-circle-Photoroom_91
+  - first:
+      213: -6647855955397997928
+    second: hd-dotted-white-circle-Photoroom_92
+  - first:
+      213: -7394382171086042074
+    second: hd-dotted-white-circle-Photoroom_93
+  - first:
+      213: -7931846205251764429
+    second: hd-dotted-white-circle-Photoroom_94
+  - first:
+      213: 4993582149094622167
+    second: hd-dotted-white-circle-Photoroom_95
+  - first:
+      213: 3761249401782464090
+    second: hd-dotted-white-circle-Photoroom_96
+  - first:
+      213: -3961026321270468819
+    second: hd-dotted-white-circle-Photoroom_97
+  - first:
+      213: -6606291589694942577
+    second: hd-dotted-white-circle-Photoroom_98
+  - first:
+      213: -1408792693400535054
+    second: hd-dotted-white-circle-Photoroom_99
+  - first:
+      213: 1278688993733984250
+    second: hd-dotted-white-circle-Photoroom_100
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 596
+        width: 193
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dcaf96bd90534f0800000000000000
+      internalID: -849762116708938396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 678
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3ede863305d4010800000000000000
+      internalID: 1174683259547542495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 682
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dc6ebc000d1d360800000000000000
+      internalID: 7192758781726870821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 685
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657d4da4a2140c3c0800000000000000
+      internalID: -4341398390885263530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 687
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62e02280ebc3b1a0800000000000000
+      internalID: -6794863247655640465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 688
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350a3e51890654680800000000000000
+      internalID: -8771498492915638189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 687
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bab45b8f9951190800000000000000
+      internalID: -7992312670226502904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 685
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59537fc425a649810800000000000000
+      internalID: 1771157455174579605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 683
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fb44b6e347162f0800000000000000
+      internalID: -981375432353595589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 679
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b51f18de49d0be0800000000000000
+      internalID: -1509386552291009642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 674
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5fd815361c9c2a0800000000000000
+      internalID: -6716624736932203065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 598
+        width: 195
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b3f7f171348a3f0800000000000000
+      internalID: -889387159813932137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 659
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce06cb7ef9ac4a680800000000000000
+      internalID: -8744641788310167316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 667
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60a2a5d3d6fcbed0800000000000000
+      internalID: -2396769511985209237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 673
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2685235e86ad300800000000000000
+      internalID: 277649660638159602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 668
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7811dfd4474d49d20800000000000000
+      internalID: 3284483624249659783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 661
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79acc048b4912b160800000000000000
+      internalID: 7039716979662178967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 642
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2571998829662e70800000000000000
+      internalID: 9090068520721544490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 651
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc91cbf6d034b540800000000000000
+      internalID: 5022693184329850071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 653
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ab56ab5ccb420f0800000000000000
+      internalID: -1142580848023455146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 644
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6899fa8f2b7f0090800000000000000
+      internalID: -8066092963471976338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 621
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e2a9a4b4bda8690800000000000000
+      internalID: -7599020304813642172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 632
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc9cbb511fec4700800000000000000
+      internalID: 526058114328075474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 634
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb77855ecd049090800000000000000
+      internalID: -8028777055845385287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 623
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d996bb6d6e825f8d0800000000000000
+      internalID: -2813297420312811107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 609
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b50c35fd953ef80800000000000000
+      internalID: -8078514490854843525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 611
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2600bc520f76e670800000000000000
+      internalID: 8567674989240649260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 583
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e8e18f1df4b9680800000000000000
+      internalID: -8747310088007545190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 585
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae392a31344eb2b0800000000000000
+      internalID: -5566937111163486546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 571
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28890bc9329dd3e00800000000000000
+      internalID: 1026215037086242946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 569
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be72be4c05100ed90800000000000000
+      internalID: -7070649968558921749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 556
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e6677e617a956e0800000000000000
+      internalID: -1848262455244460422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 554
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e61b8c70ab86e00800000000000000
+      internalID: 1038284256703508000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_33
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 541
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9298d6c04231e40800000000000000
+      internalID: 5625879995311794593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 521
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaee14b918d41ed30800000000000000
+      internalID: 4458930325124411050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_35
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 538
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d004e54b857ab5ba0800000000000000
+      internalID: -6099097270918168563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_36
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 525
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e899aeadea8c8be0800000000000000
+      internalID: -1473650224614762266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_37
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 506
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989fa875a03e2f6e0800000000000000
+      internalID: -1805130867064243831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_38
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 509
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8892312dec47bac0800000000000000
+      internalID: -3839515575962134390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_39
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 488
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621b30e33c2fdaa00800000000000000
+      internalID: 769538031723196710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_40
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 492
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e072f11a07e7390800000000000000
+      internalID: -7818688065753903501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_41
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 471
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d05a74aac7d2ed0800000000000000
+      internalID: -2437154752549286541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_42
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 475
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26df31e7ba0f277a0800000000000000
+      internalID: -6380773102685258398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_43
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 454
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf75081a3be3d760800000000000000
+      internalID: 7481582040736169927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_44
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 457
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad42ed0197ddfe10800000000000000
+      internalID: 2233178008248798635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_45
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 436
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1934c0b509f58bdb0800000000000000
+      internalID: -4775962331218951279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_46
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 439
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4be7fde2c1cc2730800000000000000
+      internalID: 3975765614021569356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_47
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 418
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1470158254b5b8300800000000000000
+      internalID: 255398156463834945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_48
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 421
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36302362a97fb41a0800000000000000
+      internalID: -6824088568912018589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_49
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 400
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3c78f52040b2df0800000000000000
+      internalID: -204064949876046893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_50
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 403
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e948f4626e50ea0800000000000000
+      internalID: -5907062284009300377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_51
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 382
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90afff09620f4bd0800000000000000
+      internalID: -2643891805979959141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_52
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 385
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b2dd1ad00d82210800000000000000
+      internalID: 1308524448719907648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_53
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 364
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e13823ae3e2569b0800000000000000
+      internalID: -5087609357484936732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_54
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 367
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acf14ba825242960800000000000000
+      internalID: 7576221329746164900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_55
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 346
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfea9420eefdfa50800000000000000
+      internalID: 6556676871161573303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_56
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 349
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a4bca715e37deb0800000000000000
+      internalID: -4695215566837036395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_57
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 328
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9146232aece5df0800000000000000
+      internalID: -189486938277537350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_58
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 331
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dfbb03d75a14d00800000000000000
+      internalID: 955226553086377241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_59
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 310
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091f653db1a19a860800000000000000
+      internalID: 7541587757820735888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_60
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 314
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4dccb1e9264ed80800000000000000
+      internalID: -8222338588460919562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_61
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 293
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b382ba6e29dddad90800000000000000
+      internalID: -7084763015778981829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_62
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 297
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de72cd40bb426a00800000000000000
+      internalID: 748243708687843030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_63
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 276
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d513d20283e6150800000000000000
+      internalID: 5867689075358653730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_64
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 279
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0305fdcdc78cab7e0800000000000000
+      internalID: -1748865066672893904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_65
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 260
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d53ca538d5bd31e0800000000000000
+      internalID: -2216415501378374189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_66
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 263
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bae0616e2c5ae20800000000000000
+      internalID: 3361306990370270060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_67
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 244
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b95c854e05999f00800000000000000
+      internalID: 1124093470534556084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_68
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 247
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb13a5a1c3190df0800000000000000
+      internalID: -213617784894841931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_69
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 229
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08e7889b807dcaa0800000000000000
+      internalID: -6139126972174309366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_70
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 232
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f80d5daf93d06d20800000000000000
+      internalID: 3269846012232796406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_71
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 214
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a015523b57d802960800000000000000
+      internalID: 7575210109893431562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_72
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 217
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6439bc5de4aa7c0800000000000000
+      internalID: -4059345433970653530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_73
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 199
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a99e26b3bfe1fc10800000000000000
+      internalID: 2085711657583942053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_74
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 194
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcd7ac0e0fc232a0800000000000000
+      internalID: -6759112431480873762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_75
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 203
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0afe7c3d5b2e7e90800000000000000
+      internalID: -7026130689204487668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 197
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbdaddac6556f150800000000000000
+      internalID: 5906001886604614598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_77
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 174
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1368a1d6e32430d00800000000000000
+      internalID: 937665983309055537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_78
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 163
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf46cca5fd014ed0800000000000000
+      internalID: -2431646974986530891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_79
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 152
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f0279999fdce7a0800000000000000
+      internalID: -6346451924074492145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_80
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 142
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9c999a2d776cad0800000000000000
+      internalID: -2682324781380285954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_81
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 133
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845a51ce728ad3830800000000000000
+      internalID: 4052580129121346888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_82
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 125
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56d65e1517309840800000000000000
+      internalID: 5228739731219994207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_83
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 118
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356cec11261f2c630800000000000000
+      internalID: 3945981627037828691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_84
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 112
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6905b8bd497e18800800000000000000
+      internalID: 613025650823614614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_85
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 107
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977e4436a3da43f70800000000000000
+      internalID: 9166141607890970489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_86
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 103
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e553570a0722f6e00800000000000000
+      internalID: 1040087906069591390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_87
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 101
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574cf83a54f8b55d0800000000000000
+      internalID: -3072704791490608011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_88
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 99
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7b5af0d42af75a0800000000000000
+      internalID: -6521315283550488633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_89
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 99
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6d2fda5584d63f0800000000000000
+      internalID: -905988417203808574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_90
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 99
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ac52a9addc30b60800000000000000
+      internalID: 7711233325761153668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_91
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 100
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a71b4e923f3251d0800000000000000
+      internalID: -3363556485055703135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_92
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 104
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a898cfa321eb3a0800000000000000
+      internalID: -6647855955397997928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_93
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 108
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c4feea790e16990800000000000000
+      internalID: -7394382171086042074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_94
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 113
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f30faa6eb6ce190800000000000000
+      internalID: -7931846205251764429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_95
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 119
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d34489e184cc4540800000000000000
+      internalID: 4993582149094622167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_96
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 126
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ee4e82764a23430800000000000000
+      internalID: 3761249401782464090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_97
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 143
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f83b61c8b9709c0800000000000000
+      internalID: -3961026321270468819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_98
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 154
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8215910dccb154a0800000000000000
+      internalID: -6606291589694942577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_99
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 165
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fff1bb6286f27ce0800000000000000
+      internalID: -1408792693400535054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd-dotted-white-circle-Photoroom_100
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 176
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff37b17dd0deb110800000000000000
+      internalID: 1278688993733984250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hd-dotted-white-circle-Photoroom_0: -849762116708938396
+      hd-dotted-white-circle-Photoroom_1: 1174683259547542495
+      hd-dotted-white-circle-Photoroom_10: -6716624736932203065
+      hd-dotted-white-circle-Photoroom_100: 1278688993733984250
+      hd-dotted-white-circle-Photoroom_11: -889387159813932137
+      hd-dotted-white-circle-Photoroom_12: -8744641788310167316
+      hd-dotted-white-circle-Photoroom_13: -2396769511985209237
+      hd-dotted-white-circle-Photoroom_14: 277649660638159602
+      hd-dotted-white-circle-Photoroom_15: 3284483624249659783
+      hd-dotted-white-circle-Photoroom_16: 7039716979662178967
+      hd-dotted-white-circle-Photoroom_17: 9090068520721544490
+      hd-dotted-white-circle-Photoroom_18: 5022693184329850071
+      hd-dotted-white-circle-Photoroom_19: -1142580848023455146
+      hd-dotted-white-circle-Photoroom_2: 7192758781726870821
+      hd-dotted-white-circle-Photoroom_20: -8066092963471976338
+      hd-dotted-white-circle-Photoroom_21: -7599020304813642172
+      hd-dotted-white-circle-Photoroom_22: 526058114328075474
+      hd-dotted-white-circle-Photoroom_23: -8028777055845385287
+      hd-dotted-white-circle-Photoroom_24: -2813297420312811107
+      hd-dotted-white-circle-Photoroom_25: -8078514490854843525
+      hd-dotted-white-circle-Photoroom_26: 8567674989240649260
+      hd-dotted-white-circle-Photoroom_27: -8747310088007545190
+      hd-dotted-white-circle-Photoroom_28: -5566937111163486546
+      hd-dotted-white-circle-Photoroom_29: 1026215037086242946
+      hd-dotted-white-circle-Photoroom_3: -4341398390885263530
+      hd-dotted-white-circle-Photoroom_30: -7070649968558921749
+      hd-dotted-white-circle-Photoroom_31: -1848262455244460422
+      hd-dotted-white-circle-Photoroom_32: 1038284256703508000
+      hd-dotted-white-circle-Photoroom_33: 5625879995311794593
+      hd-dotted-white-circle-Photoroom_34: 4458930325124411050
+      hd-dotted-white-circle-Photoroom_35: -6099097270918168563
+      hd-dotted-white-circle-Photoroom_36: -1473650224614762266
+      hd-dotted-white-circle-Photoroom_37: -1805130867064243831
+      hd-dotted-white-circle-Photoroom_38: -3839515575962134390
+      hd-dotted-white-circle-Photoroom_39: 769538031723196710
+      hd-dotted-white-circle-Photoroom_4: -6794863247655640465
+      hd-dotted-white-circle-Photoroom_40: -7818688065753903501
+      hd-dotted-white-circle-Photoroom_41: -2437154752549286541
+      hd-dotted-white-circle-Photoroom_42: -6380773102685258398
+      hd-dotted-white-circle-Photoroom_43: 7481582040736169927
+      hd-dotted-white-circle-Photoroom_44: 2233178008248798635
+      hd-dotted-white-circle-Photoroom_45: -4775962331218951279
+      hd-dotted-white-circle-Photoroom_46: 3975765614021569356
+      hd-dotted-white-circle-Photoroom_47: 255398156463834945
+      hd-dotted-white-circle-Photoroom_48: -6824088568912018589
+      hd-dotted-white-circle-Photoroom_49: -204064949876046893
+      hd-dotted-white-circle-Photoroom_5: -8771498492915638189
+      hd-dotted-white-circle-Photoroom_50: -5907062284009300377
+      hd-dotted-white-circle-Photoroom_51: -2643891805979959141
+      hd-dotted-white-circle-Photoroom_52: 1308524448719907648
+      hd-dotted-white-circle-Photoroom_53: -5087609357484936732
+      hd-dotted-white-circle-Photoroom_54: 7576221329746164900
+      hd-dotted-white-circle-Photoroom_55: 6556676871161573303
+      hd-dotted-white-circle-Photoroom_56: -4695215566837036395
+      hd-dotted-white-circle-Photoroom_57: -189486938277537350
+      hd-dotted-white-circle-Photoroom_58: 955226553086377241
+      hd-dotted-white-circle-Photoroom_59: 7541587757820735888
+      hd-dotted-white-circle-Photoroom_6: -7992312670226502904
+      hd-dotted-white-circle-Photoroom_60: -8222338588460919562
+      hd-dotted-white-circle-Photoroom_61: -7084763015778981829
+      hd-dotted-white-circle-Photoroom_62: 748243708687843030
+      hd-dotted-white-circle-Photoroom_63: 5867689075358653730
+      hd-dotted-white-circle-Photoroom_64: -1748865066672893904
+      hd-dotted-white-circle-Photoroom_65: -2216415501378374189
+      hd-dotted-white-circle-Photoroom_66: 3361306990370270060
+      hd-dotted-white-circle-Photoroom_67: 1124093470534556084
+      hd-dotted-white-circle-Photoroom_68: -213617784894841931
+      hd-dotted-white-circle-Photoroom_69: -6139126972174309366
+      hd-dotted-white-circle-Photoroom_7: 1771157455174579605
+      hd-dotted-white-circle-Photoroom_70: 3269846012232796406
+      hd-dotted-white-circle-Photoroom_71: 7575210109893431562
+      hd-dotted-white-circle-Photoroom_72: -4059345433970653530
+      hd-dotted-white-circle-Photoroom_73: 2085711657583942053
+      hd-dotted-white-circle-Photoroom_74: -6759112431480873762
+      hd-dotted-white-circle-Photoroom_75: -7026130689204487668
+      hd-dotted-white-circle-Photoroom_76: 5906001886604614598
+      hd-dotted-white-circle-Photoroom_77: 937665983309055537
+      hd-dotted-white-circle-Photoroom_78: -2431646974986530891
+      hd-dotted-white-circle-Photoroom_79: -6346451924074492145
+      hd-dotted-white-circle-Photoroom_8: -981375432353595589
+      hd-dotted-white-circle-Photoroom_80: -2682324781380285954
+      hd-dotted-white-circle-Photoroom_81: 4052580129121346888
+      hd-dotted-white-circle-Photoroom_82: 5228739731219994207
+      hd-dotted-white-circle-Photoroom_83: 3945981627037828691
+      hd-dotted-white-circle-Photoroom_84: 613025650823614614
+      hd-dotted-white-circle-Photoroom_85: 9166141607890970489
+      hd-dotted-white-circle-Photoroom_86: 1040087906069591390
+      hd-dotted-white-circle-Photoroom_87: -3072704791490608011
+      hd-dotted-white-circle-Photoroom_88: -6521315283550488633
+      hd-dotted-white-circle-Photoroom_89: -905988417203808574
+      hd-dotted-white-circle-Photoroom_9: -1509386552291009642
+      hd-dotted-white-circle-Photoroom_90: 7711233325761153668
+      hd-dotted-white-circle-Photoroom_91: -3363556485055703135
+      hd-dotted-white-circle-Photoroom_92: -6647855955397997928
+      hd-dotted-white-circle-Photoroom_93: -7394382171086042074
+      hd-dotted-white-circle-Photoroom_94: -7931846205251764429
+      hd-dotted-white-circle-Photoroom_95: 4993582149094622167
+      hd-dotted-white-circle-Photoroom_96: 3761249401782464090
+      hd-dotted-white-circle-Photoroom_97: -3961026321270468819
+      hd-dotted-white-circle-Photoroom_98: -6606291589694942577
+      hd-dotted-white-circle-Photoroom_99: -1408792693400535054
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

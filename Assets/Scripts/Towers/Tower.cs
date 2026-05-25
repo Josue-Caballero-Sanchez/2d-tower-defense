@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
+using MoreMountains.Feedbacks;
+using System.Collections;
 
 public abstract class Tower : MonoBehaviour
 {
@@ -8,9 +10,17 @@ public abstract class Tower : MonoBehaviour
     [SerializeField] private LayerMask zombieLayer;
     [SerializeField] private List<TowerUpgradeSO> upgrades;
     [SerializeField] private Sprite towerIcon;
-    private SpriteRenderer spriteRenderer;
     [SerializeField] private Material LevelOneMaterial;
     [SerializeField] private Material LevelTwoMaterial;
+    [SerializeField] private Material LevelThreeMaterial;
+    [SerializeField] private Material LevelFourMaterial;
+    [SerializeField] private GameObject auraGameObject;
+    [SerializeField] private MMFeedbacks upgradeFeedback;
+    [SerializeField] private MMFeedbacks finalUpgradeFeedback;
+    [SerializeField] private MMFeedbacks placeFeedback;
+    [SerializeField] private MMFeedbacks sellFeedback;
+    [SerializeField] private GameObject selectionIndicator;
+    private SpriteRenderer spriteRenderer;
     protected string towerName;
     protected int currentDamage = 25;
     protected int currentLevel = 0;
@@ -18,6 +28,11 @@ public abstract class Tower : MonoBehaviour
     private float shootSpeed = 1f;
     private PlacementArea placementArea;
     protected Animator animator;
+    private float levelTwoAnimationtimer = 0f;
+    private float levelTwoAnimationDuration = 1f;
+    private int animationDirection = 1;
+    private bool isLevelTwoAnimationActive = false;
+    private bool isTowerCurrentlySelected = false;
 
     protected virtual void Awake()
     {
@@ -28,11 +43,33 @@ public abstract class Tower : MonoBehaviour
     private void Start()
     {
         UpdateShootSpeed(shootSpeed);
+        placeFeedback.PlayFeedbacks();
     }
 
     private void Update()
     {
         CheckEnemyInLane();
+        if (isLevelTwoAnimationActive)
+        {
+            LevelTwoAnimation();
+        }
+    }
+
+    private void LevelTwoAnimation()
+    {
+        levelTwoAnimationtimer += Time.deltaTime * animationDirection;
+
+        if (levelTwoAnimationtimer > levelTwoAnimationDuration)
+        {
+            levelTwoAnimationtimer = levelTwoAnimationDuration;
+            animationDirection = -1;
+        }
+        if (levelTwoAnimationtimer < 0)
+        {
+            animationDirection = 1;
+            levelTwoAnimationtimer = 0;
+        }
+        spriteRenderer.material.SetFloat("_OutlineAlpha", levelTwoAnimationtimer / levelTwoAnimationDuration);
     }
 
     private void CheckEnemyInLane()
@@ -76,12 +113,58 @@ public abstract class Tower : MonoBehaviour
             case 2:
                 Upgrade2();
                 spriteRenderer.material = LevelTwoMaterial;
+                isLevelTwoAnimationActive = true;
+                break;
+            case 3:
+                Upgrade3();
+                spriteRenderer.material = LevelThreeMaterial;
+                break;
+            case 4:
+                Upgrade4();
+                spriteRenderer.material = LevelFourMaterial;
+                auraGameObject.SetActive(true);
                 break;
             default:
                 break;
         }
 
         currentLevel++;
+        if (currentLevel == upgrades.Count)
+        {
+            finalUpgradeFeedback.PlayFeedbacks();
+        }
+        else
+        {
+            upgradeFeedback.PlayFeedbacks();
+        }
+
+        if (isTowerCurrentlySelected)
+        {
+            ShowSelectionIndicator();
+        }
+    }
+
+    public void ResetMaterial(int level)
+    {
+        switch (level)
+        {
+            case 1:
+                spriteRenderer.material = LevelOneMaterial;
+                break;
+            case 2:
+                spriteRenderer.material = LevelTwoMaterial;
+                isLevelTwoAnimationActive = true;
+                break;
+            case 3:
+                spriteRenderer.material = LevelThreeMaterial;
+                break;
+            case 4:
+                spriteRenderer.material = LevelFourMaterial;
+                auraGameObject.SetActive(true);
+                break;
+            default:
+                break;
+        }
     }
 
     public void UpdateTotalCost(int amount)
@@ -102,11 +185,47 @@ public abstract class Tower : MonoBehaviour
 
     public void Sell()
     {
-        Destroy(gameObject);
+        sellFeedback.PlayFeedbacks();
         UpgradeUI.Instance.Hide();
         placementArea.UpdateHasTowerPlaced(false);
         ScoreManager.Instance.UpdateScore(Mathf.RoundToInt(totalCost * 0.7f));
+        StartCoroutine(DestroyAfterFeedback());
     }
+    private IEnumerator DestroyAfterFeedback()
+    {
+        spriteRenderer.enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+        animator.enabled = false;
+        Destroy(auraGameObject);
+
+        yield return new WaitForSeconds(1f);
+        Destroy(gameObject);
+    }
+
+    public void ShowSelectionIndicator()
+    {
+        //selectionIndicator.SetActive(true);
+        isTowerCurrentlySelected = true;
+
+        spriteRenderer.material.SetColor("_OutlineColor", Color.white);
+        spriteRenderer.material.SetFloat("_OutlineAlpha", 1f);
+        spriteRenderer.material.SetFloat("_OutlineGlow", 1.5f);
+        spriteRenderer.material.SetFloat("_OutlineWidth", 0.015f);
+        if (currentLevel == 2)
+        {
+            isLevelTwoAnimationActive = false;
+        }
+    }
+
+    public void HideSelectionIndicator()
+    {
+        //selectionIndicator.SetActive(false);
+        isTowerCurrentlySelected = false;
+
+        spriteRenderer.material.SetFloat("_OutlineAlpha", 0f);
+        ResetMaterial(currentLevel);
+    }
+
     public Sprite GetTowerIcon()
     {
         return towerIcon;
@@ -127,4 +246,6 @@ public abstract class Tower : MonoBehaviour
     }
     protected abstract void Upgrade1();
     protected abstract void Upgrade2();
+    protected abstract void Upgrade3();
+    protected abstract void Upgrade4();
 }

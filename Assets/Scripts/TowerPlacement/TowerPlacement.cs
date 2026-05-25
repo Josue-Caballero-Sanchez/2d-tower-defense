@@ -15,9 +15,10 @@ public class TowerPlacement : MonoBehaviour
     [SerializeField] private LayerMask placementAreaLayerMask;
     private GameObject towerPrefab;
     private GameObject ghostTower;
+    private Tower currentSelectedTower;
     private PlacementArea currentPlacementArea;
     private int towerCost = 0;
-    private float placementCooldown = 0.1f;
+    private float placementCooldown = 0.2f;
 
     private void Awake()
     {
@@ -125,8 +126,17 @@ public class TowerPlacement : MonoBehaviour
         }
         currentPlacementArea.UpdateHasTowerPlaced(true);
         ScoreManager.Instance.UpdateScore(-towerCost);
-        placementCooldown = 0.1f;
+        placementCooldown = 0.2f;
         CancelPlacement();
+    }
+
+    private void HideCurrentTowerSelection()
+    {
+        if (currentSelectedTower != null)
+        {
+            currentSelectedTower.HideSelectionIndicator();
+            currentSelectedTower = null;
+        }
     }
 
     private void HandleLeftMouseClicked()
@@ -159,11 +169,13 @@ public class TowerPlacement : MonoBehaviour
                 {
                     CancelPlacement();
                     UpgradeUI.Instance.Hide();
+                    HideCurrentTowerSelection();
 
                 }
                 else if (!clickedUpgradeUI)
                 {
                     UpgradeUI.Instance.Hide();
+                    HideCurrentTowerSelection();
                 }
 
                 return;
@@ -177,6 +189,13 @@ public class TowerPlacement : MonoBehaviour
                 if (placementCooldown <= 0)
                 {
                     UpgradeUI.Instance.Show(tower.GetNextUpgrade(), tower);
+                    if (currentSelectedTower != null && currentSelectedTower != tower)
+                    {
+                        HideCurrentTowerSelection();
+                    }
+
+                    currentSelectedTower = tower;
+                    tower.ShowSelectionIndicator();
                 }
                 return;
             }
@@ -188,12 +207,14 @@ public class TowerPlacement : MonoBehaviour
                 {
                     CancelPlacement();
                     UpgradeUI.Instance.Hide();
+                    HideCurrentTowerSelection();
                     return;
                 }
             }
 
             CancelPlacement();
             UpgradeUI.Instance.Hide();
+            HideCurrentTowerSelection();
         }
     }
 

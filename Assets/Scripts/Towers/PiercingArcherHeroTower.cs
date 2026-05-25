@@ -20,4 +20,13 @@ public class PiercingArcherHeroTower : Tower
     {
 
     }
+    protected override void Upgrade3()
+    {
+
+    }
+
+    protected override void Upgrade4()
+    {
+
+    }
 }
