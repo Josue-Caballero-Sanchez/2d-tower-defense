@@ -6,7 +6,7 @@ using System.Collections;
 public abstract class Tower : MonoBehaviour
 {
     [SerializeField] protected Projectile projectilePrefab;
-    [SerializeField] private Transform shootPoint;
+    [SerializeField] protected Transform shootPoint;
     [SerializeField] private LayerMask zombieLayer;
     [SerializeField] private List<TowerUpgradeSO> upgrades;
     [SerializeField] private Sprite towerIcon;
@@ -33,6 +33,7 @@ public abstract class Tower : MonoBehaviour
     private int animationDirection = 1;
     private bool isLevelTwoAnimationActive = false;
     private bool isTowerCurrentlySelected = false;
+    private int pierce = 0;
 
     protected virtual void Awake()
     {
@@ -82,6 +83,7 @@ public abstract class Tower : MonoBehaviour
     {
         Projectile projectileInstance = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
         projectileInstance.SetDamage(currentDamage);
+        projectileInstance.SetPierce(pierce);
     }
 
     public void SetPlacementArea(PlacementArea placementArea)
@@ -181,6 +183,16 @@ public abstract class Tower : MonoBehaviour
     {
         shootSpeed = newShootSpeed;
         animator.SetFloat("shootSpeed", newShootSpeed);
+    }
+
+    protected void UpdateDamage(int newDamage)
+    {
+        currentDamage = newDamage;
+    }
+
+    public void UpdatePierce(int newPierce)
+    {
+        pierce = newPierce;
     }
 
     public void Sell()

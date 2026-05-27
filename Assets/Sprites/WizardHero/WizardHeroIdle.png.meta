@@ -1,0 +1,1055 @@
+fileFormatVersion: 2
+guid: 82b9c430ba9e0d041a748777f023e2bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8407827595969773658
+    second: WizardHeroIdle_0
+  - first:
+      213: 8855271043533082051
+    second: WizardHeroIdle_1
+  - first:
+      213: 6484600297581803743
+    second: WizardHeroIdle_2
+  - first:
+      213: -9139567089716074119
+    second: WizardHeroIdle_3
+  - first:
+      213: 8297418094421839602
+    second: WizardHeroIdle_4
+  - first:
+      213: -1635589180458522751
+    second: WizardHeroIdle_5
+  - first:
+      213: 3935790931014120927
+    second: WizardHeroIdle_6
+  - first:
+      213: 142362920199058467
+    second: WizardHeroIdle_7
+  - first:
+      213: 3101231371010145466
+    second: WizardHeroIdle_8
+  - first:
+      213: -4563759602595174868
+    second: WizardHeroIdle_9
+  - first:
+      213: 6793158884881691927
+    second: WizardHeroIdle_10
+  - first:
+      213: 3324500195058625818
+    second: WizardHeroIdle_11
+  - first:
+      213: 2977224671074305547
+    second: WizardHeroIdle_12
+  - first:
+      213: -3772209753304442175
+    second: WizardHeroIdle_13
+  - first:
+      213: 6574714249975176602
+    second: WizardHeroIdle_14
+  - first:
+      213: 5899650869467432917
+    second: WizardHeroIdle_15
+  - first:
+      213: 5881136196920369739
+    second: WizardHeroIdle_16
+  - first:
+      213: 805661742485790975
+    second: WizardHeroIdle_17
+  - first:
+      213: -6455055482006813930
+    second: WizardHeroIdle_18
+  - first:
+      213: 1349763272745247479
+    second: WizardHeroIdle_19
+  - first:
+      213: 5707191153339874573
+    second: WizardHeroIdle_20
+  - first:
+      213: -5734275489143108533
+    second: WizardHeroIdle_21
+  - first:
+      213: -5412061395574039919
+    second: WizardHeroIdle_22
+  - first:
+      213: -68432904688754549
+    second: WizardHeroIdle_23
+  - first:
+      213: -6224130871171025495
+    second: WizardHeroIdle_24
+  - first:
+      213: 3769820980422985512
+    second: WizardHeroIdle_25
+  - first:
+      213: 4320982922407238983
+    second: WizardHeroIdle_26
+  - first:
+      213: -888050812495054860
+    second: WizardHeroIdle_27
+  - first:
+      213: 3271352051873703703
+    second: WizardHeroIdle_28
+  - first:
+      213: -6956068173582980291
+    second: WizardHeroIdle_29
+  - first:
+      213: -7595143934174872799
+    second: WizardHeroIdle_30
+  - first:
+      213: 513178920186624562
+    second: WizardHeroIdle_31
+  - first:
+      213: -1785956668478357803
+    second: WizardHeroIdle_32
+  - first:
+      213: -8384992203237430700
+    second: WizardHeroIdle_33
+  - first:
+      213: -749917158182948048
+    second: WizardHeroIdle_34
+  - first:
+      213: -1276016570349530348
+    second: WizardHeroIdle_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WizardHeroIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 665
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afbe791955615b80800000000000000
+      internalID: -8407827595969773658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 665
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd879bc81e34ea70800000000000000
+      internalID: 8855271043533082051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 665
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd871cf1d9dedf950800000000000000
+      internalID: 6484600297581803743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 665
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9796f98c72cb92180800000000000000
+      internalID: -9139567089716074119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 665
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe89e69bc9562370800000000000000
+      internalID: 8297418094421839602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_5
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 665
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1872c4c5e483d49e0800000000000000
+      internalID: -1635589180458522751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5fc41cffcbe9630800000000000000
+      internalID: 3935790931014120927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_7
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 532
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324f6a75256c9f100800000000000000
+      internalID: 142362920199058467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_8
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 532
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc7b5b3089c90b20800000000000000
+      internalID: 3101231371010145466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_9
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 532
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26690f32d44aa0c0800000000000000
+      internalID: -4563759602595174868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 532
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715792c9306264e50800000000000000
+      internalID: 6793158884881691927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_11
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 532
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1daf2e305ff22e20800000000000000
+      internalID: 3324500195058625818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06c9e7701a315920800000000000000
+      internalID: 2977224671074305547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 399
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca5604273b66abc0800000000000000
+      internalID: -3772209753304442175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_14
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 399
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d1879a6c31e3b50800000000000000
+      internalID: 6574714249975176602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_15
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 399
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d74e654535cfd150800000000000000
+      internalID: 5899650869467432917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_16
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 399
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b426125263efd9150800000000000000
+      internalID: 5881136196920369739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_17
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 399
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0ecf116194e2b00800000000000000
+      internalID: 805661742485790975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613cb8d4d390b66a0800000000000000
+      internalID: -6455055482006813930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 266
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f269d29b825bb210800000000000000
+      internalID: 1349763272745247479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_20
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 266
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d3310bd14043f40800000000000000
+      internalID: 5707191153339874573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_21
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 266
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c4569f2d2cb60b0800000000000000
+      internalID: -5734275489143108533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 266
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a5436c5de74e4b0800000000000000
+      internalID: -5412061395574039919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_23
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 266
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b802411c2a0ec0ff0800000000000000
+      internalID: -68432904688754549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5fe4413f17f99a0800000000000000
+      internalID: -6224130871171025495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_25
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 133
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8274de45538115430800000000000000
+      internalID: 3769820980422985512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_26
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 133
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ddc9a031737fb30800000000000000
+      internalID: 4320982922407238983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_27
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 133
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f73cbabd720da3f0800000000000000
+      internalID: -888050812495054860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_28
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 133
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7176d2bdb5d266d20800000000000000
+      internalID: 3271352051873703703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_29
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 133
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3baf28d9d4177f90800000000000000
+      internalID: -6956068173582980291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b3b8925d0a89690800000000000000
+      internalID: -7595143934174872799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_31
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a31fb428d2f1700800000000000000
+      internalID: 513178920186624562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_32
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de7b175fd10737e0800000000000000
+      internalID: -1785956668478357803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_33
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45aec99440682ab80800000000000000
+      internalID: -8384992203237430700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_34
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033f88f5152c795f0800000000000000
+      internalID: -749917158182948048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroIdle_35
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 0
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413ddcc90bdaa4ee0800000000000000
+      internalID: -1276016570349530348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0e1b1caf61cdae441ba7682b2b2d0941
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":125.0,"y":133.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      WizardHeroIdle_0: -8407827595969773658
+      WizardHeroIdle_1: 8855271043533082051
+      WizardHeroIdle_10: 6793158884881691927
+      WizardHeroIdle_11: 3324500195058625818
+      WizardHeroIdle_12: 2977224671074305547
+      WizardHeroIdle_13: -3772209753304442175
+      WizardHeroIdle_14: 6574714249975176602
+      WizardHeroIdle_15: 5899650869467432917
+      WizardHeroIdle_16: 5881136196920369739
+      WizardHeroIdle_17: 805661742485790975
+      WizardHeroIdle_18: -6455055482006813930
+      WizardHeroIdle_19: 1349763272745247479
+      WizardHeroIdle_2: 6484600297581803743
+      WizardHeroIdle_20: 5707191153339874573
+      WizardHeroIdle_21: -5734275489143108533
+      WizardHeroIdle_22: -5412061395574039919
+      WizardHeroIdle_23: -68432904688754549
+      WizardHeroIdle_24: -6224130871171025495
+      WizardHeroIdle_25: 3769820980422985512
+      WizardHeroIdle_26: 4320982922407238983
+      WizardHeroIdle_27: -888050812495054860
+      WizardHeroIdle_28: 3271352051873703703
+      WizardHeroIdle_29: -6956068173582980291
+      WizardHeroIdle_3: -9139567089716074119
+      WizardHeroIdle_30: -7595143934174872799
+      WizardHeroIdle_31: 513178920186624562
+      WizardHeroIdle_32: -1785956668478357803
+      WizardHeroIdle_33: -8384992203237430700
+      WizardHeroIdle_34: -749917158182948048
+      WizardHeroIdle_35: -1276016570349530348
+      WizardHeroIdle_4: 8297418094421839602
+      WizardHeroIdle_5: -1635589180458522751
+      WizardHeroIdle_6: 3935790931014120927
+      WizardHeroIdle_7: 142362920199058467
+      WizardHeroIdle_8: 3101231371010145466
+      WizardHeroIdle_9: -4563759602595174868
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

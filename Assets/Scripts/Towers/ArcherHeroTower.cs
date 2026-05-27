@@ -13,7 +13,7 @@ public class ArcherHeroTower : Tower
     protected override void Upgrade1()
     {
         int newDamage = 35;
-        currentDamage = newDamage;
+        UpdateDamage(newDamage);
     }
 
     protected override void Upgrade2()
@@ -27,7 +27,7 @@ public class ArcherHeroTower : Tower
         UpdateShootSpeed(newShootSpeed);
 
         int newDamage = 50;
-        currentDamage = newDamage;
+        UpdateDamage(newDamage);
     }
 
     protected override void Upgrade4()

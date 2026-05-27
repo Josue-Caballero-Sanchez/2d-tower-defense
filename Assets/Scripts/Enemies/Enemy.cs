@@ -45,7 +45,7 @@ public class Enemy : MonoBehaviour
     private IEnumerator HitEffect()
     {
         enemyMaterial.SetFloat("_HitEffectGlow", 1f);
-        enemyMaterial.SetFloat("_HitEffectBlend", 0.2f);
+        enemyMaterial.SetFloat("_HitEffectBlend", 0.3f);
         yield return new WaitForSeconds(0.1f);
 
         enemyMaterial.SetFloat("_HitEffectBlend", 0f);

@@ -1,0 +1,1211 @@
+fileFormatVersion: 2
+guid: c506960cee53a5d4990171fdfe82d28c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5475601059014426571
+    second: WizardHeroShoot_0
+  - first:
+      213: -7045029993691904170
+    second: WizardHeroShoot_1
+  - first:
+      213: 7861341534581675883
+    second: WizardHeroShoot_2
+  - first:
+      213: -6686858874978081822
+    second: WizardHeroShoot_3
+  - first:
+      213: -8187845685882684653
+    second: WizardHeroShoot_4
+  - first:
+      213: 8119592275542676638
+    second: WizardHeroShoot_5
+  - first:
+      213: -1718099465725364403
+    second: WizardHeroShoot_6
+  - first:
+      213: 7114727891775020344
+    second: WizardHeroShoot_7
+  - first:
+      213: -6453526055395135664
+    second: WizardHeroShoot_8
+  - first:
+      213: 7708151740315671086
+    second: WizardHeroShoot_9
+  - first:
+      213: 5369293508438761336
+    second: WizardHeroShoot_10
+  - first:
+      213: 6295298271989011240
+    second: WizardHeroShoot_11
+  - first:
+      213: 6316384259917056836
+    second: WizardHeroShoot_12
+  - first:
+      213: -5119659048859477047
+    second: WizardHeroShoot_13
+  - first:
+      213: 7809010118456845676
+    second: WizardHeroShoot_14
+  - first:
+      213: 969712300276406702
+    second: WizardHeroShoot_15
+  - first:
+      213: 5119324577359904113
+    second: WizardHeroShoot_16
+  - first:
+      213: -8015978711006820369
+    second: WizardHeroShoot_17
+  - first:
+      213: 6244228806001656631
+    second: WizardHeroShoot_18
+  - first:
+      213: -500027715656118113
+    second: WizardHeroShoot_19
+  - first:
+      213: 5741230370823240808
+    second: WizardHeroShoot_20
+  - first:
+      213: -7904913208411514901
+    second: WizardHeroShoot_21
+  - first:
+      213: -2129394935166978689
+    second: WizardHeroShoot_22
+  - first:
+      213: 3508930743534652132
+    second: WizardHeroShoot_23
+  - first:
+      213: -8027715604253876817
+    second: WizardHeroShoot_24
+  - first:
+      213: 8394614917585686492
+    second: WizardHeroShoot_25
+  - first:
+      213: -9029777163289284089
+    second: WizardHeroShoot_26
+  - first:
+      213: -569661926732273923
+    second: WizardHeroShoot_27
+  - first:
+      213: -8850246010212395654
+    second: WizardHeroShoot_28
+  - first:
+      213: -795957660591640162
+    second: WizardHeroShoot_29
+  - first:
+      213: -1602838713387363637
+    second: WizardHeroShoot_30
+  - first:
+      213: 7738773186630685336
+    second: WizardHeroShoot_31
+  - first:
+      213: 7076947235242587912
+    second: WizardHeroShoot_32
+  - first:
+      213: 1944415882089955758
+    second: WizardHeroShoot_33
+  - first:
+      213: 4856803283040264163
+    second: WizardHeroShoot_34
+  - first:
+      213: -7234515186523247371
+    second: WizardHeroShoot_35
+  - first:
+      213: -8538346230131153030
+    second: WizardHeroShoot_36
+  - first:
+      213: 4968361642056128388
+    second: WizardHeroShoot_37
+  - first:
+      213: 5218485854923353529
+    second: WizardHeroShoot_38
+  - first:
+      213: -3551107878553266545
+    second: WizardHeroShoot_39
+  - first:
+      213: 1704093751605000188
+    second: WizardHeroShoot_40
+  - first:
+      213: -3467399716702578646
+    second: WizardHeroShoot_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WizardHeroShoot_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 689
+        width: 112
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfbe46f62e3dfb40800000000000000
+      internalID: 5475601059014426571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 689
+        width: 112
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65785020c860b3e90800000000000000
+      internalID: -7045029993691904170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_2
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 689
+        width: 111
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67d3ca7978191d60800000000000000
+      internalID: 7861341534581675883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 689
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e363cd18418333a0800000000000000
+      internalID: -6686858874978081822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_4
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 689
+        width: 121
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b7f31dabdee5e80800000000000000
+      internalID: -8187845685882684653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_5
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 689
+        width: 120
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e941ab8b7269ea070800000000000000
+      internalID: 8119592275542676638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 552
+        width: 103
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47b6a883a51828e0800000000000000
+      internalID: -1718099465725364403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 552
+        width: 113
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d50d672579cb260800000000000000
+      internalID: 7114727891775020344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_8
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 552
+        width: 113
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fe17fae387076a0800000000000000
+      internalID: -6453526055395135664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_9
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 552
+        width: 113
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a13541b2bd8fa60800000000000000
+      internalID: 7708151740315671086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_10
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 552
+        width: 113
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f9d498fff838a40800000000000000
+      internalID: 5369293508438761336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_11
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 552
+        width: 113
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8231909ac646d5750800000000000000
+      internalID: 6295298271989011240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 113
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b893dc40e48a750800000000000000
+      internalID: 6316384259917056836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_13
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 415
+        width: 113
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbdd9d583153f8b0800000000000000
+      internalID: -5119659048859477047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_14
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 415
+        width: 113
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c652d0e245d2f5c60800000000000000
+      internalID: 7809010118456845676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_15
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 415
+        width: 115
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea95d48033c157d00800000000000000
+      internalID: 969712300276406702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_16
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 448
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17db67b649e7b0740800000000000000
+      internalID: 5119324577359904113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_17
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 415
+        width: 156
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7485335d581c090800000000000000
+      internalID: -8015978711006820369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_18
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 415
+        width: 151
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7338df50405f7a650800000000000000
+      internalID: 6244228806001656631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 278
+        width: 168
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90977e117b8f09f0800000000000000
+      internalID: -500027715656118113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_20
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 278
+        width: 138
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c7a9a9a92fcaf40800000000000000
+      internalID: 5741230370823240808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_21
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 278
+        width: 138
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be79658a15b1c4290800000000000000
+      internalID: -7904913208411514901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 278
+        width: 139
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f753bd6a69ed272e0800000000000000
+      internalID: -2129394935166978689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_23
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 278
+        width: 139
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea84dd8be932b030800000000000000
+      internalID: 3508930743534652132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_24
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 279
+        width: 139
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad569ac033d79090800000000000000
+      internalID: -8027715604253876817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 141
+        width: 125
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfc3ec7ac9af7470800000000000000
+      internalID: 8394614917585686492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_26
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 226
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70235350389cfa280800000000000000
+      internalID: -9029777163289284089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_27
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 141
+        width: 125
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6ee0fee772818f0800000000000000
+      internalID: -569661926732273923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_28
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 231
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75d872f42c9d2580800000000000000
+      internalID: -8850246010212395654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_29
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 141
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e913f2099b034f4f0800000000000000
+      internalID: -795957660591640162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_30
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 141
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc25d40bea291c9e0800000000000000
+      internalID: -1602838713387363637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_31
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 141
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89290722635a56b60800000000000000
+      internalID: 7738773186630685336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_32
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 141
+        width: 119
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80731d2e30e563260800000000000000
+      internalID: 7076947235242587912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_33
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4
+        width: 122
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1899b51f3fbfa10800000000000000
+      internalID: 1944415882089955758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_34
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 4
+        width: 122
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efd09d7ad4d66340800000000000000
+      internalID: 4856803283040264163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_35
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 4
+        width: 100
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcec1994c6d99b90800000000000000
+      internalID: -7234515186523247371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_36
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 34
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77acbf7753b18980800000000000000
+      internalID: -8538346230131153030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_37
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 4
+        width: 100
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4879e66079a23f440800000000000000
+      internalID: 4968361642056128388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_38
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 36
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd6b108c39cb6840800000000000000
+      internalID: 5218485854923353529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_39
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 4
+        width: 93
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86ddb3f23ee7bec0800000000000000
+      internalID: -3551107878553266545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_40
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 37
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7f0680d3826a710800000000000000
+      internalID: 1704093751605000188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardHeroShoot_41
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 4
+        width: 93
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2817a7245251efc0800000000000000
+      internalID: -3467399716702578646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 408a7efca4bda7049a447188d209a155
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":125.0,"y":133.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":72.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      WizardHeroShoot_0: 5475601059014426571
+      WizardHeroShoot_1: -7045029993691904170
+      WizardHeroShoot_10: 5369293508438761336
+      WizardHeroShoot_11: 6295298271989011240
+      WizardHeroShoot_12: 6316384259917056836
+      WizardHeroShoot_13: -5119659048859477047
+      WizardHeroShoot_14: 7809010118456845676
+      WizardHeroShoot_15: 969712300276406702
+      WizardHeroShoot_16: 5119324577359904113
+      WizardHeroShoot_17: -8015978711006820369
+      WizardHeroShoot_18: 6244228806001656631
+      WizardHeroShoot_19: -500027715656118113
+      WizardHeroShoot_2: 7861341534581675883
+      WizardHeroShoot_20: 5741230370823240808
+      WizardHeroShoot_21: -7904913208411514901
+      WizardHeroShoot_22: -2129394935166978689
+      WizardHeroShoot_23: 3508930743534652132
+      WizardHeroShoot_24: -8027715604253876817
+      WizardHeroShoot_25: 8394614917585686492
+      WizardHeroShoot_26: -9029777163289284089
+      WizardHeroShoot_27: -569661926732273923
+      WizardHeroShoot_28: -8850246010212395654
+      WizardHeroShoot_29: -795957660591640162
+      WizardHeroShoot_3: -6686858874978081822
+      WizardHeroShoot_30: -1602838713387363637
+      WizardHeroShoot_31: 7738773186630685336
+      WizardHeroShoot_32: 7076947235242587912
+      WizardHeroShoot_33: 1944415882089955758
+      WizardHeroShoot_34: 4856803283040264163
+      WizardHeroShoot_35: -7234515186523247371
+      WizardHeroShoot_36: -8538346230131153030
+      WizardHeroShoot_37: 4968361642056128388
+      WizardHeroShoot_38: 5218485854923353529
+      WizardHeroShoot_39: -3551107878553266545
+      WizardHeroShoot_4: -8187845685882684653
+      WizardHeroShoot_40: 1704093751605000188
+      WizardHeroShoot_41: -3467399716702578646
+      WizardHeroShoot_5: 8119592275542676638
+      WizardHeroShoot_6: -1718099465725364403
+      WizardHeroShoot_7: 7114727891775020344
+      WizardHeroShoot_8: -6453526055395135664
+      WizardHeroShoot_9: 7708151740315671086
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

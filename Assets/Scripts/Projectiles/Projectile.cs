@@ -1,12 +1,21 @@
 using UnityEngine;
+using MoreMountains.Feedbacks;
+using System.Collections;
 
 public class Projectile : MonoBehaviour
 {
-    private float speed = 9f;
+    [SerializeField] private MMFeedbacks destroyFeedback;
+    [SerializeField] private MMFeedbacks hitFeedback;
+    [SerializeField] private float speed = 9f;
+    [SerializeField] protected bool doesSplashDamage = false;
+    [SerializeField] protected float splashRadius = 0;
+    [SerializeField] protected bool infinitePierce = false;
+    [SerializeField] private LayerMask enemyLayer;
+    [SerializeField] protected Transform splashPoint;
+    [SerializeField] protected GameObject explosionGameObject;
+    private int pierce = 0;
     private int damage = 0;
-    private Rigidbody2D rb;
-    protected int pierce = 0;
-    protected bool infinitePierce = false;
+    protected Rigidbody2D rb;
 
     protected virtual void Awake()
     {
@@ -20,26 +29,81 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.TryGetComponent(out Enemy zombie))
+        if (collision.TryGetComponent(out Enemy enemy))
         {
-            zombie.TakeDamage(damage);
+            if (doesSplashDamage)
+            {
+                HandleSplashDamage();
+                return;
+            }
+
+            enemy.TakeDamage(damage);
+            hitFeedback.PlayFeedbacks();
+
             if (pierce > 0 || infinitePierce)
             {
                 pierce--;
             }
             else
             {
-                Destroy(gameObject);
+                DestroyProjectileAfterFeedbacks();
             }
         }
     }
 
-    private void OnBecameInvisible()
+    public void HandleSplashDamage()
     {
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(splashPoint.position, splashRadius, enemyLayer);
+        foreach (Collider2D hit in hitEnemies)
+        {
+            if (hit.TryGetComponent(out Enemy enemy))
+            {
+                enemy.TakeDamage(damage);
+            }
+        }
+
+        HandleSplashCollision();
+    }
+
+    protected virtual void HandleSplashCollision()
+    {
+        GetComponent<Collider2D>().enabled = false;
+        rb.linearVelocity = Vector2.zero;
+        rb.bodyType = RigidbodyType2D.Static;
+        GetComponentInChildren<SpriteRenderer>().enabled = false;
+
+        explosionGameObject.SetActive(true);
+        StartCoroutine(DestroyProjectile());
+    }
+
+    public void DestroyProjectileAfterFeedbacks()
+    {
+        GetComponent<Collider2D>().enabled = false;
+        rb.linearVelocity = Vector2.zero;
+        rb.bodyType = RigidbodyType2D.Static;
+
+        destroyFeedback.PlayFeedbacks();
+        StartCoroutine(DestroyProjectile());
+    }
+
+    public IEnumerator DestroyProjectile()
+    {
+        yield return new WaitForSeconds(0.5f);
         Destroy(gameObject);
     }
+
     public void SetDamage(int newDamage)
     {
         damage = newDamage;
+    }
+
+    public void SetPierce(int newPierce)
+    {
+        pierce = newPierce;
+    }
+
+    public void SetSplashRadius(float newRadius)
+    {
+        splashRadius = newRadius;
     }
 }
