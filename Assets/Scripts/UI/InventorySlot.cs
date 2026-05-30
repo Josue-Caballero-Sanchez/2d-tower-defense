@@ -12,7 +12,7 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
     private void Awake()
     {
         iconImage.sprite = towerSO.towerIcon;
-        costText.text = towerSO.towerCost.ToString();
+        costText.text = "$" + towerSO.towerCost.ToString();
     }
 
     public void OnPointerClick(PointerEventData eventData)

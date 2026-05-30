@@ -7,7 +7,7 @@ public abstract class Tower : MonoBehaviour
 {
     [SerializeField] protected Projectile projectilePrefab;
     [SerializeField] protected Transform shootPoint;
-    [SerializeField] private LayerMask zombieLayer;
+    [SerializeField] private LayerMask enemyLayer;
     [SerializeField] private List<TowerUpgradeSO> upgrades;
     [SerializeField] private Sprite towerIcon;
     [SerializeField] private Material LevelOneMaterial;
@@ -75,7 +75,7 @@ public abstract class Tower : MonoBehaviour
 
     private void CheckEnemyInLane()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right, Mathf.Infinity, zombieLayer);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right, Mathf.Infinity, enemyLayer);
         animator.SetBool("isShooting", hit.collider);
     }
 

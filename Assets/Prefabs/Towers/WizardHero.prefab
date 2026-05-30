@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6097321426732485160}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WizardHeroTower
   projectilePrefab: {fileID: 3201792196891859432, guid: 7cfce50c7890f8341a2ef659693bc4a3, type: 3}
   shootPoint: {fileID: 6097321426732485160}
-  zombieLayer:
+  enemyLayer:
     serializedVersion: 2
     m_Bits: 64
   upgrades:
@@ -120,7 +120,7 @@ MonoBehaviour:
   placeFeedback: {fileID: 7189570437151551043}
   sellFeedback: {fileID: 5431917176704744992}
   selectionIndicator: {fileID: 0}
-  projectilePrefab: {fileID: 3323058781435401417, guid: 7cfce50c7890f8341a2ef659693bc4a3, type: 3}
+  projectilePrefab: {fileID: 3201792196891859432, guid: 7cfce50c7890f8341a2ef659693bc4a3, type: 3}
 --- !u!1 &2124662156144684625
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,7 +394,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1123270710784394308, guid: 7c3e6ec06c8637c47aa2160f53ff8afa, type: 3}
+  m_Sprite: {fileID: -8407827595969773658, guid: 82b9c430ba9e0d041a748777f023e2bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

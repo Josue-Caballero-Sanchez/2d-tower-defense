@@ -30,7 +30,7 @@ public class ScoreManager : MonoBehaviour
     public void UpdateScore(int amount)
     {
         score += amount;
-        scoreText.text = score.ToString();
+        scoreText.text = "$" + score.ToString();
     }
 
     public int GetScore()

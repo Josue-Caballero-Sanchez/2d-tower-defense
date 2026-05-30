@@ -53,7 +53,7 @@ public class UpgradeUI : MonoBehaviour
             TowerNameText.text = tower.GetTowerName();
             towerIcon.sprite = tower.GetTowerIcon();
             upgradeSliderValue.value = (float)tower.GetCurrentLevel() / 4;
-            SellCostText.text = "+$" + tower.GetSellValue().ToString();
+            SellCostText.text = "$" + tower.GetSellValue().ToString();
 
             upgradeIcon.gameObject.SetActive(false);
             upgradeTitleText.gameObject.SetActive(false);
@@ -81,7 +81,7 @@ public class UpgradeUI : MonoBehaviour
         upgradeButton.gameObject.SetActive(true);
         upgradeButtonText.text = "$" + upgrade.upgradeCost.ToString();
         upgradeSliderValue.value = (float)tower.GetCurrentLevel() / 4;
-        SellCostText.text = "+$" + tower.GetSellValue().ToString();
+        SellCostText.text = "$" + tower.GetSellValue().ToString();
     }
 
     public void Hide()

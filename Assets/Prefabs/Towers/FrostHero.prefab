@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6699182089797215104}
   - component: {fileID: 7761974214507460146}
-  - component: {fileID: 945241662739027342}
+  - component: {fileID: 1046838130517258370}
   m_Layer: 7
-  m_Name: PiercingArcherHeroTower
+  m_Name: FrostHero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,7 +87,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.61617315, y: 0.9560796}
   m_EdgeRadius: 0
---- !u!114 &945241662739027342
+--- !u!114 &1046838130517258370
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,20 +96,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1793682350169796387}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1166f1187a13c5c48ae33ca89d024a4a, type: 3}
+  m_Script: {fileID: 11500000, guid: 13a3e710cefe61245a6a144a1c09eaeb, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PiercingArcherHeroTower
-  projectilePrefab: {fileID: 2710160099786760590, guid: 240397a94de69564b8e4ea536dc24ca1, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::FrostHeroTower
+  projectilePrefab: {fileID: 3323058781435401417, guid: 0d9efb45460631342b7eb038a9653a54, type: 3}
   shootPoint: {fileID: 6097321426732485160}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
   upgrades:
-  - {fileID: 11400000, guid: 8eb5af8fbd077044ea56362410fa5801, type: 2}
-  - {fileID: 11400000, guid: 851efb5b656193e408dc9ae78faa03bd, type: 2}
-  - {fileID: 11400000, guid: 687af6b6216d5014296bb8eb7ff7f250, type: 2}
-  - {fileID: 11400000, guid: 6f9537542a9a44e42bc837291defcb9e, type: 2}
-  towerIcon: {fileID: 1123270710784394308, guid: 7c3e6ec06c8637c47aa2160f53ff8afa, type: 3}
+  - {fileID: 11400000, guid: 9b015a34015cb3e43869b3b8873f5b80, type: 2}
+  - {fileID: 11400000, guid: deaf2e5365748284b914e1cc22dceb39, type: 2}
+  - {fileID: 11400000, guid: 7fab224dd8e4be946ac16a3da72e2358, type: 2}
+  - {fileID: 11400000, guid: 9a94d7c6d01fd9a43ae82f5999ec3bbb, type: 2}
+  towerIcon: {fileID: -8407827595969773658, guid: 82b9c430ba9e0d041a748777f023e2bd, type: 3}
   LevelOneMaterial: {fileID: 2100000, guid: 150a82448a6edde40aba400eeaf167f2, type: 2}
   LevelTwoMaterial: {fileID: 2100000, guid: bc7cf292d4e0d9549aaec73fdda81684, type: 2}
   LevelThreeMaterial: {fileID: 2100000, guid: 2cb3939e7a8519f4eb7032a67c19206f, type: 2}
@@ -197,7 +197,7 @@ Animator:
   m_GameObject: {fileID: 2196482571963933141}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5d1f70078a732ab48a25d126d6174193, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9b9a3c6a0cd9c994c83631b2d73e9f7e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -258,8 +258,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1123270710784394308, guid: 7c3e6ec06c8637c47aa2160f53ff8afa, type: 3}
-  m_Color: {r: 0.35143736, g: 0.47197565, b: 0.9198113, a: 1}
+  m_Sprite: {fileID: -8407827595969773658, guid: 82b9c430ba9e0d041a748777f023e2bd, type: 3}
+  m_Color: {r: 0.25943398, g: 0.8011161, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -393,7 +393,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1123270710784394308, guid: 7c3e6ec06c8637c47aa2160f53ff8afa, type: 3}
+  m_Sprite: {fileID: -8407827595969773658, guid: 82b9c430ba9e0d041a748777f023e2bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

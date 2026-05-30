@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 5463602731252337542}
   - component: {fileID: 9109086751346944152}
   m_Layer: 6
-  m_Name: Regular Slime
+  m_Name: RegularSlime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -173,7 +173,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1}
+  m_LocalScale: {x: 1.35, y: 1.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7470765447888290463}
@@ -264,4 +264,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6afdf7d70d5fc4c83425c8a5105df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Zombie
-  enemyMaterial: {fileID: 2100000, guid: 5dd588ad80b25544d9d34685cb6f3eed, type: 2}
+  deathScore: 50
+  speed: 1
+  originalSpeed: 1
+  health: 100
+  isEnemyInShield: 0

@@ -15,9 +15,10 @@ public class WaveManager : MonoBehaviour
     [SerializeField] private List<GameObject> activeEnemyPrefabs = new List<GameObject>();
     [SerializeField] private List<GameObject> entranceAnimations = new List<GameObject>();
     private List<int> spawnQueue = new List<int>();
+    private List<int> laneQueue = new List<int>();
     //private float timeBetweenWaves = 4f;
-    private int enemiesPerWave = 2;
-    private int enemiesLeftToSpawn = 2;
+    private int enemiesPerWave = 3;
+    private int enemiesLeftToSpawn = 3;
     private float spawnInterval = 2f;
     private float spawnIntervalReduction = 0.2f;
     private float minimumSpawnInterval = 0.25f;
@@ -67,7 +68,8 @@ public class WaveManager : MonoBehaviour
     {
         foreach (Transform spawnPoint in activeSpawnPoints)
         {
-            GameObject entranceAnimation = Instantiate(EnenmyEntranceAnimationPrefab, spawnPoint.position, Quaternion.identity);
+            Vector3 spawnPosition = new Vector3(spawnPoint.position.x - 1.5f, spawnPoint.position.y, spawnPoint.position.z);
+            GameObject entranceAnimation = Instantiate(EnenmyEntranceAnimationPrefab, spawnPosition, Quaternion.identity);
             entranceAnimations.Add(entranceAnimation);
         }
     }
@@ -86,6 +88,7 @@ public class WaveManager : MonoBehaviour
 
         AddNewEnemy();
         BuildSpawnQueue();
+        BuildLaneQueue();
         isSpawningWave = true;
         DestroyEntranceAnimation();
     }
@@ -93,16 +96,16 @@ public class WaveManager : MonoBehaviour
     public void StartNewWave()
     {
         //yield return new WaitForSeconds(timeBetweenWaves);
-        int enemiesIncresePerWave = 3;
+        int enemiesIncresePerWave = 2 * (currentWave - 1);
 
-        //currentWave++;
         AddNewEnemy();
         layerOrder = 0;
         isSpawningWave = true;
-        enemiesPerWave = enemiesPerWave + (currentWave - 1) * enemiesIncresePerWave;
+        enemiesPerWave += enemiesIncresePerWave;
         spawnInterval = Mathf.Max(minimumSpawnInterval, spawnInterval - spawnIntervalReduction);
         enemiesLeftToSpawn = enemiesPerWave;
         BuildSpawnQueue();
+        BuildLaneQueue();
         DestroyEntranceAnimation();
     }
 
@@ -110,8 +113,8 @@ public class WaveManager : MonoBehaviour
     {
         isSpawningWave = false;
         timeSinceLastSpawn = 0f;
-        UpdateActiveSpawnPoints();
         currentWave++;
+        UpdateActiveSpawnPoints();
         waveText.text = currentWave.ToString() + " / " + maxWaves.ToString();
 
         if (activeSpawnPoints.Count < maxLanes || firstFourLaneWave == false)
@@ -151,15 +154,42 @@ public class WaveManager : MonoBehaviour
         }
 
         int index = ChooseEnemyIndexToSpawn();
+        int laneIndex = laneQueue[0];
+        if (laneQueue.Count > 0)
+        {
+            laneQueue.RemoveAt(0);
+        }
 
         GameObject enemyPrefab = activeEnemyPrefabs[index];
-        Transform spawnPoint = activeSpawnPoints[Random.Range(0, activeSpawnPoints.Count)];
+        Transform spawnPoint = activeSpawnPoints[laneIndex];
         GameObject enemyInstance = Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
         SpriteRenderer spriteRenderer = enemyInstance.GetComponentInChildren<SpriteRenderer>();
         spriteRenderer.sortingOrder = layerOrder;
         layerOrder++;
         enemiesAlive++;
         enemiesLeftToSpawn--;
+    }
+
+    private void BuildLaneQueue()
+    {
+        laneQueue.Clear();
+
+        List<int> guaranteedLanes = Enumerable.Range(0, activeSpawnPoints.Count).ToList();
+
+        for (int i = guaranteedLanes.Count - 1; i > 0; i--)
+        {
+            int j = Random.Range(0, i + 1);
+            (guaranteedLanes[i], guaranteedLanes[j]) = (guaranteedLanes[j], guaranteedLanes[i]);
+        }
+
+        laneQueue.AddRange(guaranteedLanes);
+
+        // Fill remaining spawns randomly
+        int remaining = enemiesPerWave - activeSpawnPoints.Count;
+        for (int i = 0; i < remaining; i++)
+        {
+            laneQueue.Add(Random.Range(0, activeSpawnPoints.Count));
+        }
     }
 
     private int ChooseEnemyIndexToSpawn()
@@ -180,7 +210,7 @@ public class WaveManager : MonoBehaviour
         int totalEnemies = enemiesPerWave;
         int enemyTypeCount = activeEnemyPrefabs.Count;
 
-        if (currentWave <= 2 || enemyTypeCount <= 1)
+        if (enemyTypeCount <= 1)
         {
             for (int i = 0; i < totalEnemies; i++)
             {
@@ -197,7 +227,7 @@ public class WaveManager : MonoBehaviour
             */
         }
 
-        // Wave 4+ logic
+        // Wave with multiple enemeis logic with 3 phases
         // Phase 1: 2-3 easy enemies at the start
         int openingCount = Random.Range(2, 4);
         for (int i = 0; i < openingCount; i++)
@@ -267,12 +297,12 @@ public class WaveManager : MonoBehaviour
 
     private void UpdateActiveSpawnPoints()
     {
-        if (currentWave > spawnPoints.Count)
+        if (activeSpawnPoints.Count >= spawnPoints.Count)
         {
             return;
         }
 
-        if (currentWave == 1 || currentWave == 2 || currentWave == 4 || currentWave == 7)
+        if (currentWave == 1 || currentWave == 3 || currentWave == 6 || currentWave == 9)
         {
             AddRandomSpawnPoint();
         }
@@ -280,7 +310,7 @@ public class WaveManager : MonoBehaviour
 
     private void AddNewEnemy()
     {
-        if ((currentWave % 3 == 0 || currentWave == 1) && activeEnemyPrefabs.Count < enemyPrefabs.Count)
+        if ((currentWave % 4 == 0 || currentWave == 1) && activeEnemyPrefabs.Count < enemyPrefabs.Count)
         {
             activeEnemyPrefabs.Add(enemyPrefabs[activeEnemyPrefabs.Count]);
         }

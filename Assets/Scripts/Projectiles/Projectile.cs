@@ -13,6 +13,10 @@ public class Projectile : MonoBehaviour
     [SerializeField] private LayerMask enemyLayer;
     [SerializeField] protected Transform splashPoint;
     [SerializeField] protected GameObject explosionGameObject;
+    [SerializeField] private bool slowsEnemy = false;
+    [SerializeField] private float slowAmount = 0;
+    [SerializeField] private float slowDuration = 0;
+    [SerializeField] private float knockback = 0;
     private int pierce = 0;
     private int damage = 0;
     protected Rigidbody2D rb;
@@ -39,6 +43,15 @@ public class Projectile : MonoBehaviour
 
             enemy.TakeDamage(damage);
             hitFeedback.PlayFeedbacks();
+
+            if (slowsEnemy)
+            {
+                enemy.ApplySlow(slowAmount, slowDuration);
+            }
+            if (knockback > 0)
+            {
+                enemy.ApplyKnockback(knockback);
+            }
 
             if (pierce > 0 || infinitePierce)
             {
@@ -105,5 +118,17 @@ public class Projectile : MonoBehaviour
     public void SetSplashRadius(float newRadius)
     {
         splashRadius = newRadius;
+    }
+
+    public void SetKnockback(float newKnockback)
+    {
+        knockback = newKnockback;
+    }
+
+    public void SetSlowingEffect(float newSlowAmount, float newSlowDuration)
+    {
+        slowsEnemy = true;
+        slowAmount = newSlowAmount;
+        slowDuration = newSlowDuration;
     }
 }

@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6097321426732485160}
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArcherHeroTower
   projectilePrefab: {fileID: 3323058781435401417, guid: e178b0ecc73dadd4f82f2cfe4d5fd8da, type: 3}
   shootPoint: {fileID: 6097321426732485160}
-  zombieLayer:
+  enemyLayer:
     serializedVersion: 2
     m_Bits: 64
   upgrades:

@@ -4,6 +4,8 @@ public class PlacementArea : MonoBehaviour
 {
     private bool hasTowerPlaced = false;
     private SpriteRenderer spriteRenderer;
+    [SerializeField] private BoxCollider2D placementCollider;
+    [SerializeField] private BoxCollider2D clickCollider;
 
     private void Start()
     {
@@ -47,6 +49,16 @@ public class PlacementArea : MonoBehaviour
         {
             spriteRenderer.enabled = false;
         }
+    }
+
+    public BoxCollider2D GetPlacementCollider()
+    {
+        return placementCollider;
+    }
+
+    public BoxCollider2D GetClickCollider()
+    {
+        return clickCollider;
     }
 
 }

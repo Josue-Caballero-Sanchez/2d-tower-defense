@@ -80,12 +80,17 @@ public class TowerPlacement : MonoBehaviour
 
         if (hit.collider != null && hit.collider.TryGetComponent(out PlacementArea placementArea))
         {
+            if (!placementArea.GetClickCollider().OverlapPoint(mouseWorldPosition))
+            {
+                return;
+            }
+
             currentPlacementArea = placementArea;
 
             if (!currentPlacementArea.CheckIfHasTowerPlaced())
             {
                 // Snap ghost visually to placement area center in screen space
-                Vector3 centerWorld = currentPlacementArea.GetComponent<Collider2D>().bounds.center;
+                Vector2 centerWorld = currentPlacementArea.GetPlacementCollider().bounds.center;
                 Vector2 centerScreen = mainCamera.WorldToScreenPoint(centerWorld);
 
                 RectTransformUtility.ScreenPointToLocalPointInRectangle(
@@ -248,7 +253,7 @@ public class TowerPlacement : MonoBehaviour
         float canvasScale = canvasRect.rect.height / Screen.height;
         float scaledPixelsPerUnit = pixelsPerUnit * canvasScale;
 
-        float towerPrefabScale = 1.25f;
+        float towerPrefabScale = 1.4f;
 
         RectTransform rt = ghostTower.AddComponent<RectTransform>();
         SpriteRenderer originalRenderer = towerPrefab.GetComponentInChildren<SpriteRenderer>();

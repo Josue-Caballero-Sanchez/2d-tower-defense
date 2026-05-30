@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3790704840524729312}
   - component: {fileID: 3147009496175335420}
   - component: {fileID: 5567067119767893666}
+  - component: {fileID: 6410982931642206251}
+  - component: {fileID: 1737255278937652101}
   m_Layer: 6
   m_Name: Animations
   m_TagString: Untagged
@@ -60,7 +62,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 5dd588ad80b25544d9d34685cb6f3eed, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -127,6 +129,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42c9525936d00c74c976ec494e73e7a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimationEvents
+--- !u!114 &6410982931642206251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729640893557064447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee158225ee1e59f4791627785501d950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AllIn1SpriteShaderAssembly::AllIn1SpriteShader.AllIn1Shader
+  currentShaderType: 0
+  normalStrength: 5
+  normalSmoothing: 1
+  computingNormal: 0
+--- !u!114 &1737255278937652101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729640893557064447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1625263d85e5d554284989eb9052e863, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AllIn1SpriteShaderAssembly::AllIn1SpriteShader.SetAtlasUvs
+  updateEveryFrame: 0
+  useMaterialInstanceIfPossible: 0
 --- !u!1 &3607462946263009686
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,9 +170,9 @@ GameObject:
   - component: {fileID: 280389960463101818}
   - component: {fileID: 5750617001392618630}
   - component: {fileID: 5463602731252337542}
-  - component: {fileID: 3542008572415289008}
+  - component: {fileID: 220725343530630097}
   m_Layer: 6
-  m_Name: Fast Slime
+  m_Name: FastSlime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,7 +188,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1}
+  m_LocalScale: {x: 1.35, y: 1.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7470765447888290463}
@@ -235,7 +267,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.0315442, y: 1.0096135}
   m_EdgeRadius: 0
---- !u!114 &3542008572415289008
+--- !u!114 &220725343530630097
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -244,6 +276,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3607462946263009686}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cab77dd1b231de41a9b438c5913d296, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a6afdf7d70d5fc4c83425c8a5105df9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FastSlime
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  deathScore: 75
+  speed: 1.5
+  originalSpeed: 1.5
+  health: 150
+  isEnemyInShield: 0
