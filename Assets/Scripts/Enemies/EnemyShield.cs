@@ -3,8 +3,6 @@ using System.Collections;
 
 public class EnemyShield : Enemy
 {
-    private bool defeated = false;
-    private SpriteRenderer spriteRenderer;
     [SerializeField] private Enemy enemyInShield;
 
 

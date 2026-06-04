@@ -17,8 +17,9 @@ public class WaveManager : MonoBehaviour
     private List<int> spawnQueue = new List<int>();
     private List<int> laneQueue = new List<int>();
     //private float timeBetweenWaves = 4f;
-    private int enemiesPerWave = 3;
-    private int enemiesLeftToSpawn = 3;
+    private int originalEnemiesPerWave = 1;
+    private int enemiesPerWave;
+    private int enemiesLeftToSpawn;
     private float spawnInterval = 2f;
     private float spawnIntervalReduction = 0.2f;
     private float minimumSpawnInterval = 0.25f;
@@ -42,6 +43,9 @@ public class WaveManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        enemiesPerWave = originalEnemiesPerWave;
+        enemiesLeftToSpawn = originalEnemiesPerWave;
     }
 
     private void Start()
@@ -96,12 +100,11 @@ public class WaveManager : MonoBehaviour
     public void StartNewWave()
     {
         //yield return new WaitForSeconds(timeBetweenWaves);
-        int enemiesIncresePerWave = 2 * (currentWave - 1);
-
+        float growthRate = 1.4f;
+        enemiesPerWave = Mathf.RoundToInt(originalEnemiesPerWave * Mathf.Pow(growthRate, currentWave - 1));
         AddNewEnemy();
         layerOrder = 0;
         isSpawningWave = true;
-        enemiesPerWave += enemiesIncresePerWave;
         spawnInterval = Mathf.Max(minimumSpawnInterval, spawnInterval - spawnIntervalReduction);
         enemiesLeftToSpawn = enemiesPerWave;
         BuildSpawnQueue();

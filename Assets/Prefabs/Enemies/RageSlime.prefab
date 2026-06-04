@@ -107,7 +107,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1070756702508967149, guid: 249421c5698c8874cbc0e2ce64d8b4a3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.15263987, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -155,9 +155,9 @@ GameObject:
   - component: {fileID: 280389960463101818}
   - component: {fileID: 5750617001392618630}
   - component: {fileID: 5463602731252337542}
-  - component: {fileID: 9109086751346944152}
+  - component: {fileID: 6866517329392324842}
   m_Layer: 6
-  m_Name: RegularSlime
+  m_Name: RageSlime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -252,7 +252,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.63348484, y: 1.0096135}
   m_EdgeRadius: 0
---- !u!114 &9109086751346944152
+--- !u!114 &6866517329392324842
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -261,12 +261,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3607462946263009686}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a6afdf7d70d5fc4c83425c8a5105df9, type: 3}
+  m_Script: {fileID: 11500000, guid: 518c90c411157984184580c8d70315e8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Zombie
-  deathScore: 50
+  m_EditorClassIdentifier: Assembly-CSharp::RageEnemy
+  deathScore: 150
   speed: 1
   originalSpeed: 1
-  health: 100
+  health: 300
   isEnemyInShield: 0
   isEnemyEquipment: 0

@@ -1,16 +1,14 @@
 using UnityEngine;
 
-public class SpearHeroTower : Tower
+public class StunWizardHeroTower : Tower
 {
+    private float baseStunDuration = 0.5f;
     private float baseShootSpeed = 0.5f;
-    private int baseDamage = 50;
-    private float baseKnockbackDistance = 0.5f;
-    private float baseKnockbackDuration = 0.1f;
-
+    private int baseDamage = 25;
     protected override void Awake()
     {
         base.Awake();
-        towerName = "Spear Hero";
+        towerName = "Stun Wizard Hero";
 
         UpdateShootSpeed(baseShootSpeed);
         UpdateDamage(baseDamage);
@@ -18,31 +16,27 @@ public class SpearHeroTower : Tower
 
     protected override void Upgrade1()
     {
-        baseDamage = 100;
-        UpdateDamage(baseDamage);
+
     }
 
     protected override void Upgrade2()
     {
-        baseShootSpeed = 0.75f;
-        UpdateShootSpeed(baseShootSpeed);
+
     }
     protected override void Upgrade3()
     {
-        baseKnockbackDistance = 3f;
+
     }
 
     protected override void Upgrade4()
     {
-        baseKnockbackDistance = 4f;
-        baseShootSpeed = 1f;
-        UpdateShootSpeed(baseShootSpeed);
+
     }
 
     public override void Shoot()
     {
         Projectile projectileInstance = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
         projectileInstance.SetDamage(currentDamage);
-        projectileInstance.SetKnockback(baseKnockbackDistance, baseKnockbackDuration);
+        projectileInstance.SetStunDuration(baseStunDuration);
     }
 }

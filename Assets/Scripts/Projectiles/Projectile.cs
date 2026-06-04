@@ -16,10 +16,13 @@ public class Projectile : MonoBehaviour
     [SerializeField] private bool slowsEnemy = false;
     [SerializeField] private float slowAmount = 0;
     [SerializeField] private float slowDuration = 0;
-    [SerializeField] private float knockback = 0;
+    [SerializeField] private float knockbackDistance = 0;
+    [SerializeField] private float knockbackDuration = 0.1f;
+    [SerializeField] private float stunDuration = 0;
     private int pierce = 0;
     private int damage = 0;
     protected Rigidbody2D rb;
+    private bool hasCollided = false;
 
     protected virtual void Awake()
     {
@@ -35,6 +38,15 @@ public class Projectile : MonoBehaviour
     {
         if (collision.TryGetComponent(out Enemy enemy))
         {
+            if (hasCollided)
+            {
+                return;
+            }
+
+            if (pierce <= 0 && !infinitePierce)
+            {
+                hasCollided = true;
+            }
             if (doesSplashDamage)
             {
                 HandleSplashDamage();
@@ -48,9 +60,13 @@ public class Projectile : MonoBehaviour
             {
                 enemy.ApplySlow(slowAmount, slowDuration);
             }
-            if (knockback > 0)
+            if (knockbackDistance > 0)
             {
-                enemy.ApplyKnockback(knockback);
+                enemy.ApplyKnockback(knockbackDistance, knockbackDuration);
+            }
+            if (stunDuration > 0)
+            {
+                enemy.ApplyStun(stunDuration);
             }
 
             if (pierce > 0 || infinitePierce)
@@ -120,9 +136,15 @@ public class Projectile : MonoBehaviour
         splashRadius = newRadius;
     }
 
-    public void SetKnockback(float newKnockback)
+    public void SetKnockback(float newKnockbackDistance, float newKnockbackDuration)
     {
-        knockback = newKnockback;
+        knockbackDistance = newKnockbackDistance;
+        knockbackDuration = newKnockbackDuration;
+    }
+
+    public void SetStunDuration(float newStunDuration)
+    {
+        stunDuration = newStunDuration;
     }
 
     public void SetSlowingEffect(float newSlowAmount, float newSlowDuration)

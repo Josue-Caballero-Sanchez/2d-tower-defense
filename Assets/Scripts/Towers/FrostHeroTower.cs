@@ -3,7 +3,7 @@ using UnityEngine;
 public class FrostHeroTower : Tower
 {
     private int damage = 25;
-    private float shootSpeed = 1f;
+    private float baseShootSpeed = 1f;
     private float slowAmount = 0.75f;
     private float slowDuration = 0.5f;
     protected override void Awake()
@@ -12,7 +12,7 @@ public class FrostHeroTower : Tower
 
         towerName = "Frost Hero";
         UpdateDamage(damage);
-        UpdateShootSpeed(shootSpeed);
+        UpdateShootSpeed(baseShootSpeed);
     }
 
     protected override void Upgrade1()
@@ -27,8 +27,8 @@ public class FrostHeroTower : Tower
     }
     protected override void Upgrade3()
     {
-        shootSpeed = 1.5f;
-        UpdateShootSpeed(shootSpeed);
+        baseShootSpeed = 1.5f;
+        UpdateShootSpeed(baseShootSpeed);
 
         damage = 100;
         UpdateDamage(damage);

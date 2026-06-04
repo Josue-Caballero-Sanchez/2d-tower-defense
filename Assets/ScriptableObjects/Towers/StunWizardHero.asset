@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c491a11a9d9d9064f9d26e4006ce3c61, type: 3}
-  m_Name: ArcherHero
+  m_Name: StunWizardHero
   m_EditorClassIdentifier: Assembly-CSharp::TowerSO
-  towerPrefab: {fileID: 1793682350169796387, guid: 3f26a6487d878ae44b42de488002e8d0, type: 3}
+  towerPrefab: {fileID: 1793682350169796387, guid: 9e82ea435d169a241bbe996028d1a525, type: 3}
   towerIcon: {fileID: 1123270710784394308, guid: 7c3e6ec06c8637c47aa2160f53ff8afa, type: 3}
-  towerCost: 100
+  towerCost: 250
