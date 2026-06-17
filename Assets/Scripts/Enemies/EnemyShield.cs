@@ -25,7 +25,7 @@ public class EnemyShield : Enemy
     protected override IEnumerator HitEffect()
     {
         enemyMaterial.SetFloat("_HitEffectGlow", 1f);
-        enemyMaterial.SetFloat("_HitEffectBlend", 0.8f);
+        enemyMaterial.SetFloat("_HitEffectBlend", 0.6f);
         yield return new WaitForSeconds(0.15f);
 
         enemyMaterial.SetFloat("_HitEffectGlow", 1f);

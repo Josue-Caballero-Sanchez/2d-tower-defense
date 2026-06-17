@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: WizardTowerHeroLevel1
   m_EditorClassIdentifier: Assembly-CSharp::TowerUpgradeSO
   towerName: Wizard Hero
-  upgradeName: More Damage
-  description: Increases fireball damage
+  upgradeName: Increase Shoot Speed
+  description: Increase shotting speed
   level: 1
-  upgradeCost: 300
+  upgradeCost: 400
   upgradeIcon: {fileID: 21300000, guid: fc715da2bc5d74b82997a8323d33a51f, type: 3}

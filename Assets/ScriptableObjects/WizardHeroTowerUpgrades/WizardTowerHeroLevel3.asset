@@ -16,5 +16,5 @@ MonoBehaviour:
   upgradeName: Bigger Explosion Radius
   description: Increases fireball splash radius
   level: 3
-  upgradeCost: 500
+  upgradeCost: 1000
   upgradeIcon: {fileID: 21300000, guid: fc715da2bc5d74b82997a8323d33a51f, type: 3}

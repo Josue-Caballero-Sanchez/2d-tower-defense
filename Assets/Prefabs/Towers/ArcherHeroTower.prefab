@@ -33,6 +33,7 @@ Transform:
   m_Children:
   - {fileID: 6097321426732485160}
   - {fileID: 3031448512504585575}
+  - {fileID: 1423776928830707720}
   - {fileID: 4992750020929273731}
   - {fileID: 5136250277766605113}
   - {fileID: 338060323556657441}
@@ -122,6 +123,7 @@ MonoBehaviour:
   sellFeedback: {fileID: 5431917176704744992}
   selectionIndicator: {fileID: 7595226595995031858}
   shootPoint2: {fileID: 3031448512504585575}
+  shootPoint3: {fileID: 1423776928830707720}
 --- !u!1 &2124662156144684625
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,6 +314,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: AllIn1SpriteShaderAssembly::AllIn1SpriteShader.SetAtlasUvs
   updateEveryFrame: 0
   useMaterialInstanceIfPossible: 0
+--- !u!1 &3987497496705651471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423776928830707720}
+  m_Layer: 7
+  m_Name: Shoot Point3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1423776928830707720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3987497496705651471}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.428, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6699182089797215104}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5304011940165160876
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,7 +478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3031448512504585575}
   m_Layer: 7
-  m_Name: Shoot Point 2
+  m_Name: Shoot Point2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

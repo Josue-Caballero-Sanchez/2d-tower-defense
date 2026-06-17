@@ -17,7 +17,7 @@ public class WaveManager : MonoBehaviour
     private List<int> spawnQueue = new List<int>();
     private List<int> laneQueue = new List<int>();
     //private float timeBetweenWaves = 4f;
-    private int originalEnemiesPerWave = 1;
+    private int originalEnemiesPerWave = 3;
     private int enemiesPerWave;
     private int enemiesLeftToSpawn;
     private float spawnInterval = 2f;
@@ -90,7 +90,7 @@ public class WaveManager : MonoBehaviour
     {
         // yield return new WaitForSeconds(timeBetweenWaves);
 
-        AddNewEnemy();
+        UpdateActiveEnemies();
         BuildSpawnQueue();
         BuildLaneQueue();
         isSpawningWave = true;
@@ -100,9 +100,9 @@ public class WaveManager : MonoBehaviour
     public void StartNewWave()
     {
         //yield return new WaitForSeconds(timeBetweenWaves);
-        float growthRate = 1.4f;
+        float growthRate = 1.3f;
         enemiesPerWave = Mathf.RoundToInt(originalEnemiesPerWave * Mathf.Pow(growthRate, currentWave - 1));
-        AddNewEnemy();
+        UpdateActiveEnemies();
         layerOrder = 0;
         isSpawningWave = true;
         spawnInterval = Mathf.Max(minimumSpawnInterval, spawnInterval - spawnIntervalReduction);
@@ -168,6 +168,11 @@ public class WaveManager : MonoBehaviour
         GameObject enemyInstance = Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
         SpriteRenderer spriteRenderer = enemyInstance.GetComponentInChildren<SpriteRenderer>();
         spriteRenderer.sortingOrder = layerOrder;
+        if (enemyInstance.GetComponentInChildren<EnemyShield>() != null)
+        {
+            layerOrder++;
+            enemyInstance.GetComponentInChildren<EnemyShield>().GetComponentInChildren<SpriteRenderer>().sortingOrder = layerOrder;
+        }
         layerOrder++;
         enemiesAlive++;
         enemiesLeftToSpawn--;
@@ -219,15 +224,6 @@ public class WaveManager : MonoBehaviour
             {
                 spawnQueue.Add(0);
             }
-            /*
-            int segmentSize = Mathf.CeilToInt((float)totalEnemies / enemyTypeCount);
-            for (int i = 0; i < totalEnemies; i++)
-            {
-                int index = Mathf.Min(i / segmentSize, enemyTypeCount - 1);
-                spawnQueue.Add(index);
-            }
-            return;
-            */
         }
 
         // Wave with multiple enemeis logic with 3 phases
@@ -245,8 +241,8 @@ public class WaveManager : MonoBehaviour
         List<int> middleEnemies = new List<int>();
         for (int i = 0; i < middleCount; i++)
         {
-            // 65% chance of a stronger enemy, 35% chance of a weak one
-            if (Random.value < 0.65f)
+            // 45% chance of a stronger enemy, 55% chance of a weak one
+            if (Random.value < 0.45f)
             {
                 middleEnemies.Add(Random.Range(1, enemyTypeCount));
             }
@@ -311,11 +307,16 @@ public class WaveManager : MonoBehaviour
         }
     }
 
-    private void AddNewEnemy()
+    private void UpdateActiveEnemies()
     {
         if ((currentWave % 4 == 0 || currentWave == 1) && activeEnemyPrefabs.Count < enemyPrefabs.Count)
         {
             activeEnemyPrefabs.Add(enemyPrefabs[activeEnemyPrefabs.Count]);
+        }
+
+        if (currentWave % 12 == 0)
+        {
+            activeEnemyPrefabs.RemoveAt(0);
         }
     }
 

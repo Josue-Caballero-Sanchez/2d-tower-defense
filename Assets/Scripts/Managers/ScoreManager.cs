@@ -7,7 +7,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Instance { get; private set; }
     [SerializeField] private TextMeshProUGUI scoreText;
     private int score;
-    private int startingScore = 50000;
+    private int startingScore = 60000;
 
     private void Awake()
     {

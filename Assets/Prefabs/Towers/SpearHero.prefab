@@ -164,7 +164,6 @@ GameObject:
   - component: {fileID: 5267184086056122571}
   - component: {fileID: 6224013795080070382}
   - component: {fileID: 4964940309799594152}
-  - component: {fileID: 6322838600927098835}
   m_Layer: 7
   m_Name: Animations
   m_TagString: Untagged
@@ -259,11 +258,11 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1123270710784394308, guid: 7c3e6ec06c8637c47aa2160f53ff8afa, type: 3}
-  m_Color: {r: 0.8443396, g: 0.54165184, b: 0.54165184, a: 1}
+  m_Color: {r: 1, g: 0.6556604, b: 0.6556604, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.56, y: 2.56}
+  m_Size: {x: 1.77, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -296,20 +295,6 @@ MonoBehaviour:
   normalStrength: 5
   normalSmoothing: 1
   computingNormal: 0
---- !u!114 &6322838600927098835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2196482571963933141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1625263d85e5d554284989eb9052e863, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: AllIn1SpriteShaderAssembly::AllIn1SpriteShader.SetAtlasUvs
-  updateEveryFrame: 0
-  useMaterialInstanceIfPossible: 0
 --- !u!1 &5304011940165160876
 GameObject:
   m_ObjectHideFlags: 0

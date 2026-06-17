@@ -144,6 +144,13 @@ public class TowerPlacement : MonoBehaviour
         }
     }
 
+    private bool IsTowerTooFarLeft(Tower tower)
+    {
+        float leftEdge = mainCamera.transform.position.x - (mainCamera.orthographicSize * mainCamera.aspect);
+        float threshold = 5f;
+        return tower.transform.position.x < leftEdge + threshold;
+    }
+
     private void HandleLeftMouseClicked()
     {
         if (Input.GetMouseButtonUp(0))
@@ -173,13 +180,13 @@ public class TowerPlacement : MonoBehaviour
                 if (!clickedInventoryItem && !clickedUpgradeUI)
                 {
                     CancelPlacement();
-                    UpgradeUI.Instance.Hide();
+                    UpgradeUI.Instance.HideAll();
                     HideCurrentTowerSelection();
 
                 }
                 else if (!clickedUpgradeUI)
                 {
-                    UpgradeUI.Instance.Hide();
+                    UpgradeUI.Instance.HideAll();
                     HideCurrentTowerSelection();
                 }
 
@@ -193,7 +200,15 @@ public class TowerPlacement : MonoBehaviour
                 CancelPlacement();
                 if (placementCooldown <= 0)
                 {
-                    UpgradeUI.Instance.Show(tower.GetNextUpgrade(), tower);
+                    if (IsTowerTooFarLeft(tower))
+                    {
+                        UpgradeUI.Instance.ShowPopup(tower.GetNextUpgrade(), tower, true);
+                    }
+                    else
+                    {
+                        UpgradeUI.Instance.ShowPopup(tower.GetNextUpgrade(), tower, false);
+                    }
+
                     if (currentSelectedTower != null && currentSelectedTower != tower)
                     {
                         HideCurrentTowerSelection();
@@ -211,14 +226,14 @@ public class TowerPlacement : MonoBehaviour
                 if (placementArea.CheckIfHasTowerPlaced() && IsPlacing())
                 {
                     CancelPlacement();
-                    UpgradeUI.Instance.Hide();
+                    UpgradeUI.Instance.HideAll();
                     HideCurrentTowerSelection();
                     return;
                 }
             }
 
             CancelPlacement();
-            UpgradeUI.Instance.Hide();
+            UpgradeUI.Instance.HideAll();
             HideCurrentTowerSelection();
         }
     }

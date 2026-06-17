@@ -240,7 +240,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.006554663, y: -0.0013885498}
+  m_Offset: {x: 0.009440064, y: -0.0013885498}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -250,7 +250,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.63348484, y: 1.0096135}
+  m_Size: {x: 0.63925564, y: 1.0096135}
   m_EdgeRadius: 0
 --- !u!114 &9109086751346944152
 MonoBehaviour:
@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6afdf7d70d5fc4c83425c8a5105df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Zombie
-  deathScore: 50
+  deathScore: 100
   speed: 1
   originalSpeed: 1
   health: 100

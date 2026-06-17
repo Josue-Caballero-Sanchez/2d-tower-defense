@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 8729b4b3bf110354fa97165096d4975f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 725365008286093715
+    second: SpeareHeroIdle_0
+  - first:
+      213: 2128413043766214831
+    second: SpeareHeroIdle_1
+  - first:
+      213: 4078918070289279397
+    second: SpeareHeroIdle_2
+  - first:
+      213: -774035904089283141
+    second: SpeareHeroIdle_3
+  - first:
+      213: 6367565302172737118
+    second: SpeareHeroIdle_4
+  - first:
+      213: 7199354817117506381
+    second: SpeareHeroIdle_5
+  - first:
+      213: -82302499103694046
+    second: SpeareHeroIdle_6
+  - first:
+      213: 6333635823254192185
+    second: SpeareHeroIdle_7
+  - first:
+      213: 1861496063887754477
+    second: SpeareHeroIdle_8
+  - first:
+      213: 7978684225469107551
+    second: SpeareHeroIdle_9
+  - first:
+      213: 5366732871620512286
+    second: SpeareHeroIdle_10
+  - first:
+      213: 6219326012191514791
+    second: SpeareHeroIdle_11
+  - first:
+      213: 8082748990387773302
+    second: SpeareHeroIdle_12
+  - first:
+      213: 4460048471829106052
+    second: SpeareHeroIdle_13
+  - first:
+      213: 7809267701926789500
+    second: SpeareHeroIdle_14
+  - first:
+      213: -8393089937216208314
+    second: SpeareHeroIdle_15
+  - first:
+      213: -5486444297796045758
+    second: SpeareHeroIdle_16
+  - first:
+      213: 8227316594549651654
+    second: SpeareHeroIdle_17
+  - first:
+      213: 1844956134001014569
+    second: SpeareHeroIdle_18
+  - first:
+      213: -696842869882684202
+    second: SpeareHeroIdle_19
+  - first:
+      213: 471269784544553197
+    second: SpeareHeroIdle_20
+  - first:
+      213: 3821021025859183832
+    second: SpeareHeroIdle_21
+  - first:
+      213: 4322050068091926514
+    second: SpeareHeroIdle_22
+  - first:
+      213: 3783750523190555084
+    second: SpeareHeroIdle_23
+  - first:
+      213: -6817429006894604763
+    second: SpeareHeroIdle_24
+  - first:
+      213: 9115418258125340242
+    second: SpeareHeroIdle_25
+  - first:
+      213: -1570151909399911779
+    second: SpeareHeroIdle_26
+  - first:
+      213: 4522973903240492180
+    second: SpeareHeroIdle_27
+  - first:
+      213: -6693837902874213318
+    second: SpeareHeroIdle_28
+  - first:
+      213: -2321302336068360236
+    second: SpeareHeroIdle_29
+  - first:
+      213: -3438835786291455170
+    second: SpeareHeroIdle_30
+  - first:
+      213: 8081000711063250328
+    second: SpeareHeroIdle_31
+  - first:
+      213: 3458732881405164998
+    second: SpeareHeroIdle_32
+  - first:
+      213: 1019035490666745041
+    second: SpeareHeroIdle_33
+  - first:
+      213: -7869116181473779407
+    second: SpeareHeroIdle_34
+  - first:
+      213: -5502134336894728324
+    second: SpeareHeroIdle_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpeareHeroIdle_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1301
+        width: 177
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3911463c1a3011a00800000000000000
+      internalID: 725365008286093715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1301
+        width: 177
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa04ef0f264a98d10800000000000000
+      internalID: 2128413043766214831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_2
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1301
+        width: 177
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9a387bf5a3b9830800000000000000
+      internalID: 4078918070289279397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_3
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1301
+        width: 176
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb52c5d32721245f0800000000000000
+      internalID: -774035904089283141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_4
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1301
+        width: 175
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5edb10d7e22e5850800000000000000
+      internalID: 6367565302172737118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_5
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1301
+        width: 175
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b4946ff0f39e360800000000000000
+      internalID: 7199354817117506381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1041
+        width: 174
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2232cc8205a9bdef0800000000000000
+      internalID: -82302499103694046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1041
+        width: 174
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93041c5693895e750800000000000000
+      internalID: 6333635823254192185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_8
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1041
+        width: 173
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de441d6becc55d910800000000000000
+      internalID: 1861496063887754477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_9
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1041
+        width: 174
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d491ab70bf9be60800000000000000
+      internalID: 7978684225469107551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_10
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1041
+        width: 174
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a4a51dc177a7a40800000000000000
+      internalID: 5366732871620512286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_11
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1041
+        width: 175
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0a5038e0c7f4650800000000000000
+      internalID: 6219326012191514791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 781
+        width: 175
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fd5bce161bb2070800000000000000
+      internalID: 8082748990387773302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_13
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 781
+        width: 176
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dc56c647645ed30800000000000000
+      internalID: 4460048471829106052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_14
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 781
+        width: 176
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7107418997106c60800000000000000
+      internalID: 7809267701926789500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_15
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 781
+        width: 177
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642825cab21c58b80800000000000000
+      internalID: -8393089937216208314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_16
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 781
+        width: 177
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24436e5cafb3cd3b0800000000000000
+      internalID: -5486444297796045758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_17
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 781
+        width: 177
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8fec04adc4d2270800000000000000
+      internalID: 8227316594549651654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 521
+        width: 177
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927fe4134d99a9910800000000000000
+      internalID: 1844956134001014569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_19
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 521
+        width: 176
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcf0641a115456f0800000000000000
+      internalID: -696842869882684202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_20
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 521
+        width: 175
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de827254f594a8600800000000000000
+      internalID: 471269784544553197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_21
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 521
+        width: 175
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4a2add06ef60530800000000000000
+      internalID: 3821021025859183832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_22
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 521
+        width: 173
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7721243a10bfb30800000000000000
+      internalID: 4322050068091926514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_23
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 521
+        width: 173
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1b87dbd05928430800000000000000
+      internalID: 3783750523190555084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 261
+        width: 173
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e5a924070a361a0800000000000000
+      internalID: -6817429006894604763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_25
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 261
+        width: 173
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ebba63c98708e70800000000000000
+      internalID: 9115418258125340242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_26
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 261
+        width: 173
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9221dc4823b53ae0800000000000000
+      internalID: -1570151909399911779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_27
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 261
+        width: 174
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494f20f1dc4d4ce30800000000000000
+      internalID: 4522973903240492180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_28
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 261
+        width: 175
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34032f84e5ba13a0800000000000000
+      internalID: -6693837902874213318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_29
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 261
+        width: 175
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d76c5af2d319cfd0800000000000000
+      internalID: -2321302336068360236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 177
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b5235721dc640d0800000000000000
+      internalID: -3438835786291455170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_31
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1
+        width: 178
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895aa9ce45b752070800000000000000
+      internalID: 8081000711063250328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_32
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1
+        width: 178
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd3e110b33efff20800000000000000
+      internalID: 3458732881405164998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_33
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1
+        width: 178
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc05b23167542e00800000000000000
+      internalID: 1019035490666745041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_34
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1
+        width: 178
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1312afa76884bc290800000000000000
+      internalID: -7869116181473779407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeareHeroIdle_35
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1
+        width: 177
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7709eed8fd74a3b0800000000000000
+      internalID: -5502134336894728324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpeareHeroIdle_0: 725365008286093715
+      SpeareHeroIdle_1: 2128413043766214831
+      SpeareHeroIdle_10: 5366732871620512286
+      SpeareHeroIdle_11: 6219326012191514791
+      SpeareHeroIdle_12: 8082748990387773302
+      SpeareHeroIdle_13: 4460048471829106052
+      SpeareHeroIdle_14: 7809267701926789500
+      SpeareHeroIdle_15: -8393089937216208314
+      SpeareHeroIdle_16: -5486444297796045758
+      SpeareHeroIdle_17: 8227316594549651654
+      SpeareHeroIdle_18: 1844956134001014569
+      SpeareHeroIdle_19: -696842869882684202
+      SpeareHeroIdle_2: 4078918070289279397
+      SpeareHeroIdle_20: 471269784544553197
+      SpeareHeroIdle_21: 3821021025859183832
+      SpeareHeroIdle_22: 4322050068091926514
+      SpeareHeroIdle_23: 3783750523190555084
+      SpeareHeroIdle_24: -6817429006894604763
+      SpeareHeroIdle_25: 9115418258125340242
+      SpeareHeroIdle_26: -1570151909399911779
+      SpeareHeroIdle_27: 4522973903240492180
+      SpeareHeroIdle_28: -6693837902874213318
+      SpeareHeroIdle_29: -2321302336068360236
+      SpeareHeroIdle_3: -774035904089283141
+      SpeareHeroIdle_30: -3438835786291455170
+      SpeareHeroIdle_31: 8081000711063250328
+      SpeareHeroIdle_32: 3458732881405164998
+      SpeareHeroIdle_33: 1019035490666745041
+      SpeareHeroIdle_34: -7869116181473779407
+      SpeareHeroIdle_35: -5502134336894728324
+      SpeareHeroIdle_4: 6367565302172737118
+      SpeareHeroIdle_5: 7199354817117506381
+      SpeareHeroIdle_6: -82302499103694046
+      SpeareHeroIdle_7: 6333635823254192185
+      SpeareHeroIdle_8: 1861496063887754477
+      SpeareHeroIdle_9: 7978684225469107551
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

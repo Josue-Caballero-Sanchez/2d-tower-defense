@@ -198,7 +198,7 @@ public abstract class Tower : MonoBehaviour
     public void Sell()
     {
         sellFeedback.PlayFeedbacks();
-        UpgradeUI.Instance.Hide();
+        UpgradeUI.Instance.HideAll();
         placementArea.UpdateHasTowerPlaced(false);
         ScoreManager.Instance.UpdateScore(Mathf.RoundToInt(totalCost * 0.7f));
         StartCoroutine(DestroyAfterFeedback());

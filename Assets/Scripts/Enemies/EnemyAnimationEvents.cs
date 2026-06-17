@@ -4,6 +4,9 @@ public class EnemyAnimationEvents : MonoBehaviour
 {
     private void OnDefatedAnimationEnd()
     {
-        Destroy(gameObject);
+        if (transform.parent != null)
+        {
+            Destroy(transform.parent.gameObject);
+        }
     }
 }

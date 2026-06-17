@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TowerSO
   towerPrefab: {fileID: 1793682350169796387, guid: 3df70360a5288f04f8c7c347bb7583f9, type: 3}
   towerIcon: {fileID: -8407827595969773658, guid: 82b9c430ba9e0d041a748777f023e2bd, type: 3}
-  towerCost: 250
+  towerCost: 500

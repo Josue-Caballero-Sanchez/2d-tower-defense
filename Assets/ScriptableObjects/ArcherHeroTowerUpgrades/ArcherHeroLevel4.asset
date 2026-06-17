@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: ArcherHeroLevel4
   m_EditorClassIdentifier: Assembly-CSharp::TowerUpgradeSO
   towerName: Archer Hero
-  upgradeName: Double Shot
-  description: Shoot two arrows at once
+  upgradeName: Triple Shot!
+  description: Shoot three arrows at once
   level: 4
-  upgradeCost: 500
+  upgradeCost: 2000
   upgradeIcon: {fileID: 21300000, guid: fc715da2bc5d74b82997a8323d33a51f, type: 3}

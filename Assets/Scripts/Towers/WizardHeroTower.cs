@@ -5,7 +5,8 @@ public class WizardHeroTower : Tower
     [SerializeField] private WizardFireballProjectile fireballProjectilePrefab;
     private float baseShootSpeed = 0.6f;
     private float splashRadius = 1.5f;
-    private int baseDamage = 50;
+    private int baseDamage = 25;
+    private bool increaseSplashRadius = false;
     protected override void Awake()
     {
         base.Awake();
@@ -17,26 +18,24 @@ public class WizardHeroTower : Tower
 
     protected override void Upgrade1()
     {
-        baseDamage = 75;
-        UpdateDamage(baseDamage);
+        float newShootSpeed = 0.8f;
+        UpdateShootSpeed(newShootSpeed);
     }
 
     protected override void Upgrade2()
     {
-        float newShootSpeed = 0.8f;
-        UpdateShootSpeed(newShootSpeed);
+        baseDamage = 50;
+        UpdateDamage(baseDamage);
     }
     protected override void Upgrade3()
     {
         splashRadius = 2f;
+        increaseSplashRadius = true;
     }
 
     protected override void Upgrade4()
     {
-        baseDamage = 100;
-        UpdateDamage(baseDamage);
-
-        float newShootSpeed = 1.5f;
+        float newShootSpeed = 1.25f;
         UpdateShootSpeed(newShootSpeed);
     }
 
@@ -46,7 +45,7 @@ public class WizardHeroTower : Tower
         projectileInstance.SetDamage(currentDamage);
         projectileInstance.SetSplashRadius(splashRadius);
 
-        if (currentLevel >= 3)
+        if (increaseSplashRadius)
         {
             projectileInstance.SetIncreaseSplashRadius(true);
         }

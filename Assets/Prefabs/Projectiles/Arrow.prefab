@@ -60,6 +60,13 @@ MonoBehaviour:
     m_Bits: 0
   splashPoint: {fileID: 0}
   explosionGameObject: {fileID: 0}
+  slowsEnemy: 0
+  slowAmount: 0
+  slowDuration: 0
+  knockbackDistance: 0
+  knockbackDuration: 0.1
+  stunDuration: 0
+  floatingTextPrefab: {fileID: 8454758178255333607, guid: acc59c9f0afd1894d8bbac786107a1e6, type: 3}
 --- !u!50 &2086057172173310601
 Rigidbody2D:
   serializedVersion: 5

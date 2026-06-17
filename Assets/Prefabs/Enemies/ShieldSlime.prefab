@@ -155,6 +155,7 @@ GameObject:
   - component: {fileID: 6769552522574515761}
   - component: {fileID: 1147995388212085245}
   - component: {fileID: 1842655937584840161}
+  - component: {fileID: 807396622857206805}
   m_Layer: 6
   m_Name: Animations
   m_TagString: Untagged
@@ -226,7 +227,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -6218816894377861480, guid: 148091e626af4764684a4bb801f642cc, type: 3}
+  m_Sprite: {fileID: 4140620417181127841, guid: ad7b44a401cd1df4fb77a05c78c1e2fb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -252,6 +253,28 @@ MonoBehaviour:
   normalStrength: 5
   normalSmoothing: 1
   computingNormal: 0
+--- !u!95 &807396622857206805
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2639661660760858243}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 67e99c6ecfece9d47a4df1ab8fad4ff7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3316476223257463276
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,7 +485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6afdf7d70d5fc4c83425c8a5105df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Zombie
-  deathScore: 150
+  deathScore: 300
   speed: 1
   originalSpeed: 1
   health: 100

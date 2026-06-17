@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 518c90c411157984184580c8d70315e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RageEnemy
-  deathScore: 150
+  deathScore: 300
   speed: 1
   originalSpeed: 1
   health: 300

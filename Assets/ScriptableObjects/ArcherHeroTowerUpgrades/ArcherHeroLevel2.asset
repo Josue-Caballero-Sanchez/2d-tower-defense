@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: ArcherHeroLevel2
   m_EditorClassIdentifier: Assembly-CSharp::TowerUpgradeSO
   towerName: Archer Hero
-  upgradeName: Faster Shooting
-  description: Increase attach speed by 50%
+  upgradeName: Double Shot
+  description: Shoots two arrows per shot
   level: 2
-  upgradeCost: 300
+  upgradeCost: 800
   upgradeIcon: {fileID: 21300000, guid: 041625e6a2f6a4d98a4e2bec18c55d36, type: 3}

@@ -19,6 +19,8 @@ public class Projectile : MonoBehaviour
     [SerializeField] private float knockbackDistance = 0;
     [SerializeField] private float knockbackDuration = 0.1f;
     [SerializeField] private float stunDuration = 0;
+    [SerializeField] private GameObject floatingTextPrefab;
+    private bool isCrit = false;
     private int pierce = 0;
     private int damage = 0;
     protected Rigidbody2D rb;
@@ -56,6 +58,12 @@ public class Projectile : MonoBehaviour
             enemy.TakeDamage(damage);
             hitFeedback.PlayFeedbacks();
 
+            if (isCrit)
+            {
+                Vector3 floatingTextPosition = transform.position;
+                floatingTextPosition.x += 0.5f;
+                Instantiate(floatingTextPrefab, floatingTextPosition, Quaternion.identity);
+            }
             if (slowsEnemy)
             {
                 enemy.ApplySlow(slowAmount, slowDuration);
@@ -145,6 +153,11 @@ public class Projectile : MonoBehaviour
     public void SetStunDuration(float newStunDuration)
     {
         stunDuration = newStunDuration;
+    }
+
+    public void SetIsCrit(bool crit)
+    {
+        isCrit = crit;
     }
 
     public void SetSlowingEffect(float newSlowAmount, float newSlowDuration)

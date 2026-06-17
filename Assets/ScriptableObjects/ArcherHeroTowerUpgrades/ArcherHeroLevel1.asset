@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: ArcherHeroLevel1
   m_EditorClassIdentifier: Assembly-CSharp::TowerUpgradeSO
   towerName: Archer Hero
-  upgradeName: More Damage
-  description: Deal 25% more damage
+  upgradeName: Increased Damage
+  description: Deal more damage per shot
   level: 1
-  upgradeCost: 200
+  upgradeCost: 350
   upgradeIcon: {fileID: 21300000, guid: f507ab2a202494e78b0b303b2a3200ce, type: 3}
