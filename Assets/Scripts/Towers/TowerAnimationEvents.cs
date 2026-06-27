@@ -13,4 +13,9 @@ public class TowerAnimationEvents : MonoBehaviour
     {
         tower.Shoot();
     }
+
+    private void SetShootToFalse()
+    {
+        tower.SetAnimatorShootToFalse();
+    }
 }

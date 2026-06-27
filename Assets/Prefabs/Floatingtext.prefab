@@ -232,7 +232,7 @@ MonoBehaviour:
         Mode: 0
         AnimateScaleTarget: {fileID: 538413354115133744}
         MovementMode: 0
-        AnimateScaleDuration: 0.2
+        AnimateScaleDuration: 0.15
         AnimatePositionSpeed: 1
         RemapCurveZero: 1
         RemapCurveOne: 2
@@ -379,7 +379,7 @@ MonoBehaviour:
           TimescaleMode: 0
           ExcludeFromHoldingPauses: 0
           ContributeToTotalDuration: 1
-          InitialDelay: 1.2
+          InitialDelay: 0.9
           CooldownDuration: 0
           InterruptsOnStop: 1
           NumberOfRepeats: 0
@@ -588,7 +588,7 @@ MonoBehaviour:
           TimescaleMode: 0
           ExcludeFromHoldingPauses: 0
           ContributeToTotalDuration: 1
-          InitialDelay: 0.2
+          InitialDelay: 0
           CooldownDuration: 0
           InterruptsOnStop: 1
           NumberOfRepeats: 0
@@ -652,7 +652,7 @@ MonoBehaviour:
         Space: 0
         RandomizeRemap: 0
         MovementMode: 0
-        AnimatePositionDuration: 1
+        AnimatePositionDuration: 0.75
         AnimatePositionSpeed: 1
         AnimatePositionTween:
           MMTweenDefinitionType: 1
@@ -843,7 +843,7 @@ MonoBehaviour:
         RelativePosition: 1
         DeterminePositionsOnPlay: 0
         InitialPosition: {x: 0, y: 0, z: 0}
-        DestinationPosition: {x: 0, y: 1, z: 0}
+        DestinationPosition: {x: 0, y: 0.75, z: 0}
         InitialPositionTransform: {fileID: 0}
         DestinationPositionTransform: {fileID: 0}
         AnimatePositionCurveX:
@@ -885,7 +885,7 @@ MonoBehaviour:
           TimescaleMode: 0
           ExcludeFromHoldingPauses: 0
           ContributeToTotalDuration: 1
-          InitialDelay: 2
+          InitialDelay: 1
           CooldownDuration: 0
           InterruptsOnStop: 1
           NumberOfRepeats: 0

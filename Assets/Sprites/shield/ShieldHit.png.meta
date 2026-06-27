@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 48e40a61cb294d640965b9bbe3d6c7f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3726810148975443404
+    second: ShieldHit_0
+  - first:
+      213: -6398687592994827882
+    second: ShieldHit_1
+  - first:
+      213: -3848078892166197424
+    second: ShieldHit_2
+  - first:
+      213: -4879451873296293814
+    second: ShieldHit_3
+  - first:
+      213: 8017354355552843101
+    second: ShieldHit_4
+  - first:
+      213: -140382214172966784
+    second: ShieldHit_5
+  - first:
+      213: -4492254617485898282
+    second: ShieldHit_6
+  - first:
+      213: 1665398395584410969
+    second: ShieldHit_7
+  - first:
+      213: 8815186605221867626
+    second: ShieldHit_8
+  - first:
+      213: -3339207420462087002
+    second: ShieldHit_9
+  - first:
+      213: 6868796992057497600
+    second: ShieldHit_10
+  - first:
+      213: -203011387614342504
+    second: ShieldHit_11
+  - first:
+      213: 657575363119317975
+    second: ShieldHit_12
+  - first:
+      213: -2913346467888607822
+    second: ShieldHit_13
+  - first:
+      213: -8547427284541640302
+    second: ShieldHit_14
+  - first:
+      213: 5824428262013371639
+    second: ShieldHit_15
+  - first:
+      213: -6380209388590468501
+    second: ShieldHit_16
+  - first:
+      213: -5464277965773145827
+    second: ShieldHit_17
+  - first:
+      213: -2541747274021090887
+    second: ShieldHit_18
+  - first:
+      213: 7068070677995260382
+    second: ShieldHit_19
+  - first:
+      213: 9028437511088429271
+    second: ShieldHit_20
+  - first:
+      213: -2707179652578891235
+    second: ShieldHit_21
+  - first:
+      213: 4379401484189830628
+    second: ShieldHit_22
+  - first:
+      213: 5326209013258120528
+    second: ShieldHit_23
+  - first:
+      213: -886562058289728230
+    second: ShieldHit_24
+  - first:
+      213: 6773208432202844596
+    second: ShieldHit_25
+  - first:
+      213: 4774122463136907061
+    second: ShieldHit_26
+  - first:
+      213: 3009644945114133728
+    second: ShieldHit_27
+  - first:
+      213: -4932449014654489852
+    second: ShieldHit_28
+  - first:
+      213: -8737534905496788467
+    second: ShieldHit_29
+  - first:
+      213: -1613639470467224340
+    second: ShieldHit_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 78
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShieldHit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1590
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd7003c51a48b330800000000000000
+      internalID: 3726810148975443404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_1
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1590
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69118de298b4337a0800000000000000
+      internalID: -6398687592994827882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_2
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1590
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f41c4b2a0e89ac0800000000000000
+      internalID: -3848078892166197424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_3
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1590
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a406f89af54b84cb0800000000000000
+      internalID: -4879451873296293814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1060
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5578210f4d534f60800000000000000
+      internalID: 8017354355552843101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_5
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1060
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0800077be134d0ef0800000000000000
+      internalID: -140382214172966784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_6
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1060
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd0524f93e48a1c0800000000000000
+      internalID: -4492254617485898282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_7
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1060
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9557052640fac1710800000000000000
+      internalID: 1665398395584410969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60f7093385d55a70800000000000000
+      internalID: 8815186605221867626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_9
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 530
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a442000b80c8a1d0800000000000000
+      internalID: -3339207420462087002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_10
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 530
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008dbd9c87ed25f50800000000000000
+      internalID: 6868796992057497600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_11
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 530
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89253e3f732ce2df0800000000000000
+      internalID: -203011387614342504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d386cb0f4d202900800000000000000
+      internalID: 657575363119317975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_13
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 0
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd4cd1b2d6b197d0800000000000000
+      internalID: -2913346467888607822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_14
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 0
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291f961cb20716980800000000000000
+      internalID: -8547427284541640302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldHit_15
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 0
+        width: 556
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f48d0925a684d050800000000000000
+      internalID: 5824428262013371639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 68cd1db2f41193b4ab13841a893ca92a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":556.0,"y":530.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ShieldHit_0: 3726810148975443404
+      ShieldHit_1: -6398687592994827882
+      ShieldHit_10: 6868796992057497600
+      ShieldHit_11: -203011387614342504
+      ShieldHit_12: 657575363119317975
+      ShieldHit_13: -2913346467888607822
+      ShieldHit_14: -8547427284541640302
+      ShieldHit_15: 5824428262013371639
+      ShieldHit_2: -3848078892166197424
+      ShieldHit_3: -4879451873296293814
+      ShieldHit_4: 8017354355552843101
+      ShieldHit_5: -140382214172966784
+      ShieldHit_6: -4492254617485898282
+      ShieldHit_7: 1665398395584410969
+      ShieldHit_8: 8815186605221867626
+      ShieldHit_9: -3339207420462087002
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

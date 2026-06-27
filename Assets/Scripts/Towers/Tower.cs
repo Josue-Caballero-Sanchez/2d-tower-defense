@@ -31,9 +31,10 @@ public abstract class Tower : MonoBehaviour
     private float levelTwoAnimationtimer = 0f;
     private float levelTwoAnimationDuration = 1f;
     private int animationDirection = 1;
-    private bool isLevelTwoAnimationActive = false;
+    protected bool isLevelTwoAnimationActive = false;
     private bool isTowerCurrentlySelected = false;
     private int pierce = 0;
+    protected bool isSold = false;
 
     protected virtual void Awake()
     {
@@ -47,7 +48,7 @@ public abstract class Tower : MonoBehaviour
         placeFeedback.PlayFeedbacks();
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         CheckEnemyInLane();
         if (isLevelTwoAnimationActive)
@@ -56,7 +57,7 @@ public abstract class Tower : MonoBehaviour
         }
     }
 
-    private void LevelTwoAnimation()
+    protected void LevelTwoAnimation()
     {
         levelTwoAnimationtimer += Time.deltaTime * animationDirection;
 
@@ -197,6 +198,7 @@ public abstract class Tower : MonoBehaviour
 
     public void Sell()
     {
+        isSold = true;
         sellFeedback.PlayFeedbacks();
         UpgradeUI.Instance.HideAll();
         placementArea.UpdateHasTowerPlaced(false);
@@ -236,6 +238,11 @@ public abstract class Tower : MonoBehaviour
 
         spriteRenderer.material.SetFloat("_OutlineAlpha", 0f);
         ResetMaterial(currentLevel);
+    }
+
+    public void SetAnimatorShootToFalse()
+    {
+        animator.SetBool("isShooting", false);
     }
 
     public Sprite GetTowerIcon()

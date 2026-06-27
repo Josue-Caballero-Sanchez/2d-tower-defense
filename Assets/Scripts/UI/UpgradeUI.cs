@@ -2,6 +2,7 @@ using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
+using MoreMountains.Feedbacks;
 
 public class UpgradeUI : MonoBehaviour
 {
@@ -23,6 +24,8 @@ public class UpgradeUI : MonoBehaviour
     [SerializeField] protected TextMeshProUGUI SellCostText;
     [SerializeField] private List<GameObject> upgradeLevelIcons;
     [SerializeField] private UpgradeUIRight rightPopup;
+    [SerializeField] protected MMFeedbacks openFeedback;
+    [SerializeField] protected MMFeedbacks closeFeedback;
     protected Tower currentTower;
     protected TowerUpgradeSO currentUpgrade;
     protected virtual void Awake()
@@ -36,7 +39,7 @@ public class UpgradeUI : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        Hide();
+        gameObject.SetActive(false);
     }
 
     private void Start()
@@ -65,25 +68,34 @@ public class UpgradeUI : MonoBehaviour
     {
         if (useRightPopup)
         {
-            Instance.gameObject.SetActive(false);
-            Instance.rightPopup.ShowRight(upgrade, tower);
+            Hide();
+            rightPopup.ShowRight(upgrade, tower);
         }
         else
         {
             Instance.rightPopup.HideRight();
+            if (!gameObject.activeInHierarchy)
+            {
+                gameObject.SetActive(true);
+                openFeedback.PlayFeedbacks();
+            }
             Instance.Show(upgrade, tower);
         }
     }
 
     public void HideAll()
     {
-        Instance.gameObject.SetActive(false);
+        //Instance.gameObject.SetActive(false);
+        closeFeedback.PlayFeedbacks();
         Instance.rightPopup.HideRight();
+        if (currentTower != null)
+        {
+            currentTower.HideSelectionIndicator();
+        }
     }
 
     public virtual void Show(TowerUpgradeSO upgrade, Tower tower, bool showRightPopup = false)
     {
-        gameObject.SetActive(true);
         currentTower = tower;
         currentUpgrade = upgrade;
 
@@ -125,7 +137,11 @@ public class UpgradeUI : MonoBehaviour
 
     public virtual void Hide()
     {
-        gameObject.SetActive(false);
+        closeFeedback.PlayFeedbacks();
+        if (currentTower != null)
+        {
+            currentTower.HideSelectionIndicator();
+        }
     }
 
     public virtual void UpgradeButtonClicked()

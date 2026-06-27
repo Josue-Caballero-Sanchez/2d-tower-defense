@@ -100,7 +100,7 @@ public class WaveManager : MonoBehaviour
     public void StartNewWave()
     {
         //yield return new WaitForSeconds(timeBetweenWaves);
-        float growthRate = 1.3f;
+        float growthRate = 1.23f; // minumum possible growth rate is 1.23 
         enemiesPerWave = Mathf.RoundToInt(originalEnemiesPerWave * Mathf.Pow(growthRate, currentWave - 1));
         UpdateActiveEnemies();
         layerOrder = 0;

@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private bool isEnemyInShield = false;
     [SerializeField] private bool isEnemyEquipment = false;
     protected Rigidbody2D rb;
-    private Animator animator;
+    protected Animator animator;
     private bool defeated = false;
     private BoxCollider2D boxCollider;
     protected Material enemyMaterial;
@@ -74,7 +74,15 @@ public class Enemy : MonoBehaviour
 
         if (cameraBounds.Contains(enemyBounds.min) && cameraBounds.Contains(enemyBounds.max))
         {
-            boxCollider.enabled = true;
+            if (isEnemyInShield)
+            {
+                GetComponentInChildren<EnemyShield>().EnableCollider();
+            }
+            else
+            {
+                boxCollider.enabled = true;
+            }
+
             colliderEnabled = true;
         }
     }
@@ -297,7 +305,7 @@ public class Enemy : MonoBehaviour
 
     public void ApplyShield()
     {
-        boxCollider.enabled = false;
+        GetComponentInChildren<EnemyShield>().DisableCollider();
     }
 
     public void disableShield()

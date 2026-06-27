@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: f31eabd4116a46043bb1c77399dd6a27
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1097216540478930140
+    second: MerchantTowerIdle_0
+  - first:
+      213: -6531073321404880796
+    second: MerchantTowerIdle_1
+  - first:
+      213: -8972998423700763166
+    second: MerchantTowerIdle_2
+  - first:
+      213: -5123472391484923904
+    second: MerchantTowerIdle_3
+  - first:
+      213: -5280320455613758009
+    second: MerchantTowerIdle_4
+  - first:
+      213: -6539428958070792827
+    second: MerchantTowerIdle_5
+  - first:
+      213: -5684946986017358813
+    second: MerchantTowerIdle_6
+  - first:
+      213: -8467288726989691286
+    second: MerchantTowerIdle_7
+  - first:
+      213: 5613856208844465950
+    second: MerchantTowerIdle_8
+  - first:
+      213: -8739385947629265368
+    second: MerchantTowerIdle_9
+  - first:
+      213: -1667566968020629208
+    second: MerchantTowerIdle_10
+  - first:
+      213: 189551424848678927
+    second: MerchantTowerIdle_11
+  - first:
+      213: 8301543435874652989
+    second: MerchantTowerIdle_12
+  - first:
+      213: 4571824783554397393
+    second: MerchantTowerIdle_13
+  - first:
+      213: -1753702296076637175
+    second: MerchantTowerIdle_14
+  - first:
+      213: -9065019529848064093
+    second: MerchantTowerIdle_15
+  - first:
+      213: -6201144817753224739
+    second: MerchantTowerIdle_16
+  - first:
+      213: -705184777620505963
+    second: MerchantTowerIdle_17
+  - first:
+      213: 6005544620410017770
+    second: MerchantTowerIdle_18
+  - first:
+      213: 2428470978146582882
+    second: MerchantTowerIdle_19
+  - first:
+      213: 8798346167720298864
+    second: MerchantTowerIdle_20
+  - first:
+      213: 744813325300467355
+    second: MerchantTowerIdle_21
+  - first:
+      213: 2776887406972927907
+    second: MerchantTowerIdle_22
+  - first:
+      213: -4106822512142929189
+    second: MerchantTowerIdle_23
+  - first:
+      213: 7166872830831143596
+    second: MerchantTowerIdle_24
+  - first:
+      213: 5375111572125719175
+    second: MerchantTowerIdle_25
+  - first:
+      213: 163806735166903613
+    second: MerchantTowerIdle_26
+  - first:
+      213: 4475592016573722685
+    second: MerchantTowerIdle_27
+  - first:
+      213: 5043457959588707577
+    second: MerchantTowerIdle_28
+  - first:
+      213: -9020401184566231480
+    second: MerchantTowerIdle_29
+  - first:
+      213: 5754265469147331801
+    second: MerchantTowerIdle_30
+  - first:
+      213: -7660674699208765190
+    second: MerchantTowerIdle_31
+  - first:
+      213: -8124626906797240268
+    second: MerchantTowerIdle_32
+  - first:
+      213: -922832958585756871
+    second: MerchantTowerIdle_33
+  - first:
+      213: -983543214965032863
+    second: MerchantTowerIdle_34
+  - first:
+      213: 8556148204248132284
+    second: MerchantTowerIdle_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MerchantTowerIdle_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1345
+        width: 157
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4230217ae57e5c0f0800000000000000
+      internalID: -1097216540478930140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1345
+        width: 158
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468a1a3da67fc55a0800000000000000
+      internalID: -6531073321404880796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_2
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1345
+        width: 159
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed0d218971897380800000000000000
+      internalID: -8972998423700763166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1345
+        width: 159
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00025095105c5e8b0800000000000000
+      internalID: -5123472391484923904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_4
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1345
+        width: 160
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5c9ee958888b6b0800000000000000
+      internalID: -5280320455613758009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_5
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1345
+        width: 160
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d994092084f35a0800000000000000
+      internalID: -6539428958070792827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1077
+        width: 158
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cf18b16d20b11b0800000000000000
+      internalID: -5684946986017358813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1077
+        width: 156
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a662c11b3c52e7a80800000000000000
+      internalID: -8467288726989691286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_8
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1077
+        width: 156
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17ab4c7a7c68ed40800000000000000
+      internalID: 5613856208844465950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_9
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1077
+        width: 154
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e548ca8c677b680800000000000000
+      internalID: -8739385947629265368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_10
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1077
+        width: 153
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82984ff7dac9bd8e0800000000000000
+      internalID: -1667566968020629208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_11
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1077
+        width: 151
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0056c0440c61a200800000000000000
+      internalID: 189551424848678927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 809
+        width: 151
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33d8ce75c1053370800000000000000
+      internalID: 8301543435874652989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 809
+        width: 151
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d446170b62627f30800000000000000
+      internalID: 4571824783554397393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_14
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 809
+        width: 151
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ca090ad0999a7e0800000000000000
+      internalID: -1753702296076637175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_15
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 809
+        width: 153
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a77d6124c4923280800000000000000
+      internalID: -9065019529848064093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_16
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 809
+        width: 154
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd98011b4ab11f9a0800000000000000
+      internalID: -6201144817753224739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_17
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 809
+        width: 155
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59abae45e2ea636f0800000000000000
+      internalID: -705184777620505963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 541
+        width: 156
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae71c46730bf75350800000000000000
+      internalID: 6005544620410017770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_19
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 541
+        width: 157
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261c5cfec79a3b120800000000000000
+      internalID: 2428470978146582882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_20
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 541
+        width: 158
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07943e159310a1a70800000000000000
+      internalID: 8798346167720298864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_21
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 541
+        width: 159
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96038ee5cb165a00800000000000000
+      internalID: 744813325300467355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_22
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 541
+        width: 159
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af70e1526c798620800000000000000
+      internalID: 2776887406972927907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_23
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 541
+        width: 159
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2b4202fa2a107c0800000000000000
+      internalID: -4106822512142929189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 273
+        width: 159
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caaa6103ed8d57360800000000000000
+      internalID: 7166872830831143596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_25
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 273
+        width: 159
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a15ac0f7b389a40800000000000000
+      internalID: 5375111572125719175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_26
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 273
+        width: 158
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3590759b55f54200800000000000000
+      internalID: 163806735166903613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_27
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 273
+        width: 156
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d307373f93f7c1e30800000000000000
+      internalID: 4475592016573722685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_28
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 273
+        width: 155
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fcb6e8fa46fdf540800000000000000
+      internalID: 5043457959588707577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_29
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 273
+        width: 154
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84eba6e2ae811d280800000000000000
+      internalID: -9020401184566231480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 152
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcb2dfe4f14bdf40800000000000000
+      internalID: 5754265469147331801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 5
+        width: 152
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0d6d5f2f0dfa590800000000000000
+      internalID: -7660674699208765190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_32
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 5
+        width: 152
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43015c7dfd68f3f80800000000000000
+      internalID: -8124626906797240268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_33
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 5
+        width: 153
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933297440507133f0800000000000000
+      internalID: -922832958585756871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_34
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 5
+        width: 153
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16873c238a0c952f0800000000000000
+      internalID: -983543214965032863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerIdle_35
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 5
+        width: 155
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba6ec7957b8db670800000000000000
+      internalID: 8556148204248132284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MerchantTowerIdle_0: -1097216540478930140
+      MerchantTowerIdle_1: -6531073321404880796
+      MerchantTowerIdle_10: -1667566968020629208
+      MerchantTowerIdle_11: 189551424848678927
+      MerchantTowerIdle_12: 8301543435874652989
+      MerchantTowerIdle_13: 4571824783554397393
+      MerchantTowerIdle_14: -1753702296076637175
+      MerchantTowerIdle_15: -9065019529848064093
+      MerchantTowerIdle_16: -6201144817753224739
+      MerchantTowerIdle_17: -705184777620505963
+      MerchantTowerIdle_18: 6005544620410017770
+      MerchantTowerIdle_19: 2428470978146582882
+      MerchantTowerIdle_2: -8972998423700763166
+      MerchantTowerIdle_20: 8798346167720298864
+      MerchantTowerIdle_21: 744813325300467355
+      MerchantTowerIdle_22: 2776887406972927907
+      MerchantTowerIdle_23: -4106822512142929189
+      MerchantTowerIdle_24: 7166872830831143596
+      MerchantTowerIdle_25: 5375111572125719175
+      MerchantTowerIdle_26: 163806735166903613
+      MerchantTowerIdle_27: 4475592016573722685
+      MerchantTowerIdle_28: 5043457959588707577
+      MerchantTowerIdle_29: -9020401184566231480
+      MerchantTowerIdle_3: -5123472391484923904
+      MerchantTowerIdle_30: 5754265469147331801
+      MerchantTowerIdle_31: -7660674699208765190
+      MerchantTowerIdle_32: -8124626906797240268
+      MerchantTowerIdle_33: -922832958585756871
+      MerchantTowerIdle_34: -983543214965032863
+      MerchantTowerIdle_35: 8556148204248132284
+      MerchantTowerIdle_4: -5280320455613758009
+      MerchantTowerIdle_5: -6539428958070792827
+      MerchantTowerIdle_6: -5684946986017358813
+      MerchantTowerIdle_7: -8467288726989691286
+      MerchantTowerIdle_8: 5613856208844465950
+      MerchantTowerIdle_9: -8739385947629265368
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

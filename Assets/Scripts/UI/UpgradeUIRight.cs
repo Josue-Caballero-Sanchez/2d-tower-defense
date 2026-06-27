@@ -2,12 +2,17 @@ public class UpgradeUIRight : UpgradeUI
 {
     protected override void Awake()
     {
-        Hide();
+        gameObject.SetActive(false);
     }
 
     public void ShowRight(TowerUpgradeSO upgrade, Tower tower)
     {
-        gameObject.SetActive(true);
+        if (!gameObject.activeInHierarchy)
+        {
+            gameObject.SetActive(true);
+            openFeedback.PlayFeedbacks();
+        }
+
         currentTower = tower;
         currentUpgrade = upgrade;
 
@@ -60,6 +65,10 @@ public class UpgradeUIRight : UpgradeUI
 
     public void HideRight()
     {
-        gameObject.SetActive(false);
+        closeFeedback.PlayFeedbacks();
+        if (currentTower != null)
+        {
+            currentTower.HideSelectionIndicator();
+        }
     }
 }

@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: b473c132a2342b34db75c8bfeda5582c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7538348144401395656
+    second: MerchantTowerGenerate_0
+  - first:
+      213: -6793375504102053473
+    second: MerchantTowerGenerate_1
+  - first:
+      213: 8471881142167184067
+    second: MerchantTowerGenerate_2
+  - first:
+      213: -5481032389703800071
+    second: MerchantTowerGenerate_3
+  - first:
+      213: 2324113010519672090
+    second: MerchantTowerGenerate_4
+  - first:
+      213: 5350599243494974918
+    second: MerchantTowerGenerate_5
+  - first:
+      213: 8673577707424837248
+    second: MerchantTowerGenerate_6
+  - first:
+      213: -4893024510985048077
+    second: MerchantTowerGenerate_7
+  - first:
+      213: -5164823502402603541
+    second: MerchantTowerGenerate_8
+  - first:
+      213: -2844523535338820699
+    second: MerchantTowerGenerate_9
+  - first:
+      213: -3244977450031064448
+    second: MerchantTowerGenerate_10
+  - first:
+      213: 5150208109862110497
+    second: MerchantTowerGenerate_11
+  - first:
+      213: 8572504683267172891
+    second: MerchantTowerGenerate_12
+  - first:
+      213: 8750869838504006063
+    second: MerchantTowerGenerate_13
+  - first:
+      213: 5018377230673093663
+    second: MerchantTowerGenerate_14
+  - first:
+      213: 4706221818539007810
+    second: MerchantTowerGenerate_15
+  - first:
+      213: -2344974084627244324
+    second: MerchantTowerGenerate_16
+  - first:
+      213: -251865006869532949
+    second: MerchantTowerGenerate_17
+  - first:
+      213: 9167310698283587885
+    second: MerchantTowerGenerate_18
+  - first:
+      213: -470123608179988155
+    second: MerchantTowerGenerate_19
+  - first:
+      213: -4121203057875184926
+    second: MerchantTowerGenerate_20
+  - first:
+      213: 7788601027780588873
+    second: MerchantTowerGenerate_21
+  - first:
+      213: -8205312172400160797
+    second: MerchantTowerGenerate_22
+  - first:
+      213: -1827483567992189071
+    second: MerchantTowerGenerate_23
+  - first:
+      213: -3886678062376138777
+    second: MerchantTowerGenerate_24
+  - first:
+      213: 6288982808451846892
+    second: MerchantTowerGenerate_25
+  - first:
+      213: -7098081846054334623
+    second: MerchantTowerGenerate_26
+  - first:
+      213: -2729465131022067346
+    second: MerchantTowerGenerate_27
+  - first:
+      213: -4171244350773737117
+    second: MerchantTowerGenerate_28
+  - first:
+      213: 2521459718803240366
+    second: MerchantTowerGenerate_29
+  - first:
+      213: 4022759599070459088
+    second: MerchantTowerGenerate_30
+  - first:
+      213: 836729645453810202
+    second: MerchantTowerGenerate_31
+  - first:
+      213: 3708444892382475531
+    second: MerchantTowerGenerate_32
+  - first:
+      213: -17391152312034656
+    second: MerchantTowerGenerate_33
+  - first:
+      213: -2537608849463665
+    second: MerchantTowerGenerate_34
+  - first:
+      213: 3052334028292283535
+    second: MerchantTowerGenerate_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1449
+        width: 155
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf254c82b79d9860800000000000000
+      internalID: 7538348144401395656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1449
+        width: 166
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99282cc8f419b1a0800000000000000
+      internalID: -6793375504102053473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_2
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1449
+        width: 167
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2a43a430b229570800000000000000
+      internalID: 8471881142167184067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_3
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1449
+        width: 169
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa6b41d4167fe3b0800000000000000
+      internalID: -5481032389703800071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_4
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1449
+        width: 169
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1583e92878e04020800000000000000
+      internalID: 2324113010519672090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_5
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1449
+        width: 169
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5edfbc9a5214a40800000000000000
+      internalID: 5350599243494974918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1162
+        width: 169
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08eedc668fcbe5870800000000000000
+      internalID: 8673577707424837248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_7
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1162
+        width: 169
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffe471b12c781cb0800000000000000
+      internalID: -4893024510985048077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_8
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1162
+        width: 169
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be534b3936cd258b0800000000000000
+      internalID: -5164823502402603541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_9
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1162
+        width: 170
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab24e06ae83688d0800000000000000
+      internalID: -2844523535338820699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_10
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1162
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08adebaa33687f2d0800000000000000
+      internalID: -3244977450031064448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_11
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1162
+        width: 184
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125caab2df6397740800000000000000
+      internalID: 5150208109862110497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 875
+        width: 195
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a23812797a7f670800000000000000
+      internalID: 8572504683267172891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_13
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 875
+        width: 201
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa116b701c5517970800000000000000
+      internalID: 8750869838504006063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_14
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 875
+        width: 202
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14ad27b08bd4a540800000000000000
+      internalID: 5018377230673093663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_15
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 875
+        width: 202
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fd5303fcbdf4140800000000000000
+      internalID: 4706221818539007810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_16
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 875
+        width: 201
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdadb468e7af47fd0800000000000000
+      internalID: -2344974084627244324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_17
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 875
+        width: 200
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beea0365c12318cf0800000000000000
+      internalID: -251865006869532949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 588
+        width: 197
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29d4d47284d83f70800000000000000
+      internalID: 9167310698283587885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_19
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 588
+        width: 193
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54928e5b119c979f0800000000000000
+      internalID: -470123608179988155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_20
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 588
+        width: 180
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2981867ab8ec6c0800000000000000
+      internalID: -4121203057875184926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_21
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 588
+        width: 169
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945ba167e5ba61c60800000000000000
+      internalID: 7788601027780588873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_22
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 588
+        width: 149
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef46e48d00e02e80800000000000000
+      internalID: -8205312172400160797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_23
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 588
+        width: 149
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f46f8906973a6e0800000000000000
+      internalID: -1827483567992189071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_24
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 301
+        width: 149
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e744cf05eebf0ac0800000000000000
+      internalID: -3886678062376138777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_25
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 301
+        width: 149
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce29f483b84f64750800000000000000
+      internalID: 6288982808451846892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_26
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 301
+        width: 149
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f48431b2c8e7d90800000000000000
+      internalID: -7098081846054334623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_27
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 301
+        width: 150
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e695d96bcedfe1ad0800000000000000
+      internalID: -2729465131022067346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_28
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 301
+        width: 152
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369c6c8fc53cc16c0800000000000000
+      internalID: -4171244350773737117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_29
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 301
+        width: 157
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea539b641460ef220800000000000000
+      internalID: 2521459718803240366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 14
+        width: 196
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d43367ba86b3d730800000000000000
+      internalID: 4022759599070459088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_31
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 14
+        width: 189
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a105aed29ac9b00800000000000000
+      internalID: 836729645453810202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_32
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 14
+        width: 171
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05b19f3bfa077330800000000000000
+      internalID: 3708444892382475531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_33
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 14
+        width: 158
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aad430d6d632cff0800000000000000
+      internalID: -17391152312034656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_34
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 14
+        width: 154
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86e2f5ee0cf6fff0800000000000000
+      internalID: -2537608849463665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantTowerGenerate_35
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 14
+        width: 152
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cd23470a11c5a20800000000000000
+      internalID: 3052334028292283535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MerchantTowerGenerate_0: 7538348144401395656
+      MerchantTowerGenerate_1: -6793375504102053473
+      MerchantTowerGenerate_10: -3244977450031064448
+      MerchantTowerGenerate_11: 5150208109862110497
+      MerchantTowerGenerate_12: 8572504683267172891
+      MerchantTowerGenerate_13: 8750869838504006063
+      MerchantTowerGenerate_14: 5018377230673093663
+      MerchantTowerGenerate_15: 4706221818539007810
+      MerchantTowerGenerate_16: -2344974084627244324
+      MerchantTowerGenerate_17: -251865006869532949
+      MerchantTowerGenerate_18: 9167310698283587885
+      MerchantTowerGenerate_19: -470123608179988155
+      MerchantTowerGenerate_2: 8471881142167184067
+      MerchantTowerGenerate_20: -4121203057875184926
+      MerchantTowerGenerate_21: 7788601027780588873
+      MerchantTowerGenerate_22: -8205312172400160797
+      MerchantTowerGenerate_23: -1827483567992189071
+      MerchantTowerGenerate_24: -3886678062376138777
+      MerchantTowerGenerate_25: 6288982808451846892
+      MerchantTowerGenerate_26: -7098081846054334623
+      MerchantTowerGenerate_27: -2729465131022067346
+      MerchantTowerGenerate_28: -4171244350773737117
+      MerchantTowerGenerate_29: 2521459718803240366
+      MerchantTowerGenerate_3: -5481032389703800071
+      MerchantTowerGenerate_30: 4022759599070459088
+      MerchantTowerGenerate_31: 836729645453810202
+      MerchantTowerGenerate_32: 3708444892382475531
+      MerchantTowerGenerate_33: -17391152312034656
+      MerchantTowerGenerate_34: -2537608849463665
+      MerchantTowerGenerate_35: 3052334028292283535
+      MerchantTowerGenerate_4: 2324113010519672090
+      MerchantTowerGenerate_5: 5350599243494974918
+      MerchantTowerGenerate_6: 8673577707424837248
+      MerchantTowerGenerate_7: -4893024510985048077
+      MerchantTowerGenerate_8: -5164823502402603541
+      MerchantTowerGenerate_9: -2844523535338820699
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

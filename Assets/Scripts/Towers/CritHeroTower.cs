@@ -26,7 +26,7 @@ public class CritHeroTower : Tower
     }
     protected override void Upgrade3()
     {
-        float newShootSpeed = 2f;
+        float newShootSpeed = 1.5f;
         UpdateShootSpeed(newShootSpeed);
     }
 
